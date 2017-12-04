@@ -23,12 +23,12 @@ Obtained my B.Tech in <strong><i>Information Technology</i></strong> from Anna U
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. In the past years I've become an experienced Python user. I write code to train and test Machine Learning algos, and am proficient in engineering various ML models and extracting domain-centric features for the same. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
+I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. In the past years, I've become an experienced Python user. I write code to train and test Machine Learning algos, and am proficient in engineering various ML models and extracting domain-centric features for the same. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
 </p>
 
 <p class="about-text">
 <span class="fa fa-gamepad about-icon"></span>
-I enjoy playing to <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong>(Dota2 mostly). I binge watch a lot of TV shows. I also occasionally swim.
+I enjoy playing <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong>(Dota2 mostly). I binge watch a lot of TV shows. I also occasionally swim.
 </p>
 
 <p class="about-text">
