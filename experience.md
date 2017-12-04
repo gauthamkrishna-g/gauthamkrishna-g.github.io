@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-subtitle: "What my Educational & Professional Encounters are"
+subtitle: "Educate, Excite, Enterprise."
 ---
 
 <center>
