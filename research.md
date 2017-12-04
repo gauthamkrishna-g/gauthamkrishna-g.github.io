@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-subtitle: "What's been eating away most of my time"
+subtitle: "Respect, Respond, Realize."
 ---
 
 <p class="about-users">

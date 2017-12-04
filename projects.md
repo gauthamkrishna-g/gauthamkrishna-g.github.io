@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Projects
-subtitle: "What I do in my free time"
+subtitle: "Persist, Percept, Practise."
 ---
 
 ### <span class="fa fa-file about-icon"></span> <u>Movie Occupancy Prediction Engine</u>
 #### Tools & Framework: Python | Numpy | AWS | Scikit-Learn | PyTorch
 ✔ Working in collaboration with a top three Indian movie multiplex chain (with an operating volume of over 50,000 seats per day) on movie occupancy forecasting, and in turn the food produced per day.<br>
-✔ Extracted over 1 TB of transactional data (over past 5 years) using AWS, structured them using MS-SQL & extracted behavioral features to
+✔ Extracted over 10 TB of transactional data (over past 5 years) using AWS, structured them using MS-SQL & extracted behavioral features to
 forecast show occupancy of a movie.<br>
 ✔ The prediction engine is currently designed to be able to reduce the average predicted occupancy error to about 6%, and is by far more effective than the expert predicting the same by intuition. Currently working on deploying an application into production.<br>
 
@@ -53,6 +53,6 @@ Currently working on<br>
 ✔ The algorithm measured accurately (+/- 4 RPM) the current speed when subjected to load, for a closed loop speed-control system for a 12 V DC motor using a Micro-controller (Arduino).<br>
 
 ### <span class="fa fa-file about-icon"></span> <u>Cognitive Bot for Auto-Reply to Identified Tweets</u>
-#### Platform & Hardware: IBM Watson | Natural Language Classifier (NLC) | Node-RED
+#### Platforms: IBM Watson (Bluemix) | Natural Language Classifier (NLC) | Node-RED
 ✔ A cognitive application using IBM Bluemix that uses a Natural Language Classifier (NLC) service from IBM Watson, which trains a set of tweets consisting of complaints, queries and feedback.<br>
 ✔ The application based on Node-Red reads the Twitter mentions of a particular handle, uses the NLC to identify the type of tweet and thereby, automatically replying to the tweet with an appropriate response.<br>

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Certifications
-subtitle: "Getting my basics right with MOOCs"
+subtitle: "Commit, Collaborate, Create."
 ---
 
 ### <u>University of Washington</u> from Coursera<br>
-#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6)
+#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Specialization (4 courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6)
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Foundations: A Case Study Approach](https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2)
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Foundations: Regression](https://www.coursera.org/account/accomplishments/certificate/6MD63T837DRW)
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Foundations: Classification](https://www.coursera.org/account/accomplishments/certificate/6WG9X8M3XDCD)

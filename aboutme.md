@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: "I got it from my mama"
+subtitle: "Analytical, Attentive, Adept."
 ---
 
 <div id="aboutme-section">
@@ -13,7 +13,7 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> Résumé</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture Recognition & Recommender Systems, publishing research findings on the same. You could find my research publications <strong><a href="/publications">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
+Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/publications">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
@@ -23,12 +23,12 @@ Obtained my B.Tech in <strong><i>Information Technology</i></strong> from Anna U
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. In the past several years I've become an experienced Python user. I write code to train and test Machine Learning algos, and proficient in engineering various ML models and extracting domain-centric features for the same. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
+I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. In the past years I've become an experienced Python user. I write code to train and test Machine Learning algos, and am proficient in engineering various ML models and extracting domain-centric features for the same. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
 </p>
 
 <p class="about-text">
 <span class="fa fa-gamepad about-icon"></span>
-I'm addicted to <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong> &mdash; addicted to Dota2 mostly (please don't ask my MMR). I binge watch a lot of TV shows. I also occasionally swim.
+I enjoy playing to <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong>(Dota2 mostly). I binge watch a lot of TV shows. I also occasionally swim.
 </p>
 
 <p class="about-text">
@@ -38,7 +38,7 @@ Grew up in <i>Chennai, India</i>; explored (studied at) various other places lik
 
 </div>
 
-<div id="contactme-section">
+<div id="contactme">
 <h1 id="contact">Contact</h1>
 </div>
 <!--
