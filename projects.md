@@ -17,7 +17,7 @@ forecast show occupancy of a movie.<br>
 ✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them.<br>
 ✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
 
-### <span class="fa fa-file about-icon"></span> <u>Gest-Face</u>
+### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
 #### Language & Framework: Python | OpenCV | HaarCascade | PyQt5
 ✔ Developed a Gesture/Facial recognition system where the user can train and recognize gestures, as well as detect the number of faces in real-time.<br>
 ✔ OpenCV was used to identify the features of the gestures and faces obtained using a webcam, with Haar Cascade being used for object detection.<br>
