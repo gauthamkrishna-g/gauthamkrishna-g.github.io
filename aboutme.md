@@ -13,12 +13,12 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> Résumé</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/publications">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
+Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from Anna University (SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in the fields of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/publications">here</a></strong>.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from Anna University (SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in the fields of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
 </p>
 
 <p class="about-text">
