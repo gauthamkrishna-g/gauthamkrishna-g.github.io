@@ -18,7 +18,7 @@ Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a h
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from Anna University (SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in the fields of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong><a href="http://www.ssn.edu.in/">SSN College of Engineering</a></strong>, Anna University. My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in the fields of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
 </p>
 
 <p class="about-text">
@@ -49,7 +49,7 @@ I will be away until September 9, with very limited time to work. My responses w
 
 
 
-<p>You can <a href="mailto:gauthamkrishna.gudur@gmail.com">email me</a> or find me on <a href="https://www.linkedin.com/in/gauthamkrishna-g/"> LinkedIn </a> if you want to get in touch. I love meeting new people so if you have an idea in mind to work on, do not hesitate to send a message!</p>
+<p>You can <a href="mailto:gauthamkrishna.gudur@gmail.com">email me</a> or find me on <a href="https://www.linkedin.com/in/gauthamkrishna-g/"> LinkedIn</a> if you want to get in touch. I love meeting new people so if you have an idea in mind to work on, do not hesitate to send a message!</p>
 
 <form action="https://formspree.io/gauthamkrishna.gudur@gmail.com" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
