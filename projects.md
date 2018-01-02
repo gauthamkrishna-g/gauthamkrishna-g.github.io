@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: "Persist, Percept, Practise."
+#subtitle: "Persist, Percept, Practise."
 ---
 
 ### <span class="fa fa-file about-icon"></span> <u>Movie Occupancy Prediction Engine</u>
@@ -17,12 +17,6 @@ forecast show occupancy of a movie.<br>
 ✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them.<br>
 ✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
 
-### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
-#### Language & Framework: Python | OpenCV | HaarCascade | PyQt5
-✔ Developed a Gesture/Facial recognition system where the user can train and recognize gestures, as well as detect the number of faces in real-time.<br>
-✔ OpenCV was used to identify the features of the gestures and faces obtained using a webcam, with Haar Cascade being used for object detection.<br>
-✔ The system was rendered as an application using PyQt5.<br>
-
 ### <span class="fa fa-file about-icon"></span> <u>Deep Learning Projects</u>
 #### Language & Framework: Python | Numpy | PyTorch | Tensorflow
 Currently working on<br>
@@ -30,6 +24,12 @@ Currently working on<br>
 ✔ Grasp-and-Lift EEG Detection from Kaggle (HCI)<br>
 ✔ Street View House Numbers from Google (Computer Vision)<br>
 ✔ notMNIST (Computer Vision)<br>
+
+### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
+#### Language & Framework: Python | OpenCV | HaarCascade | PyQt5
+✔ Developed a Gesture/Facial recognition system where the user can train and recognize gestures, as well as detect the number of faces in real-time.<br>
+✔ OpenCV was used to identify the features of the gestures and faces obtained using a webcam, with Haar Cascade being used for object detection.<br>
+✔ The system was rendered as an application using PyQt5.<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Real-Time Sentiment Analyzer of Twitter Trends</u>](https://github.com/gauthamkrishna-g/Real-Time-Sentiment-Analyzer-of-Twitter-Trends)
 #### Language & Framework: Python | NLTK | Scikit-Learn | Tweepy | PyQt5

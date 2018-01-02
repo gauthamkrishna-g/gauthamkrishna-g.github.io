@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-subtitle: "Educate, Excite, Enterprise."
+#subtitle: "Educate, Excite, Enterprise."
 ---
 
 <center>

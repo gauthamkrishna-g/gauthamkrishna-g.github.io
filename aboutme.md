@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: "Analytical, Attentive, Adept."
+#subtitle: "Analytical, Attentive, Adept."
 ---
 
 <div id="aboutme-section">
@@ -13,7 +13,7 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> Résumé</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
+Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/research-team/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture/Activity Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
@@ -39,7 +39,7 @@ Grew up in <i>Chennai, India</i>; explored (studied at) various other places lik
 </div>
 
 <div id="contactme">
-<h1 id="contact">Contact</h1>
+<h1>Contact Me</h1>
 </div>
 <!--
 <div class="alert alert-danger" role="alert">
