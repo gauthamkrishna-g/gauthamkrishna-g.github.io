@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-subtitle: "Respect, Respond, Realize."
+title: Publications
+#subtitle: "Respect, Respond, Realize."
 ---
 
 <p class="about-users">
@@ -10,21 +10,21 @@ subtitle: "Respect, Respond, Realize."
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="http://saiconference.com/FICC2018/Agenda">A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</a></h3>
 <h4><i><a href="http://saiconference.com/FICC" target="_blank">IEEE Future of Information and Communications Conference (FICC 2018), Singapore</a></i></h4>
-<h5><center><a href="/FICC_paper.pdf">[View Paper]</a></center></h5>
+<h5><center><a href="/FICC_2018.pdf">[View Paper]</a></center></h5>
 ✔ Human Computer Interaction facilitates intelligent communication between humans and computers, in which gesture recognition plays a prominent role. This paper presents a machine learning system to identify dynamic gestures using two accelerometer-based datasets, characterized by a generic set of features across time & frequency domains.<br>
 ✔ The engine was analyzed from an end-user perspective and was modelled to operate in three modes. The modes of operation determine the subsets of data to be used for training and testing the system. From an initial set of seven classifiers, three were chosen to evaluate each dataset across all modes rendering the system towards mode-neutrality and dataset-independence.<br>
 ✔ The proposed system is able to classify gestures performed at varying speeds with minimum preprocessing, making it computationally efficient. This engine runs on a low-cost embedded platform like Raspberry Pi Zero (USD 5), making it economically viable.<br><br>
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="https://link.springer.com/chapter/10.1007/978-981-10-5780-9_13" target="_blank">Electroencephalography Based Analysis of Emotions Among Indian Film Viewers</a></h3>
 <h4><i>International Conference on Advanced Informatics for Computing Research <br>(ICAICR 2017), Springer</i></h4>
-<h5><center><a href="/ICAICR_paper.pdf">[View Paper]</a></center></h5>
+<h5><center><a href="/ICAICR_2017.pdf">[View Paper]</a></center></h5>
 ✔ Neurocinematics is an emerging field of research that measures the cognitive responses of a film viewer. In this paper, the real-time brainwave frequencies of viewers watching two different genres of Indian films - horror and comedy, were captured using a Neurosky Mindwave Mobile EEG device.<br>
 ✔ The data was analyzed for each time interval and the resultant frequency observed was compared with various frequency ranges of brainwaves, thus attributing to the different emotions of the viewers watching the movie at every point of time.<br>
 ✔ The results have matched with the intended emotions, in turn the genre of the movie, which was determined based on the released movies' IMDb reviews.<br><br>
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">Analysis of Routing Protocol for Low-power & Lossy Networks in IoT Real Time Applications</a></h3>
 <h4><i>Fourth International Conference on Recent Trends in Computer Science & Engineering (ICRTCSE 2016), Elsevier</i></h4>
-<h5><center><a href="/ICRTCSE_paper.pdf">[View Paper]</a></center></h5>
+<h5><center><a href="/ICRTCSE_2016.pdf">[View Paper]</a></center></h5>
 ✔ Implemented a comparison of performance metrics in RPL between two real-time scenarios, such that they well-adapted to differentiate, thereby choosing a proper mote for the respective environment.<br>
 ✔ Used Contiki OS as a testbed for simulation via Cooja Simulator to process metrics of the sensory motes in a virtual WSN so that a trade-off was made between Zolertia Z1 mote and WiSMote.<br>
 ✔ The environments of Smart Building and Agriculture were pre-considered and patterns of Latency, Received Packets per Node and Routing Metrics were observed with an average of 10 and 20 senders, for 1 or 2 sinks.<br><br>
