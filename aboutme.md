@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-#subtitle: "Analytical, Attentive, Adept."
+# subtitle: "Analytical, Attentive, Adept."
 ---
 
 <div id="aboutme-section">
