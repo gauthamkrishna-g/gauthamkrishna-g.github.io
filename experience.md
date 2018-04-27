@@ -16,7 +16,7 @@ title: Experience
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-graduation-cap about-icon"></span> B.Tech in Information Technology, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank">Anna University</h4></td><td><h4>2013-2017</h4></td><td><h4>Chennai, India</h4></td>
+<td><h4> <span class="fa fa-graduation-cap about-icon"></span> B.Tech in Information Technology, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank">Anna University</a></h4></td><td><h4>2013-2017</h4></td><td><h4>Chennai, India</h4></td>
 </tr>
 
 <tr>
