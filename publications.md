@@ -8,6 +8,12 @@ title: Publications
 <center><span class="fa fa-users about-icon"></span> <strong> Conference Proceedings </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster </strong></center>
 
+<h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
+<h4><i>2nd International Workshop on Embedded and Mobile Deep Learning (Co-located with ACM MobiSys 2018)</i></h4>
+✔ Developed a Human Activity Recognition (HAR) system robust to mobile-sensing heterogeneities on Embedded platforms using Deep Learning.<br>
+✔ Proposed a novel ensembled Deep learning architecture using Convolutional Neural Nets (CNN) and Recurrent Neural Nets (RNN), which facilitates on-device Incremental learning.<br>
+✔ Wavelet Transform and Downsampling using Decimation was performed on accelerometer data alone to attain sensor minimization, thereby enabling feasibility on embedded and mobile devices.<br><br>
+
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="http://saiconference.com/FICC2018/Agenda">A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</a></h3>
 <h4><i><a href="http://saiconference.com/FICC" target="_blank">IEEE Future of Information and Communications Conference (FICC 2018), Singapore</a></i></h4>
 <h5><center><a href="/FICC_2018.pdf">[View Paper]</a></center></h5>
