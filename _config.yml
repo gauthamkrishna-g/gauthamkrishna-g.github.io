@@ -65,6 +65,7 @@ author:
   telephone: +91 96981-41161
   facebook: gauthkris
   hackerrank: gauthamkrishna_g
+  google-scholar: gauthamkrishna.gudur
 
 # Select which links to show in the footer
 footer-links-active:
@@ -76,6 +77,7 @@ footer-links-active:
   hackerrank: true
   telephone: true
   facebook: true
+  google-scholar: true
 #  google-plus: false
 #  reddit: false
 #  xing: false
