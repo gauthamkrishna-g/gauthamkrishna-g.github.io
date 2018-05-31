@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Gautham Krishna G
+title: Gautham Krishna Gudur
 
 # Short description of your site
 description: Undergrad | Research Assistant | AI Enthusiast
@@ -23,13 +23,12 @@ description: Undergrad | Research Assistant | AI Enthusiast
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Experience: "experience"
-  What I've Done:
-    - Publications: "publications"
+  Quick-Links:
+    - About Me: "aboutme"
+    - Experience: "experience"
+    - Research: "research"
     - Projects: "projects"
     - Certifications: "certifications"
-  Quick-Links:
     - Résumé: "Resume_Gautham.pdf"
     - Contact Me: "aboutme#contactme"
 
@@ -63,7 +62,7 @@ author:
   github: gauthamkrishna-g
   linkedin: gauthamkrishna-g
   telephone: +91 96981-41161
-  facebook: gauthkris
+#  facebook: gauthkris
   hackerrank: gauthamkrishna_g
   google-scholar: gauthamkrishna.gudur
 
@@ -76,7 +75,7 @@ footer-links-active:
   linkedin: true
   hackerrank: true
   telephone: true
-  facebook: true
+#  facebook: true
   google-scholar: true
 #  google-plus: false
 #  reddit: false
@@ -92,7 +91,7 @@ footer-links-active:
 
 # Select which share links to show in posts
 share-links-active:
-  facebook: true
+#  facebook: true
   linkedin: true
 
 # How to display the link to the website in the footer
