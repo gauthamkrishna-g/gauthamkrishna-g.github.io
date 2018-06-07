@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Gautham Krishna Gudur
+title: Gautham Krishna
 
 # Short description of your site
 description: Undergrad | Research Assistant | AI Enthusiast
@@ -23,12 +23,13 @@ description: Undergrad | Research Assistant | AI Enthusiast
 
 # List of links in the navigation bar
 navbar-links:
+  About Me: "aboutme"
+  Experience: "experience"
+  Research: "research"
+  Projects: "projects"
   Quick-Links:
-    - About Me: "aboutme"
-    - Experience: "experience"
-    - Research: "research"
-    - Projects: "projects"
     - Certifications: "certifications"
+    - Publications: "research"
     - Résumé: "Resume_Gautham.pdf"
     - Contact Me: "aboutme#contactme"
 
