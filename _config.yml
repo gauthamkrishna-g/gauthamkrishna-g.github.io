@@ -17,20 +17,21 @@ baseurl: ""
 title: Gautham Krishna
 
 # Short description of your site
-description: Undergrad | Research Assistant | AI Enthusiast
+description: Personal Website
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  News: "#news"
   About Me: "aboutme"
-  Experience: "experience"
   Research: "research"
   Projects: "projects"
+  CV: "Resume_Gautham.pdf"
   Quick-Links:
     - Certifications: "certifications"
     - Publications: "research"
-    - Résumé: "Resume_Gautham.pdf"
+    - Experience: "experience"
     - Contact Me: "aboutme#contactme"
 
 # Image to show in the navigation bar - image must be a square (width = height)

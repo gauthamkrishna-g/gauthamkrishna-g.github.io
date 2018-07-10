@@ -8,7 +8,7 @@ title: About me
 
 <p class="about-text">
 <span class="fa fa-download about-icon"></span>
-Here's my <a href="/Resume_Gautham.pdf"><strong> Résumé</strong></a>.
+Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 </p>
 
 <p class="about-text">
@@ -18,7 +18,7 @@ Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a h
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong><a href="http://www.ssn.edu.in/">SSN College of Engineering</a></strong>, Anna University. My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in the fields of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
 </p>
 
 <p class="about-text">
