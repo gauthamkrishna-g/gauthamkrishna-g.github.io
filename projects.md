@@ -5,9 +5,9 @@ title: Projects
 ---
 
 ### <span class="fa fa-file about-icon"></span> <u>Movie Occupancy Prediction Engine</u>
-#### Tools & Framework: Python | Numpy | AWS | Scikit-Learn | PyTorch
+#### Tools & Framework: Python | Pandas | AWS | MS-SQL | Scikit-Learn | TensorFlow
 ✔ Working in collaboration with a top three Indian movie multiplex chain (with an operating volume of over 50,000 seats per day) on movie occupancy forecasting, and in turn the food produced per day.<br>
-✔ Extracted over 10 TB of transactional data (over past 5 years) using AWS, structured them using MS-SQL & extracted behavioral features to
+✔ Extracted terabytes of transactional data (over past 5 years) using AWS, structured them using MS-SQL & extracted behavioral features to
 forecast show occupancy of a movie.<br>
 ✔ The prediction engine is currently designed to be able to reduce the average predicted occupancy error to about 6%, and is by far more effective than the expert predicting the same by intuition. Currently working on deploying an application into production.<br>
 
@@ -17,13 +17,19 @@ forecast show occupancy of a movie.<br>
 ✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them.<br>
 ✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
 
+### <span class="fa fa-file about-icon"></span> <u>TamilNIST: Live Tamil Character Identification</u>
+#### Tools & Framework: Python | Numpy | TensorFlow | Keras | OpenCV
+✔ Developed a real-time classification of Tamil Characters (uyir ezhuthukal).<br>
+✔ Utilized a 3-layer Convolutional Neural Network (CNN) followed by feed-forward nets with BatchNorm and Dropouts to achieve an efficiency of ~96%.<br>
+✔ Currently working on scaling the same to other characters in Tamil (mei ezhuthukal and a combination - uyir mei ezhuthukal).<br>
+
 ### <span class="fa fa-file about-icon"></span> <u>Deep Learning Projects</u>
 #### Language & Framework: Python | Numpy | PyTorch | Tensorflow
-Currently working on<br>
-✔ Deep Dream and Image Captioning with CNN, RNN using LSTM.<br>
+Currently working on:<br>
 ✔ Grasp-and-Lift EEG Detection from Kaggle (HCI)<br>
-✔ Street View House Numbers from Google (Computer Vision)<br>
-✔ notMNIST (Computer Vision)<br>
+✔ CIFAR-10, MS-COCO, notMNIST (CV)<br>
+✔ Deep Dream and Image Captioning with CNN, RNN using LSTM (CV and NLP)<br>
+✔ Text8 - Wikipedia (NLP)<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
 #### Language & Framework: Python | OpenCV | HaarCascade | PyQt5
