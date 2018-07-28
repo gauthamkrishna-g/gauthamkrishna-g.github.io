@@ -13,7 +13,7 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Full-time Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture/Activity Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
+Currently a <strong><i>Full-time Research Assistant Student</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture/Activity Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
