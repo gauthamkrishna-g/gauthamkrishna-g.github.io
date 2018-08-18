@@ -12,7 +12,7 @@ forecast show occupancy of a movie.<br>
 ✔ The prediction engine is currently designed to be able to reduce the average predicted occupancy error to about 6%, and is by far more effective than the expert predicting the same by intuition. Currently working on deploying an application into production.<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Intelligent Bus Stop Recognition System</u>](https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System)
-#### Language & Platform: Python | Numpy | Anaconda | RaspberryPi
+#### Language & Platform: Python | Numpy | TensorFlow | Anaconda | RaspberryPi
 ✔ Developed a recognition engine on a RaspberryPi Zero platform that automatically identifies bus stops using images acquired from cameras placed on a bus using a hybrid nearest-neighbor classifier. A Day and a Night Classifier was implemented separately in run-time, so that the engine can be automated 24x7, using a light sensor or a timer.<br>
 ✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them.<br>
 ✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
@@ -21,7 +21,7 @@ forecast show occupancy of a movie.<br>
 #### Tools & Framework: Python | Numpy | TensorFlow | Keras | OpenCV
 ✔ Developed a real-time classification of Tamil Characters (uyir ezhuthukal).<br>
 ✔ Utilized a 3-layer Convolutional Neural Network (CNN) followed by feed-forward nets with BatchNorm and Dropouts to achieve an efficiency of ~96%.<br>
-✔ Currently working on scaling the same to other characters in Tamil (mei ezhuthukal and a combination - uyir mei ezhuthukal).<br>
+✔ Currently working on scaling the same to other characters in Tamil (mei ezhuthukal and a combination of the same- uyir mei ezhuthukal).<br>
 
 ### <span class="fa fa-file about-icon"></span> <u>Deep Learning Projects</u>
 #### Language & Framework: Python | Numpy | PyTorch | Tensorflow
@@ -30,6 +30,14 @@ Currently working on:<br>
 ✔ CIFAR-10, MS-COCO, notMNIST (CV)<br>
 ✔ Deep Dream and Image Captioning with CNN, RNN using LSTM (CV and NLP)<br>
 ✔ Text8 - Wikipedia (NLP)<br>
+
+### <span class="fa fa-file about-icon"></span> <u>Machine Learning Specialization Course Projects</u>
+#### Language & Framework: Python | Numpy | graphlab | Scikit-Learn
+✔ Rigorous coursework and practical assignments for various in-depth Supervised Classification and Regression techniques, Unsupervised Clustering and Retrieval techniques, and Recommender Systems.
+✔ Regression - Ridge, Lasso Regression, kNN and Kernel Regression.
+✔ Classification - Logistic Regression, Decision Trees, Overfitting & Underfitting, Boosting.
+✔ Clustering - Nearest neighbor search, EM with GMM, k-means, LDA, Hierarchical Clustering.
+✔ The Jupyter notebooks were coded from scratch in Numpy-Python, and also using GraphLab.<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
 #### Language & Framework: Python | OpenCV | HaarCascade | PyQt5
