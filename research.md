@@ -9,15 +9,15 @@ title: Research
 <span class="fa fa-file about-icon"></span> <strong> Poster </strong></center>
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
-<h4><i><a href="https://www.sigmobile.org/mobisys/2018/workshops/deepmobile18/" target="_blank">2nd International Workshop on Embedded and Mobile Deep Learning (Co-located with ACM MobiSys 2018)</a></i></h4>
+<h4><i>2nd International Workshop on Embedded and Mobile Deep Learning (Co-located with ACM MobiSys 2018)</i></h4>
 <h5><center><a href="/EMDLAR_2018.pdf" target="_blank">[View Paper]</a></center></h5>
 ✔ Recent advancements in the domain of pervasive computing have seen the incorporation of sensor-based Deep Learning algorithms in Human Activity Recognition (HAR). Contemporary Deep Learning models are engineered to alleviate the difficulties posed by conventional Machine Learning algorithms which require extensive domain knowledge to obtain heuristic hand-crafted features.<br>
 ✔ Upon training and deployment of these Deep Learning models on ubiquitous mobile/embedded devices, it must be ensured that the model adheres to their computation and memory limitations, in addition to addressing the various mobile- and user-based heterogeneities prevalent in actuality.<br>
 ✔ To handle this, we propose HARNet - a resource-efficient and computationally viable network to enable on-line Incremental Learning and User Adaptability as a mitigation technique for anomalous user behavior in HAR. Heterogeneity Activity Recognition Dataset was used to evaluate HARNet and other proposed variants by utilizing acceleration data acquired from diverse mobile platforms across three different modes from a practical application perspective.<br>
 ✔ We perform Decimation as a Down-sampling technique for generalizing sampling frequencies across mobile devices, and Discrete Wavelet Transform for preserving information across frequency and time. Systematic evaluation of HARNet on User Adaptability yields an increase in accuracy by ∼35% by leveraging the model’s capability to extract discriminative features across activities in heterogeneous environments.<br><br>
 
-<h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="http://saiconference.com/FICC2018/Agenda" target="_blank">A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</a></h3>
-<h4><i><a href="http://saiconference.com/FICC" target="_blank">IEEE Future of Information and Communications Conference (FICC 2018), Singapore</a></i></h4>
+<h3><span class="fa fa-users about-icon"></span> &nbsp;A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</h3>
+<h4><i>IEEE Future of Information and Communications Conference (FICC 2018), Singapore</i></h4>
 <h5><center><a href="/FICCGR_2018.pdf" target="_blank">[View Paper]</a></center></h5>
 ✔ Human Computer Interaction facilitates intelligent communication between humans and computers, in which gesture recognition plays a prominent role. This paper presents a machine learning system to identify dynamic gestures using two accelerometer-based datasets, characterized by a generic set of features across time & frequency domains.<br>
 ✔ The engine was analyzed from an end-user perspective and was modelled to operate in three modes. The modes of operation determine the subsets of data to be used for training and testing the system. From an initial set of seven classifiers, three were chosen to evaluate each dataset across all modes rendering the system towards mode-neutrality and dataset-independence.<br>
@@ -37,8 +37,9 @@ title: Research
 ✔ Used Contiki OS as a testbed for simulation via Cooja Simulator to process metrics of the sensory motes in a virtual WSN so that a trade-off was made between Zolertia Z1 mote and WiSMote.<br>
 ✔ The environments of Smart Building and Agriculture were pre-considered and patterns of Latency, Received Packets per Node and Routing Metrics were observed with an average of 10 and 20 senders, for 1 or 2 sinks.<br><br>
 
-<h3><span class="fa fa-file about-icon"></span> &nbsp;<a href="/CBC_Poster.pdf" target="_blank">Neurocinematics: The Intelligent Review System</a></h3>
-<h4><i><a href="https://pdfs.semanticscholar.org/582b/3762fc4e6ba6359d96d4f7bfc2c35e75fd66.pdf" target="_blank">3rd International Conference on Cognition, Brain and Computation (CBC 2015), <br>IIT Gandhinagar</a></i></h4>
+<h3><span class="fa fa-file about-icon"></span> &nbsp;<a href="https://pdfs.semanticscholar.org/582b/3762fc4e6ba6359d96d4f7bfc2c35e75fd66.pdf" target="_blank">Neurocinematics: The Intelligent Review System</a></h3>
+<h4><i>3rd International Conference on Cognition, Brain and Computation (CBC 2015), <br>IIT Gandhinagar</i></h4>
+<h5><center><a href="/CBC_Poster.pdf" target="_blank">[View Poster]</a></center></h5>
 ✔ While watching a film, the viewers undergo an experience that evolves over time, which grabs their attention and triggers a sequence of processes, which is perceptual, cognitive, and emotional. Each producer invests millions of dollars in a film, with the great uncertainty of getting the invested money back (leave alone the profit).<br>
 ✔ This article proposes to use the advancements in the EEG to address the above problem, at the same time retaining the merits of the existing methods such as FMRI. The idea is about taking a pre-release live review for a film using specially coded brainwaves from headsets (EEG) placed onto the viewers heads.<br>
 ✔ We propose that EEG studies of brain and its mapping will act as a fail-proof coating for each film and help the producers to bring out what they intended. All the results obtained from this experiment are solely indented to bridge the gap between mind of a viewer and the film he is viewing.
