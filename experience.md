@@ -8,7 +8,7 @@ title: Experience
 <table>
 
 <tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Machine Learning Engineer, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lumos Labs/SmartCardia SA</a></h4></td><td><h4>May 2018-Present</h4></td><td><h4>Chennai, India</h4></td>
+<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Machine Learning Engineer, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SmartCardia SA</h4></td><td><h4>May 2018-Present</h4></td><td><h4>Chennai, India</h4></td>
 </tr>
 
 <tr>
