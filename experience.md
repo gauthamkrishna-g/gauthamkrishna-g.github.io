@@ -8,15 +8,20 @@ title: Experience
 <table>
 
 <tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Machine Learning Engineer, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SmartCardia SA</h4></td><td><h4>May 2018-Present</h4></td><td><h4>Chennai, India</h4></td>
+<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Data Scientist, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global AI Accelerator (GAIA), <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ericsson R&D</h4></td><td><h4>Feb 2019 - Present</h4></td><td><h4>Chennai, India</h4></td>
+</tr>
+
+
+<tr>
+<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Machine Learning Engineer, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SmartCardia (EPFL)</h4></td><td><h4>May 2018 - Nov 2018</h4></td><td><h4>Chennai, India</h4></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Research Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>2016-Present</h4></td><td><h4>Chennai, India</h4></td>
+<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Research Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>Feb 2016 - June 2018</h4></td><td><h4>Chennai, India</h4></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-users about-icon"></span> &nbsp;Teaching Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>2017-Present</h4></td><td><h4>Chennai, India</h4></td>
+<td><h4> <span class="fa fa-users about-icon"></span> &nbsp;Teaching Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>Feb 2016 - Present</h4></td><td><h4>Chennai, India</h4></td>
 </tr>
 
 <tr>

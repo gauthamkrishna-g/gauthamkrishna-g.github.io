@@ -5,12 +5,25 @@ title: Research
 ---
 
 <p class="about-users">
-<center><span class="fa fa-users about-icon"></span> <strong> Conference Proceedings </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span class="fa fa-file about-icon"></span> <strong> Poster </strong></center>
+<center><span class="fa fa-users about-icon"></span> <strong> Conference/Workshop Proceedings </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
+
+<h3><span class="fa fa-file about-icon"></span> &nbsp;Handling Real-time Unlabeled Data in Activity Recognition using Deep Bayesian Active Learning and Data Programming</h3>
+<h4><i>Second UK Mobile, Wearable and Ubiquitous Systems Research Symposium (MobiUK 2019), University of Oxford</i></h4>
+<h5><center><a href="/MobiUK_2019.pdf" target="_blank">[View Abstract]</a></center></h5>
+
+<h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
+<h4><i>ACM MobiSys 2019 (3rd International Workshop on Embedded and Mobile Deep Learning, EMDL '19)</i></h4>
+<h5><center><a href="/EMDLAR_2019.pdf" target="_blank">[View Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/HARNet-On-Device-Human-Activity-Recognition" target="_blank">[View Code]</a></center></h5>
+✔ Recent advancements in the domain of pervasive computing have seen the incorporation of sensor-based Deep Learning algorithms in Human Activity Recognition (HAR). Contemporary Deep Learning models are engineered to alleviate the difficulties posed by conventional Machine Learning algorithms which require extensive domain knowledge to obtain heuristic hand-crafted features.<br>
+✔ Upon training and deployment of these Deep Learning models on ubiquitous mobile/embedded devices, it must be ensured that the model adheres to their computation and memory limitations, in addition to addressing the various mobile- and user-based heterogeneities prevalent in actuality.<br>
+✔ To handle this, we propose HARNet - a resource-efficient and computationally viable network to enable on-line Incremental Learning and User Adaptability as a mitigation technique for anomalous user behavior in HAR. Heterogeneity Activity Recognition Dataset was used to evaluate HARNet and other proposed variants by utilizing acceleration data acquired from diverse mobile platforms across three different modes from a practical application perspective.<br>
+✔ We perform Decimation as a Down-sampling technique for generalizing sampling frequencies across mobile devices, and Discrete Wavelet Transform for preserving information across frequency and time. Systematic evaluation of HARNet on User Adaptability yields an increase in accuracy by ∼35% by leveraging the model’s capability to extract discriminative features across activities in heterogeneous environments.<br><br>
+
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
-<h4><i>2nd International Workshop on Embedded and Mobile Deep Learning (Co-located with ACM MobiSys 2018)</i></h4>
-<h5><center><a href="/EMDLAR_2018.pdf" target="_blank">[View Paper]</a></center></h5>
+<h4><i>ACM MobiSys 2018 (2nd International Workshop on Embedded and Mobile Deep Learning, EMDL '18)</i></h4>
+<h5><center><a href="/EMDLAR_2018.pdf" target="_blank">[View Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/HARNet-On-Device-Human-Activity-Recognition" target="_blank">[View Code]</a></center></h5>
 ✔ Recent advancements in the domain of pervasive computing have seen the incorporation of sensor-based Deep Learning algorithms in Human Activity Recognition (HAR). Contemporary Deep Learning models are engineered to alleviate the difficulties posed by conventional Machine Learning algorithms which require extensive domain knowledge to obtain heuristic hand-crafted features.<br>
 ✔ Upon training and deployment of these Deep Learning models on ubiquitous mobile/embedded devices, it must be ensured that the model adheres to their computation and memory limitations, in addition to addressing the various mobile- and user-based heterogeneities prevalent in actuality.<br>
 ✔ To handle this, we propose HARNet - a resource-efficient and computationally viable network to enable on-line Incremental Learning and User Adaptability as a mitigation technique for anomalous user behavior in HAR. Heterogeneity Activity Recognition Dataset was used to evaluate HARNet and other proposed variants by utilizing acceleration data acquired from diverse mobile platforms across three different modes from a practical application perspective.<br>
@@ -18,7 +31,7 @@ title: Research
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</h3>
 <h4><i>IEEE Future of Information and Communications Conference (FICC 2018), Singapore</i></h4>
-<h5><center><a href="/FICCGR_2018.pdf" target="_blank">[View Paper]</a></center></h5>
+<h5><center><a href="/FICCGR_2018.pdf" target="_blank">[View Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Dynamic-Gesture-Recognition" target="_blank">[View Code]</a></center></h5>
 ✔ Human Computer Interaction facilitates intelligent communication between humans and computers, in which gesture recognition plays a prominent role. This paper presents a machine learning system to identify dynamic gestures using two accelerometer-based datasets, characterized by a generic set of features across time & frequency domains.<br>
 ✔ The engine was analyzed from an end-user perspective and was modelled to operate in three modes. The modes of operation determine the subsets of data to be used for training and testing the system. From an initial set of seven classifiers, three were chosen to evaluate each dataset across all modes rendering the system towards mode-neutrality and dataset-independence.<br>
 ✔ The proposed system is able to classify gestures performed at varying speeds with minimum preprocessing, making it computationally efficient. This engine runs on a low-cost embedded platform like Raspberry Pi Zero (USD 5), making it economically viable.<br><br>

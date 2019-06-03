@@ -23,14 +23,14 @@ description: Personal Website
 
 # List of links in the navigation bar
 navbar-links:
-  News: "#news"
   About Me: "aboutme"
   Research: "research"
+  Experience: "experience"
   Projects: "projects"
   CV: "Resume_Gautham.pdf"
   Quick-Links:
     - Certifications: "certifications"
-    - Experience: "experience"
+    - News: "#news"
     - Contact Me: "aboutme#contactme"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -217,6 +217,7 @@ prose:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
