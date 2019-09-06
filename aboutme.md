@@ -13,7 +13,12 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA)</a></strong>. Broadly working on incorporating Machine Learning for Network Intelligence broadly in the space of telecom and IoT. Currently with projects like on-mobile video object localization/segmentation, time-series anomaly detection, failure prediction for service providers, etc. Also developing an open-source anomaly detection framework - <I>qudditch</i>, with a focus existing/novel Machine Learning unsupervised algorithms, metrics, explainability, visualization, etc.
+Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA)</a></strong>. Broadly working on incorporating Machine Learning for Network Intelligence broadly in the space of telecom and IoT. Currently with projects like on-mobile video object localization/segmentation, time-series anomaly detection, failure prediction for service providers, etc. Also, developing an end-to-end open-source anomaly detection framework - <i>qudditch</i>, with a focus existing/novel Machine Learning unsupervised algorithms.
+</p>
+
+<p class="about-text">
+<span class="fa fa-briefcase about-icon"></span>
+I also conduct independent research on a variety of research topics like Machine/Deep (Uncertain) Learning, Bayesian Deep Learning, Incremental/Continual Learning, ML for Limited Labeled Data, Physical activity sensing using on sensors and wearables, Computer Vision, Active Learning, Ubiquitous Computing. Always up for collaborations with researchers with similar interests.
 </p>
 
 <p class="about-text">
@@ -23,12 +28,12 @@ Previously a <strong><i>Machine Learning Engineer</i></strong> at <strong><a hre
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Researched in the fields of Human Activity Recognition (HAR), Gesture Recognition, Machine/Deep Learning, Internet of Things (IoT), Demand Forecasting, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I was also a <strong><i>Teaching Assistant</i></strong> at SF.
+Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Researched in the fields of Human Activity Recognition (HAR), Gesture Recognition, Machine/Deep Learning, Internet of Things (IoT), Demand Forecasting. I was also a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and HCI, and published findings at various conferences. You could find my research publications <strong><a href="/research">here</a></strong>.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and HCI, and published findings at various conferences.
 </p>
 
 <p class="about-text">
