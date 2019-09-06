@@ -28,7 +28,7 @@ Previously a <strong><i>Machine Learning Engineer</i></strong> at <strong><a hre
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Researched in the fields of Human Activity Recognition (HAR), Gesture Recognition, Machine/Deep Learning, Internet of Things (IoT), Demand Forecasting. I was also a <strong><i>Teaching Assistant</i></strong> at SF.
+Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Conducted research in fields of Human Activity Recognition (HAR), Gesture Recognition, Machine/Deep Learning, Ubiquitous Computing, Internet of Things (IoT) and Demand Forecasting. I was also a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
