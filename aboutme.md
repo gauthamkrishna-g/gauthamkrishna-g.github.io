@@ -13,7 +13,17 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Full-time Research Assistant Student</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Previously was an <strong><i>Undergrad Research Assistant</i></strong> at SF. Researching in the fields of Machine Learning, Internet of Things (IoT), Gesture/Activity Recognition & Deep Learning, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I also am a <strong><i>Teaching Assistant</i></strong> at SF.
+Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA)</a></strong>. Broadly working on incorporating Machine Learning for Network Intelligence broadly in the space of telecom and IoT. Currently with projects like on-mobile video object localization/segmentation, time-series anomaly detection, failure prediction for service providers, etc. Also developing an open-source anomaly detection framework - <I>qudditch</i>, with a focus existing/novel Machine Learning unsupervised algorithms, metrics, explainability, visualization, etc.
+</p>
+
+<p class="about-text">
+<span class="fa fa-briefcase about-icon"></span>
+Previously a <strong><i>Machine Learning Engineer</i></strong> at <strong><a href="http://www.smartcardia.com">SmartCardia, EPFL</a></strong>, which dealt with combining medical wearable with Artificial Intelligence for actionable and unique insights into patients' health. I developed machine/deep learning models for analyzing biomarkers of patients, and also engineered features for imbalanced time-series clinical data, and modeled classification, regression architectures.
+</p>
+
+<p class="about-text">
+<span class="fa fa-briefcase about-icon"></span>
+Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Researched in the fields of Human Activity Recognition (HAR), Gesture Recognition, Machine/Deep Learning, Internet of Things (IoT), Demand Forecasting, publishing research findings on the same. You could find my research publications <strong><a href="/research">here</a></strong>. I was also a <strong><i>Teaching Assistant</i></strong> at SF.
 </p>
 
 <p class="about-text">
@@ -23,17 +33,17 @@ Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <stron
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. In the past years, I've become an experienced Python user. I write code to train and test Machine Learning algos, and am proficient in engineering various ML models and extracting domain-centric features for the same. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
+I enjoy writing <strong><i> code in Python </i></strong> &mdash; check out <a href="/projects"><strong>my projects</strong></a>. I also am a competitive coder in online platforms like <a href="https://hackerrank.com/gauthamkrishna_g/"><strong> HackerRank</strong></a>, featuring in the <strong><i>top 97<sup>th</sup> percentile</i></strong>.
 </p>
 
 <p class="about-text">
 <span class="fa fa-gamepad about-icon"></span>
-I enjoy playing <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong>(Dota2 mostly). I binge watch a lot of TV shows. I also occasionally swim.
+I <strong><i>research</i></strong>, enjoy playing <strong><i> badminton </i></strong> &mdash; a divison/state level Under-19 badminton player, and <strong><i> gaming </i></strong>(Dota2 mostly). I binge watch a lot of TV shows. I also occasionally swim.
 </p>
 
 <p class="about-text">
 <span class="fa fa-globe about-icon"></span>
-Grew up in <i>Chennai, India</i>; explored (studied at) various other places like Kanchipuram & Trichy during my junior school; moved back to Chennai again during senior school and undergrad. 
+Traveled to various countries over my limited years of existence, and my perspectives have changed over the years after traveling. Generally enjoy solo trips.
 </p>
 
 </div>
@@ -43,7 +53,7 @@ Grew up in <i>Chennai, India</i>; explored (studied at) various other places lik
 </div>
 <!--
 <div class="alert alert-danger" role="alert">
-I will be away until September 9, with very limited time to work. My responses will be slow during this period.
+I will be away until September 15, with very limited time to work. My responses will be slow during this period.
 </div>
 -->
 

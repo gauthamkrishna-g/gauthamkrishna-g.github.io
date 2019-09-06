@@ -4,27 +4,22 @@ title: Projects
 #subtitle: "Persist, Percept, Practise."
 ---
 
+### <span class="fa fa-file about-icon"></span> <u>Bayesian Incremental/Continual Learning on the Edge</u>
+##### IMWUT/UbiComp (to be submitted)
+✔ Working on on-device incremental/continual learning wherein, the neural network continually updates on-the-fly with new incoming real-time activities, whilst retaining previously learned information (handling catastrophic forgetting, and robust to model uncertainties using Bayesian Neural Networks.
+
+### <span class="fa fa-file about-icon"></span> <u>Incremental Federated Learning for Ubiquitous Sensing</u>
+##### Federated Learning Workshop, NeurIPS 2019; The Web Conference (WWW 2020) - Web of Things, Ubiquitous, and Mobile Computing Track (to be submitted)
+✔ Working on ubiquitous sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks which continually update themselves, using Binary Neural Networks and Knowledge Distillation.
+
 ### <span class="fa fa-file about-icon"></span> <u>Label Generation using Data Programming</u>
 #### Language & Platform: Python | TensorFlow | PyTorch | RaspberryPi
-##### UbiComp CPD Workshop '19
 ✔ Working on leveraging heuristic data labeling functions which are fed into a generative model and fine-tuned by a discriminative model - a data programming paradigm, aimed at ground truth generation for time- series, mobile/wearable sensing tasks.
 
-### <span class="fa fa-file about-icon"></span> <u>Incremental Continual Learning for Ubiquitous Sensing</u>
-#### Language & Platform: Python | TensorFlow | RaspberryPi
-##### UbiComp CML-IOT Workshop '19
-✔ Working on modeling an incremental learning scenario for mobile, wearable sensing tasks wherein, the neural network continually updates on-the-fly with new incoming real-time data, while retaining previously learned information (handling catastrophic forgetting)
-
 ### <span class="fa fa-file about-icon"></span> [<u>Intelligent Bus Stop Recognition System</u>](https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System)
 #### Language & Platform: Python | Numpy | TensorFlow | Anaconda | RaspberryPi
 ✔ Developed a recognition engine on a RaspberryPi Zero platform that automatically identifies bus stops using images acquired from cameras placed on a bus using ConvNets and hybrid nearest-neighbor classifiers. A Day and a Night Classifier was implemented separately in run-time, so that the engine can be automated 24x7, using a light sensor or a timer.<br>
-✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them. This simulated human-like behaviour. <br>
-✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
-✔ Strategies like Data Augmentation, Incremental Learning and Bayesian Active Learning were used for scalability of bus stops.
-
-### <span class="fa fa-file about-icon"></span> [<u>Intelligent Bus Stop Recognition System</u>](https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System)
-#### Language & Platform: Python | Numpy | TensorFlow | Anaconda | RaspberryPi
-✔ Developed a recognition engine on a RaspberryPi Zero platform that automatically identifies bus stops using images acquired from cameras placed on a bus using ConvNets and hybrid nearest-neighbor classifiers. A Day and a Night Classifier was implemented separately in run-time, so that the engine can be automated 24x7, using a light sensor or a timer.<br>
-✔ A near real-time recognition engine was implemented that captured images itertively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them. This simulated human-like behaviour. <br>
+✔ A near real-time recognition engine was implemented that captured images iteratively from bus stops (in the urban city of Chennai with the bus stops being easily scalable), until a certain threshold of confidence was reached to identify them. This simulated human-like behaviour. <br>
 ✔ Low-resolution images were used to achieve the same result while not compromising on our accuracy. Also, accuracy and efficiency of the algorithm are explored, in terms of both memory and space.<br>
 ✔ Strategies like Data Augmentation, Incremental Learning and Bayesian Active Learning were used for scalability of bus stops.
 

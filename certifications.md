@@ -4,6 +4,10 @@ title: Certifications
 #subtitle: "Commit, Create, Culminate."
 ---
 
+### <u>National Research University Higher School of Economics</u>, Coursera
+#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Bayesian Methods for Machine Learning
+](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)<br><br>
+
 ### <u>University of Washington</u>, Coursera<br>
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Specialization (4 courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6)
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Foundations: A Case Study Approach](https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2)
@@ -28,6 +32,9 @@ title: Certifications
 
 ### <u>Stanford University</u>, Graduate Course
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)<br><br>
+
+### <u>fast,ai</u>, FastAI
+#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Practical Deep Learning for Coders](https://course.fast.ai/index.html)<br><br>
 
 ### <u>Google</u>, Udacity
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Deep Learning (ud370)](https://in.udacity.com/course/deep-learning--ud730)<br><br>
