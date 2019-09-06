@@ -33,7 +33,7 @@ Before that, I was a <strong><i>Research Assistant</i></strong> at <strong><a hr
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and HCI, and published findings at various conferences.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My bachelors thesis project involved developing an <a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank"><strong> Intelligent Bus Stop Recognition System</strong></a>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and HCI.
 </p>
 
 <p class="about-text">
