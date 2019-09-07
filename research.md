@@ -8,7 +8,7 @@ title: Research
 <center><span class="fa fa-users about-icon"></span> <strong> Conference/Workshop Proceedings </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract/Challenge </strong></center>
 
-<h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</a></h3>
+<h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <h4><i>IEEE International Conference on Data Mining, ICDM 2019 (Workshop on Learning and Mining with Industrial Data, LMID 2019)</i></h4>
 
 
