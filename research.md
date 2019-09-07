@@ -11,15 +11,18 @@ title: Research
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <h4><i>IEEE International Conference on Data Mining, ICDM 2019 (Workshop on Learning and Mining with Industrial Data, LMID 2019)</i></h4>
 
-
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/" target="_blank">A Vision-based Deep On-Device Intelligent Bus Stop Recognition System</a></h3>
 <h4><i>ACM UbiComp 2019 (8th International Workshop on Pervasive Urban Applications, PURBA '19)</i></h4>
 <h5><center><a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/papers/p23.pdf" target="_blank">[View Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank">[View Code]</a></center></h5>
+<h5><details><summary>Abstract</summary></h5>
+<p>
 ✔ Intelligent public transportation systems are the cornerstone to any smart city, given the advancements made in the field of self-driving autonomous vehicles – particularly for autonomous buses, where it becomes really difficult to systematize a way to identify the arrival of a bus stop on-the-fly for the bus to appropriately halt and notify its passengers.<br>
 ✔ This paper proposes an automatic and intelligent bus stop recognition system built on computer vision techniques, deployed on a low-cost single-board computing platform with minimal human supervision. The on-device recognition engine aims to extract the features of a bus stop and its surrounding environment, which eliminates the need for a conventional Global Positioning System (GPS) look-up, thereby alleviating network latency and accuracy issues.<br>
 ✔ The dataset proposed in this paper consists of images of 11 different bus stops taken at different locations in Chennai, India during day and night. The core engine consists of a convolutional neural network (CNN) of size ∼260 kB that is computationally lightweight for training and inference. In order to automatically scale and adapt to the dynamic landscape of bus stops over time, incremental learning (model updation) techniques were explored on-device from real-time incoming data points.<br>
 ✔ Real-time incoming streams of images are unlabeled, hence suitable ground truthing strategies (like Active Learning), should help establish labels on-the-fly. Light-weight Bayesian Active Learning strategies using Bayesian Neural Networks using dropout (capable of representing model uncertainties) enable selection of the most informative images to query from an oracle.<br>
 ✔ Intelligent rendering of the inference module by iteratively looking for better images on either sides of the bus stop environment propels the system towards human-like behavior. The proposed work can be integrated seamlessly into the widespread existing vision-based self-driving autonomous vehicles.<br>
+</p>
+</details>
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;<a href="https://mobiuk.org/programme2019.html" target="_blank">Handling Real-time Unlabeled Data in Activity Recognition using Deep Bayesian Active Learning and Data Programming</a></h3>
 <h4><i>Second UK Mobile, Wearable and Ubiquitous Systems Research Symposium (MobiUK 2019), University of Oxford</i></h4>
