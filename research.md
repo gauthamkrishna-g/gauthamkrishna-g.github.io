@@ -14,7 +14,7 @@ title: Research
 <h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/" target="_blank">A Vision-based Deep On-Device Intelligent Bus Stop Recognition System</a></h3>
 <h4><i>ACM UbiComp 2019 (8th International Workshop on Pervasive Urban Applications, PURBA '19)</i></h4>
 <h5><center><a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/papers/p23.pdf" target="_blank">[View Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank">[View Code]</a></center></h5>
-<details><summary><h5>Abstract</h5></summary>
+<details><summary>Abstract</summary>
 <p>
 ✔ Intelligent public transportation systems are the cornerstone to any smart city, given the advancements made in the field of self-driving autonomous vehicles – particularly for autonomous buses, where it becomes really difficult to systematize a way to identify the arrival of a bus stop on-the-fly for the bus to appropriately halt and notify its passengers.<br>
 ✔ This paper proposes an automatic and intelligent bus stop recognition system built on computer vision techniques, deployed on a low-cost single-board computing platform with minimal human supervision. The on-device recognition engine aims to extract the features of a bus stop and its surrounding environment, which eliminates the need for a conventional Global Positioning System (GPS) look-up, thereby alleviating network latency and accuracy issues.<br>
