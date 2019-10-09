@@ -18,7 +18,7 @@ Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://w
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-I also conduct independent research on a variety of research topics like Machine/Deep (Uncertain) Learning, Bayesian Deep Learning, Incremental/Continual Learning, ML for Limited Labeled Data, Physical activity sensing using on sensors and wearables, Computer Vision, Active Learning, Ubiquitous Computing. Always up for collaborations with researchers with similar interests.
+I also conduct independent research on a variety of research topics like Machine/Deep Learning, Incremental/Continual Learning, Bayesian Deep Learning, ML for Limited Labeled Data, Physical activity sensing using on sensors and wearables, Computer Vision, Active Learning, Ubiquitous Computing. Always up for collaborations with researchers with similar interests.
 </p>
 
 <p class="about-text">
