@@ -4,17 +4,19 @@ title: Projects
 #subtitle: "Persist, Percept, Practise."
 ---
 
+##### * to be submitted
+
 ### <span class="fa fa-file about-icon"></span> <u>Bayesian Incremental/Continual Learning on the Edge</u>
-##### IMWUT/UbiComp (to be submitted)
-✔ Working on on-device incremental/continual learning wherein, the neural network continually updates on-the-fly with new incoming real-time activities, whilst retaining previously learned information (handling catastrophic forgetting, and robust to model uncertainties using Bayesian Neural Networks.
+##### IMWUT/UbiComp *
+Working on on-device incremental/continual learning wherein, the neural network continually updates on-the-fly with new incoming real-time activities, whilst retaining previously learned information (handling catastrophic forgetting), and robust to model uncertainties using Bayesian Neural Networks by utilizing dataset distillation.
 
 ### <span class="fa fa-file about-icon"></span> <u>Incremental Federated Learning for Ubiquitous Sensing</u>
-##### Federated Learning Workshop, NeurIPS 2019; The Web Conference (WWW 2020) - Web of Things, Ubiquitous, and Mobile Computing Track (to be submitted)
-✔ Working on ubiquitous sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks which continually update themselves, using Binary Neural Networks and Knowledge Distillation.
+##### ICASSP 2020 *
+Working on ubiquitous audio sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks which continually update themselves, using Knowledge Distillation.
 
 ### <span class="fa fa-file about-icon"></span> <u>Label Generation using Data Programming</u>
 #### Language & Platform: Python | TensorFlow | PyTorch | RaspberryPi
-✔ Working on leveraging heuristic data labeling functions which are fed into a generative model and fine-tuned by a discriminative model - a data programming paradigm, aimed at ground truth generation for time- series, mobile/wearable sensing tasks.
+Working on leveraging heuristic data labeling functions which are fed into a generative model and fine-tuned by a discriminative model - a data programming paradigm, aimed at ground truth generation for time- series, mobile/wearable sensing tasks.
 
 ### <span class="fa fa-file about-icon"></span> [<u>Intelligent Bus Stop Recognition System</u>](https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System)
 #### Language & Platform: Python | Numpy | TensorFlow | Anaconda | RaspberryPi
