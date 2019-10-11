@@ -6,13 +6,13 @@ title: Projects
 
 ##### * to be submitted
 
+### <span class="fa fa-file about-icon"></span> <u>Heterogeneous Deep Federated and Active Crowdsourced Learning for Audio Sensing</u>
+##### ICASSP 2020 *
+Working on ubiquitous audio sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks which continually update themselves, using Knowledge Distillation and Bayesian Active Learning for real-time ground truthing.
+
 ### <span class="fa fa-file about-icon"></span> <u>Bayesian Incremental/Continual Learning on the Edge</u>
 ##### IMWUT/UbiComp *
 Working on on-device incremental/continual learning wherein, the neural network continually updates on-the-fly with new incoming real-time activities, whilst retaining previously learned information (handling catastrophic forgetting), and robust to model uncertainties using Bayesian Neural Networks by utilizing dataset distillation.
-
-### <span class="fa fa-file about-icon"></span> <u>Incremental Federated Learning for Ubiquitous Sensing</u>
-##### ICASSP 2020 *
-Working on ubiquitous audio sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks which continually update themselves, using Knowledge Distillation.
 
 ### <span class="fa fa-file about-icon"></span> <u>Label Generation using Data Programming</u>
 #### Language & Platform: Python | TensorFlow | PyTorch | RaspberryPi

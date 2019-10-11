@@ -13,9 +13,6 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/lol/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/projects/</loc>
 </url>
 <url>
@@ -59,6 +56,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/Resume_Gautham.pdf</loc>
-<lastmod>2019-10-08T22:09:26-07:00</lastmod>
+<lastmod>2019-10-11T10:15:04-07:00</lastmod>
 </url>
 </urlset>
