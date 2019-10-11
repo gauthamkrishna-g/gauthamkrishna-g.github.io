@@ -5,8 +5,7 @@ title: Certifications
 ---
 
 ### <u>National Research University Higher School of Economics</u>, Coursera
-#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Bayesian Methods for Machine Learning
-](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)<br><br>
+#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Bayesian Methods for Machine Learning](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)<br><br>
 
 ### <u>University of Washington</u>, Coursera<br>
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Machine Learning Specialization (4 courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6)
