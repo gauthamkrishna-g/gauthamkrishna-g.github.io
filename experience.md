@@ -4,32 +4,32 @@ title: Experience
 #subtitle: "Educate, Excite, Enterprise."
 ---
 
+<style>
+table {border: none;}
+</style>
+
 <center>
-<table>
+
+<table border="0">
 
 <tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Data Scientist, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global AI Accelerator (GAIA), <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ericsson.com/" target="_blank">Ericsson R&D</a></h4></td><td><h4>Feb 2019 - Present</h4></td><td><h4>Chennai, India</h4></td>
-</tr>
-
-
-<tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Machine Learning Engineer, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.smartcardia.com/" target="_blank">SmartCardia (EPFL)</a></h4></td><td><h4>May 2018 - Nov 2018</h4></td><td><h4>Chennai, India</h4></td>
+<td><span class="fa fa-suitcase about-icon"></span> &nbsp;<b><i>Data Scientist</i></b> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global AI Accelerator (GAIA) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ericsson.com/" target="_blank"><b>Ericsson R&D</b></a> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, India <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb '19 - Present</td><td><img src="/ericsson_logo.png" alt="Ericsson" width="150" height="35"></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-suitcase about-icon"></span> &nbsp;Research Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>Feb 2016 - June 2018</h4></td><td><h4>Chennai, India</h4></td>
+<td><span class="fa fa-suitcase about-icon"></span> &nbsp;<b><i>Machine Learning Engineer</i></b> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.smartcardia.com/" target="_blank"><b>SmartCardia (EPFL)</b></a> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, India <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May '18 - Nov '18</td><td><img src="/smartcardia_logo.jpg" alt="SmartCardia" width="150" height="60"></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-users about-icon"></span> &nbsp;Teaching Assistant, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank">Solarillion Foundation</a></h4></td><td><h4>Feb 2016 - Present</h4></td><td><h4>Chennai, India</h4></td>
+<td><span class="fa fa-suitcase about-icon"></span> &nbsp;<b><i>Research Assistant, Teaching Assistant</i></b><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://solarillionfoundation.org/" target="_blank"><b>Solarillion Foundation</b></a> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, India <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb '16 - June '18</td><td><img src="/sf_logo.png" alt="Solarillion Foundation" width="150" height="55"></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-graduation-cap about-icon"></span> B.Tech in Information Technology, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anna University <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank">[SSN College of Engineering]</a></h4></td><td><h4>2013-2017</h4></td><td><h4>Chennai, India</h4></td>
+<td><span class="fa fa-suitcase about-icon"></span> &nbsp;<b><i>Undergrad Student Researcher</i></b><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank"><b>SSN College of Engineering</b></a> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, India <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nov '14 - Mar '17</td><td><img src="/ssn_logo.png" alt="SSN" width="140" height="45"></td>
 </tr>
 
 <tr>
-<td><h4> <span class="fa fa-graduation-cap about-icon"></span> Undergrad Student Researcher, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank">SSN College Of Engineering</a></h4></td><td><h4>2015-2017</h4></td><td><h4>Chennai, India</h4></td>
+<td><span class="fa fa-suitcase about-icon"></span> &nbsp;<b><i>B.Tech in Information Technology</i></b><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anna University, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ssn.edu.in/" target="_blank"><b>SSN College of Engineering</b></a> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, India <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2013 - 2017</td><td><img src="/ssn_logo.png" alt="SSN" width="140" height="45"></td>
 </tr>
 
 </table>
