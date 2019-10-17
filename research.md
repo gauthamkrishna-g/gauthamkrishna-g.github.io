@@ -8,7 +8,7 @@ title: Publications
 <center><span class="fa fa-users about-icon"></span> <strong> Conference/Workshop Proceedings </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
-<h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
+<h3><span class="fa fa-users about-icon"></span> &nbsp;<a href="http://lmid2019.neclab.eu/" target="_blank">A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</a></h3>
 <b>IEEE International Conference on Data Mining, ICDM 2019 </b>(Workshop on Learning and Mining with Industrial Data, LMID 2019)<br>
 Sundararaman V, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain, <b><u>Gautham Krishna Gudur</u></b>, Vineeth Vijayaraghavan
 <!--<center><b><a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/papers/p23.pdf" target="_blank">[Paper]</a></b></center>-->
