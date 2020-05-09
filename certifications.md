@@ -4,7 +4,10 @@ title: Certifications
 #subtitle: "Commit, Create, Culminate."
 ---
 
-### <u>National Research University Higher School of Economics</u>, Coursera
+### <u>University of Alberta</u>, Coursera
+#### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamentals-of-reinforcement-learning/)<br><br>
+
+### <u>National Research University HSE</u>, Coursera
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Bayesian Methods for Machine Learning](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)<br><br>
 
 ### <u>University of Washington</u>, Coursera<br>
@@ -32,7 +35,7 @@ title: Certifications
 ### <u>Stanford University</u>, Graduate Course
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)<br><br>
 
-### <u>fast,ai</u>, FastAI
+### <u>fast.ai</u>, FastAI
 #### &nbsp;&nbsp;&nbsp;&nbsp;✔ [Practical Deep Learning for Coders](https://course.fast.ai/index.html)<br><br>
 
 ### <u>Google</u>, Udacity
