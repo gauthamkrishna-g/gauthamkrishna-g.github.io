@@ -13,7 +13,7 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA), Chennai, India</a></strong>. My broad focus here is to incorporate machine learning for Network Intelligence at an intersection of telecom, computer vision, IoT, reinforcement learning, time-series. Currently working on projects like mobility prediction in 5G, on-mobile object localization/segmentation, time-series anomaly detection, failure prediction for service providers, etc. Also, developing an end-to-end open-source unsupervised anomaly detection framework.
+Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA), Chennai, India</a></strong>. My broad focus here is to incorporate machine learning for Network Intelligence at an intersection of telecom, computer vision, IoT, reinforcement learning, time-series. Currently working on projects like mobility prediction in 5G, on-mobile object localization/segmentation, time-series anomaly detection, etc. Also, developing an end-to-end anomaly detection framework.
 </p>
 
 <p class="about-text">
