@@ -4,6 +4,10 @@ title: Publications
 #subtitle: "Respect, Respond, Realize."
 ---
 
+This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my publication titles.
+<center><img src="/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
+<!--[Wordcloud of my publication titles](/wordcloud_research.jpeg?raw=True)-->
+
 <p class="about-users">
 <center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
