@@ -4,7 +4,7 @@ title: News
 #subtitle: "Respect, Respond, Realize."
 ---
 
-✔ <b> Jul-2020: </b> I have been selected to attend the <b><a href=https://www.eeml.eu/" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b> to be held in August. Excited to attend! <br><br>
+✔ <b> Jul-2020: </b> I have been selected to attend the <b><a href="https://www.oxfordml.school/" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b> to be held in August. Excited to attend! <br><br>
 ✔ <b> Jul-2020: </b> Attended the amazing <b><a href=https://www.eeml.eu/" target="_blank">Eastern European Machine Learning Summer School (EEML 2020)</a></b>. Was really exciting! <br><br>
 ✔ <b> Sep-2019: </b> Our paper <b><a href="/ICDMW_2019.pdf" target="_blank">"A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization"</a></b> has been accepted at <b><i> IEEE ICDM 2019 </i></b> (Workshop on Learning and Mining with Industrial Data, LMID '19). <br><br>
 ✔ <b> Sep-2019: </b> Our paper <b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">"Label Frequency Transformation for Multi-Label Multi-Class Text Classification"</a></b> has been accepted at <b><i> KONVENS 2019 </i></b> (GermEval Workshop '19). <br><br>
