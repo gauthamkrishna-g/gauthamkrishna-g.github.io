@@ -12,6 +12,11 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
+<h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models</h3>
+<b>ACM KDD 2020</b> (3rd International Workshop on Artificial Intelligence of Things, AIoT '20)<br>
+<b><u>Gautham Krishna Gudur</u></b>, Bala Shyamala Balaji, Perepu Satheesh Kumar
+<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <b>IEEE ICDM 2019</b> (Workshop on Learning and Mining with Industrial Data, LMID '19)<br>
 Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain, <b><u>Gautham Krishna Gudur</u></b>, Vineeth Vijayaraghavan

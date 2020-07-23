@@ -13,7 +13,7 @@ Here's my <a href="/Resume_Gautham.pdf"><strong> CV</strong></a>.
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently a <strong><i>Data Scientist</i></strong> at <strong><a href="https://www.ericsson.com/en">Ericsson R&D - Global AI Accelerator (GAIA), Chennai, India</a></strong>. My broad focus here is to incorporate machine learning for Network Intelligence at an intersection of telecom, computer vision, IoT, reinforcement learning, time-series, NLP. Currently working on projects like mobility prediction in 5G, on-mobile object localization/segmentation, etc. Also, developing an end-to-end anomaly detection framework.
+Currently a <strong><i>Data Scientist</i></strong> at <strong><i><a href="https://www.ericsson.com/en">Ericsson R&D</a></i></strong>, Chennai, India in the Global AI Accelerator (GAIA) team. My broad focus here is to incorporate machine learning for Network Intelligence at an intersection of telecom, computer vision, IoT, reinforcement learning, time-series, NLP. Currently working on projects like mobility prediction in 5G, on-mobile object localization/segmentation, etc. Also, developing an end-to-end anomaly detection framework.
 </p>
 
 <p class="about-text">
@@ -23,17 +23,17 @@ I also conduct independent research on a variety of research topics like Machine
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Previously a <strong><i>Machine Learning Engineer</i></strong> at <strong><a href="http://www.smartcardia.com">SmartCardia, EPFL</a></strong>, which dealt with combining medical wearable with Artificial Intelligence for actionable and unique insights into patients' health. I developed deep learning models for analyzing biomarkers of various patients.
+Previously a <strong><i>Machine Learning Engineer</i></strong> at <strong><i><a href="http://www.smartcardia.com">SmartCardia, EPFL</a></i></strong>, which dealt with combining medical wearable with Artificial Intelligence for actionable and unique insights into patients' health. I developed deep learning models for analyzing biomarkers of various patients.
 </p>
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-I have also been a <strong><i>Research Assistant</i></strong> at <strong><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></strong>. Conducted research in fields of Human Activity Recognition (HAR), Gesture Recognition, On-device Deep Learning, Ubiquitous Computing, Internet of Things (IoT) and Demand Forecasting. I was also a <strong><i>Teaching Assistant</i></strong> on embedded programming at SF.
+I have also been a <strong><i>Research Assistant</i></strong> at <strong><i><a href="http://solarillionfoundation.org/">Solarillion Foundation</a></i></strong>. Conducted research in fields of Human Activity Recognition (HAR), Gesture Recognition, On-device Deep Learning, Ubiquitous Computing, Internet of Things (IoT) and Demand Forecasting. I was also a <strong><i>Teaching Assistant</i></strong> on embedded programming at SF.
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong> Anna University </strong>(SSN College of Engineering). My Bachelor's thesis involved developing an <strong> Intelligent Bus Stop Recognition System</strong>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and EEG-based HCI.
+Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <strong><i> Anna University </i></strong>(<strong><i><a href="https://www.ssn.edu.in/">SSN College of Engineering</a></i></strong>). My Bachelor's thesis involved developing an <strong> Intelligent Bus Stop Recognition System</strong>. I was also an <strong><i>Undergrad Student Researcher</i></strong> at SSN, where I worked on funded research projects in areas of IoT and EEG-based HCI.
 </p>
 
 <p class="about-text">
