@@ -4,13 +4,10 @@ title: Projects
 #subtitle: "Persist, Percept, Practise."
 --- 
 
-### <span class="fa fa-file about-icon"></span> <u>Federated Learning with heterogeneous models and labels</u>
-Working on ubiquitous audio sensing tasks across devices in a federated learning setting to handle multiple heterogeneous neural networks and labels which continually update themselves, using Knowledge Distillation for real-time ground truthing.
-
 ### <span class="fa fa-file about-icon"></span> <u>Bayesian Incremental/Continual Learning on the Edge</u>
 Working on on-device incremental/continual learning wherein, the neural network continually updates on-the-fly with new incoming real-time activities, whilst retaining previously learned information (handling catastrophic forgetting), and robust to model uncertainties using Bayesian Neural Networks.
 
-### <span class="fa fa-file about-icon"></span> <u>Label Generation using Data Programming</u>
+### <span class="fa fa-file about-icon"></span> <u>Label Generation using Data Programming for Mobile Sensing</u>
 Working on leveraging heuristic data labeling functions which are fed into a generative model and fine-tuned by a discriminative model - a data programming paradigm, aimed at ground truth generation for time- series, mobile/wearable sensing tasks.
 
 ### <span class="fa fa-file about-icon"></span> [<u>Intelligent Bus Stop Recognition System</u>](https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System)
@@ -21,9 +18,9 @@ Working on leveraging heuristic data labeling functions which are fed into a gen
 
 ### <span class="fa fa-file about-icon"></span> <u>Movie Occupancy Prediction Engine</u>
 ✔ Working in collaboration with a top three Indian movie multiplex chain (with an operating volume of over 50,000 seats per day) on movie occupancy forecasting, and in turn the food produced per day.<br>
-✔ Extracted terabytes of transactional data (over past 5 years) using AWS, structured them using MS-SQL & extracted behavioral features to
+✔ Extracted terabytes of transactional data (over past 5 years), structured them using MS-SQL & extracted behavioral features to
 forecast show occupancy of a movie.<br>
-✔ The prediction engine is currently designed to be able to reduce the average predicted occupancy error to about 6%, and is by far more effective than the expert predicting the same by intuition. Currently working on deploying an application into production.<br>
+✔ The prediction engine is currently designed to be able to reduce the Mean Average Predicted Occupancy Error (MAPE) to about ~±6% , and is by far more effective than the expert predicting the same by intuition. Currently working on deploying an application into production.<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Gest-Face</u>](https://github.com/gauthamkrishna-g/Gest-Face)
 ✔ Developed a Gesture/Facial recognition system where the user can train and recognize gestures, as well as detect the number of faces in real-time.<br>
@@ -36,10 +33,10 @@ forecast show occupancy of a movie.<br>
 ✔ Currently working on scaling the same to other characters in Tamil (mei ezhuthukal and a combination of the same- uyir mei ezhuthukal).<br>
 
 ### <span class="fa fa-file about-icon"></span> <u>Machine Learning Specialization Course Projects</u>
-✔ Rigorous coursework and practical assignments for various in-depth Supervised Classification and Regression techniques, Unsupervised Clustering and Retrieval techniques, and Recommender Systems.
-✔ Regression - Ridge, Lasso Regression, kNN and Kernel Regression.
-✔ Classification - Logistic Regression, Decision Trees, Overfitting & Underfitting, Boosting.
-✔ Clustering - Nearest neighbor search, EM with GMM, k-means, LDA, Hierarchical Clustering.
+✔ Rigorous coursework and practical assignments for various in-depth Supervised Classification and Regression techniques, Unsupervised Clustering and Retrieval techniques, and Recommender Systems.<br>
+✔ Regression - Ridge, Lasso Regression, kNN and Kernel Regression.<br>
+✔ Classification - Logistic Regression, Decision Trees, Overfitting & Underfitting, Boosting.<br>
+✔ Clustering - Nearest neighbor search, EM with GMM, k-means, LDA, Hierarchical Clustering.<br>
 ✔ The Jupyter notebooks were coded from scratch in Numpy-Python, and also using GraphLab.<br>
 
 ### <span class="fa fa-file about-icon"></span> [<u>Real-Time Sentiment Analyzer of Twitter Trends</u>](https://github.com/gauthamkrishna-g/Real-Time-Sentiment-Analyzer-of-Twitter-Trends)

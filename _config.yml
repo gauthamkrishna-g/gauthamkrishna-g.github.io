@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Gautham Krishna
+title: Gautham
 
 # Short description of your site
 description: Personal Website
@@ -25,10 +25,10 @@ description: Personal Website
 navbar-links:
   About Me: "aboutme"
   Research: "research"
-  Experience: "experience"
   Projects: "projects"
   CV: "Resume_Gautham.pdf"
   Quick-Links:
+    - Experience: "experience"
     - Certifications: "certifications"
     - News: "#news"
     - Contact Me: "aboutme#contactme"
