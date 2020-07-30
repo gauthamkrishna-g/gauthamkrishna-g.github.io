@@ -16,10 +16,13 @@
 <loc>http://localhost:4000/news/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/patents/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/projects/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/research/</loc>
+<loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/CBC_Abstracts.pdf</loc>
