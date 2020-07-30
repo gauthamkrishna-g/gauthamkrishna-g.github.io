@@ -15,19 +15,20 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models</h3>
 <b>ACM KDD 2020</b> (3rd International Workshop on Artificial Intelligence of Things, AIoT '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Bala Shyamala Balaji, Perepu Satheesh Kumar
+<center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gautham_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
 <!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <b>IEEE ICDM 2019</b> (Workshop on Learning and Mining with Industrial Data, LMID '19)<br>
 Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain, <b><u>Gautham Krishna Gudur</u></b>, Vineeth Vijayaraghavan
 <center><b><a href="/ICDMW_2019.pdf" target="_blank">[Paper]</a></b></center>
-<!--<a href="http://lmid2019.neclab.eu/" target="_blank">-->
+<!--<a href="https://ieeexplore.ieee.org/document/8955583" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Vision-based Deep On-Device Intelligent Bus Stop Recognition System</h3>
 <b>ACM UbiComp 2019</b> (8th International Workshop on Pervasive Urban Applications, PURBA '19)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Ateendra Ramesh, Srinivasan R<br>
 <center><b><a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/papers/p23.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Intelligent-Bus-Stop-Recognition-System" target="_blank">[Code]</a></b></center>
-<!--<a href="https://cpemis.eng.cmu.ac.th/~santi/purba2019/" target="_blank">-->
+<!--<a href="https://dl.acm.org/doi/10.1145/3341162.3349323" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Label Frequency Transformation for Multi-Label Multi-Class Text Classification</h3>
 <b>KONVENS 2019</b> (Confernce on Natural Language Processing, GermEval Workshop '19)<br>
@@ -45,13 +46,13 @@ Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
 <b>ACM MobiSys 2019</b> (3rd International Workshop on Embedded and Mobile Deep Learning, EMDL '19)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
 <center><b><a href="https://arxiv.org/pdf/1906.00108.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/ActiveHARNet" target="_blank">[Code]</a></b></center>
-<!--<a href="https://dl.acm.org/citation.cfm?id=3329790" target="_blank">-->
+<!--<a href="https://dl.acm.org/doi/10.1145/3325413.3329790" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
 <b>ACM MobiSys 2018</b> (2nd International Workshop on Embedded and Mobile Deep Learning, EMDL '18)<br>
 Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moorthy, R Nidhi Bhandari, Vineeth Vijayaraghavan
 <center><b><a href="/EMDLAR_2018.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/HARNet" target="_blank">[Code]</a></b></center>
-<!--;<a href="https://dl.acm.org/citation.cfm?id=3212728" target="_blank">-->
+<!--;<a href="https://dl.acm.org/doi/10.1145/3212725.3212728" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</h3>
 <b>IEEE FICC 2018</b> (IEEE Future of Information and Communications Conference)<br>

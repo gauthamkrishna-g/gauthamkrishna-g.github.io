@@ -24,11 +24,12 @@ description: Personal Website
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Research: "research"
-  Projects: "projects"
+  Publications: "publications"
+  Patents: "patents"
   CV: "Resume_Gautham.pdf"
   Quick-Links:
     - Experience: "experience"
+    - Projects: "projects"
     - Certifications: "certifications"
     - News: "#news"
     - Contact Me: "aboutme#contactme"
