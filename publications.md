@@ -5,7 +5,7 @@ title: Publications
 ---
 
 This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my publication titles.
-<center><img src="/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
+<center><img src="/publications/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
 <!--[Wordcloud of my publication titles](/publications/wordcloud_research.jpeg?raw=True)-->
 
 <p class="about-users">
@@ -16,32 +16,32 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <b>IEEE ICASSP 2021</b><i> [Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://2021.ieeeicassp.org/" target="_blank">[Paper]</a></b></center>-->
-<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+<!--<a href="https://aiotworkshop.github.io/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Bayesian Active Learning for Wearable Stress and Affect Detection</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
 <!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
-<!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
+<!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
-<!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
+<!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</h3>
 <b>IJCAI 2020</b> (2nd International Workshop on Deep Learning for Human Activity Recognition, DL-HAR '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">[Paper]</a></b></center>->
-<!--<center><b><a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">[Paper]</a></b></center>-->
+<!--<a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">-->
 
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models</h3>
 <b>ACM KDD 2020</b> (3rd International Workshop on Artificial Intelligence of Things, AIoT '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Bala Shyamala Balaji, Perepu Satheesh Kumar
 <center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gudur_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
-<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+<!--<a href="https://aiotworkshop.github.io/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <b>IEEE ICDM 2019</b> (Workshop on Learning and Mining with Industrial Data, LMID '19)<br>
@@ -70,7 +70,7 @@ Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
 <h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
 <b>ACM MobiSys 2019</b> (3rd International Workshop on Embedded and Mobile Deep Learning, EMDL '19)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
-<center><b><a href="https://arxiv.org/pdf/1906.00108.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/ActiveHARNet" target="_blank">[Code]</a></b></center>
+<center><b><a href="https://arxiv.org/pdf/1906.00108.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/ActiveHARNet" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&t" target="_blank">[Video]</a></b></center>
 <!--<a href="https://dl.acm.org/doi/10.1145/3325413.3329790" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
