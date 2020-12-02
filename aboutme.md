@@ -38,7 +38,7 @@ Obtained my B.Tech in <strong><i>Information Technology</i></strong> from <stron
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I enjoy writing code in Python. I also am a competitive coder in online platforms like <strong> HackerRank</strong>, featuring in the <a href="https://hackerrank.com/gauthamkrishna_g/"><strong><i>top 97<sup>th</sup> percentile</i></strong></a>.
+I enjoy writing code in Python. I also am a competitive coder in online platforms like <strong> HackerRank</strong>, featuring in the <a href="https://hackerrank.com/gauthamkrishna_g/"><strong><i>top 99<sup>th</sup> percentile</i></strong></a>.
 </p>
 
 <p class="about-text">
