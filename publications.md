@@ -12,6 +12,31 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
+<h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous New Classes and Models for Audio Classification</h3>
+<b>IEEE ICASSP 2021</b><i> [Under Review]</i><br>
+<b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
+<center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gautham_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
+<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+
+<h3><span class="fa fa-users about-icon"></span> &nbsp;Bayesian Active Learning for Wearable Stress and Affect Detection</h3>
+<b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
+Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
+<center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gautham_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
+<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+
+<h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring</h3>
+<b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
+<b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
+<center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gautham_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
+<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+
+<h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</h3>
+<b>IJCAI 2020</b> (2nd International Workshop on Deep Learning for Human Activity Recognition, DL-HAR '20)<br>
+<b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
+<center><b><a href="https://aiotworkshop.github.io/published/AIoT_10_Gautham_TechnicalPaper_KDD2020.pdf" target="_blank">[Paper]</a></b></center>
+<!--<center><b><a href="https://aiotworkshop.github.io/" target="_blank">[Paper]</a></b></center>-->
+
+
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models</h3>
 <b>ACM KDD 2020</b> (3rd International Workshop on Artificial Intelligence of Things, AIoT '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Bala Shyamala Balaji, Perepu Satheesh Kumar
