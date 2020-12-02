@@ -12,7 +12,7 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
-<center><font size=1>* Equal Contribution
+<center><font size=1>* Equal Contribution</font></center>
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous New Classes and Models for Audio Classification</h3>
 <b>IEEE ICASSP 2021</b><i> [Under Review]</i><br>
