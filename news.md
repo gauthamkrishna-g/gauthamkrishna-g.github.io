@@ -4,8 +4,10 @@ title: News
 #subtitle: "Respect, Respond, Realize."
 ---
 
-✔ <b> Jul-2020: </b> I have been selected to attend the <b><a href="https://www.oxfordml.school/" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b> to be held in August. Excited to attend! <br><br>
-✔ <b> Jul-2020: </b> Had a great time attending the amazing <b><a href="https://www.eeml.eu/" target="_blank">Eastern European Machine Learning Summer School (EEML 2020)</a></b> and <b><a href="https://www.oxfordml.school/" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b>! <br><br>
+
+✔ <b> Nov-2020: </b> Two papers – "Bayesian Active Learning for Wearable Stress and Affect Detection" and "Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring" have been accepted at <b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">Machine Learning for Mobile Health Workshop, NeurIPS 2020</a></b>. <br><br>
+✔ <b> Sept-2020: </b> Our paper <b><a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">"Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition"</a></b> has been accepted at <b><i> IJCAI 2020 </i></b> (DL-HAR '20). <br><br>
+✔ <b> Jul-Aug-2020: </b> Had a great time attending the amazing <b><a href="https://www.eeml.eu/" target="_blank">Eastern European Machine Learning Summer School (EEML 2020)</a></b> and <b><a href="https://www.oxfordml.school/" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b>! <br><br>
 ✔ <b> Jun-2020: </b> Our paper <b><a href="https://aiotworkshop.github.io/" target="_blank">"Resource-Constrained Federated Learning with Heterogeneous Labels and Models"</a></b> has been accepted at <b><i> ACM KDD 2020 </i></b> (AIoT '20). <br><br>
 ✔ <b> Sep-2019: </b> Our paper <b><a href="/ICDMW_2019.pdf" target="_blank">"A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization"</a></b> has been accepted at <b><i> IEEE ICDM 2019 </i></b> (LMID '19). <br><br>
 ✔ <b> Sep-2019: </b> Our paper <b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">"Label Frequency Transformation for Multi-Label Multi-Class Text Classification"</a></b> has been accepted at <b><i> KONVENS 2019 </i></b> (GermEval '19). <br><br>
