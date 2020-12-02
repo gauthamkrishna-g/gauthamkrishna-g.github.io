@@ -58,7 +58,7 @@ Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Label Frequency Transformation for Multi-Label Multi-Class Text Classification</h3>
 <b>KONVENS 2019</b> (Confernce on Natural Language Processing, GermEval Workshop '19)<br>
 Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
-<center><b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/oneraghavan/germeval-2019" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/GermEval_Poster.pdf" target="_blank">[Poster]</a></b></center>
+<center><b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/oneraghavan/germeval-2019" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/GermEval_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://2019.konvens.org/germeval" target="_blank">-->
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Handling Real-time Unlabeled Data in Activity Recognition using Deep Bayesian Active Learning and Data Programming</h3>
