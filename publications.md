@@ -19,24 +19,24 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <b>IEEE ICASSP 2021</b> <i>[Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://2021.ieeeicassp.org/" target="_blank">[Paper]</a></b></center>-->
-<!--<a href="https://aiotworkshop.github.io/" target="_blank">-->
+<!--<a href="https://2021.ieeeicassp.org/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Bayesian Active Learning for Wearable Stress and Affect Detection</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
-<center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/ALStress_MLMH_NeurIPS20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
-<center><b><a href="/publications/HeteroFDL_MLMH20.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/HeteroFDL_MLMH_NeurIPS20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</h3>
 <b>IJCAI 2020</b> (2nd International Workshop on Deep Learning for Human Activity Recognition, DL-HAR '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
-<center><b><a href="/publications/HeteroFDL_DLHAR20.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/HeteroFDL_DLHAR_IJCAI20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">-->
 
 
@@ -49,7 +49,7 @@ Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</h3>
 <b>IEEE ICDM 2019</b> (Workshop on Learning and Mining with Industrial Data, LMID '19)<br>
 Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain, <b><u>Gautham Krishna Gudur</u></b>, Vineeth Vijayaraghavan
-<center><b><a href="/publications/ICDMW_2019.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/LMID_ICDM19.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://ieeexplore.ieee.org/document/8955583" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Vision-based Deep On-Device Intelligent Bus Stop Recognition System</h3>
@@ -61,7 +61,7 @@ Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Label Frequency Transformation for Multi-Label Multi-Class Text Classification</h3>
 <b>KONVENS 2019</b> (Confernce on Natural Language Processing, GermEval Workshop '19)<br>
 Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
-<center><b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/oneraghavan/germeval-2019" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/GermEval_Poster.pdf" target="_blank">[Poster]</a></b></center>
+<center><b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/oneraghavan/germeval-2019" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/GermEval_KONVENS19_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://2019.konvens.org/germeval" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
@@ -73,25 +73,25 @@ Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
 <h3><span class="fa fa-users about-icon"></span> &nbsp;HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</h3>
 <b>ACM MobiSys 2018</b> (2nd International Workshop on Embedded and Mobile Deep Learning, EMDL '18)<br>
 Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moorthy, R Nidhi Bhandari, Vineeth Vijayaraghavan
-<center><b><a href="/publications/EMDLAR_2018.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/HARNet" target="_blank">[Code]</a></b></center>
+<center><b><a href="/publications/HARNet_EMDL_MobiSys18.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/HARNet" target="_blank">[Code]</a></b></center>
 <!--;<a href="https://dl.acm.org/doi/10.1145/3212725.3212728" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</h3>
 <b>IEEE FICC 2018</b> (IEEE Future of Information and Communications Conference)<br>
 <b><u>Gautham Krishna G</u></b>, Karthik Subramanian Nathan, Yogesh Kumar B, Ankith A Prabhu, Ajay Kannan, Vineeth Vijayaraghavan
-<center><b><a href="/publications/FICCGR_2018.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Dynamic-Gesture-Recognition" target="_blank">[Code]</a></b></center>
+<center><b><a href="/publications/Gesture_FICC18.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/Dynamic-Gesture-Recognition" target="_blank">[Code]</a></b></center>
 <!--<a href="https://link.springer.com/chapter/10.1007/978-3-030-03405-4_42" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Electroencephalography Based Analysis of Emotions Among Indian Film Viewers</h3>
 <b>ICAICR 2017</b> (International Conference on Advanced Informatics for Computing Research), Springer<br>
 <b><u>Gautham Krishna G</u></b>, G Krishna, N Bhalaji
-<center><b><a href="/publications/ICAICR_2017.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/Neurocinematics_ICAICR17.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://link.springer.com/chapter/10.1007/978-981-10-5780-9_13" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Analysis of Routing Protocol for Low-power & Lossy Networks in IoT Real Time Applications</h3>
 <b>ICRTCSE 2016</b> (Fourth International Conference on Recent Trends in Computer Science & Engineering), Procedia Computer Science, Elsevier<br>
 <b><u>G Gautham Krishna</u></b>, G Krishna, N Bhalaji
-<center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/RPLIoT_ICRTCSE16.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">-->
 
 <p class="about-users">
@@ -100,7 +100,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Deep Bayesian Active Learning for Wearable and Mobile Health</h3>
 <b>NeurIPS Europe meetup on Bayesian Deep Learning</b> <i>[Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Abhijith Ragav, Venkatesh Umaashankar
-<center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Poster]</a></b></center>
+<center><b><a href="/publications/ALStress_MLMH_NeurIPS20.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://bayesiandeeplearning.org/" target="_blank">-->
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
@@ -118,7 +118,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Neurocinematics: The Intelligent Review System</h3>
 <b>CBC 2015</b> (3rd International Conference on Cognition, Brain and Computation), IIT Gandhinagar<br>
 N Bhalaji, G Krishna, <b><u>G Gautham Krishna</u></b>
-<center><b><a href="/publications/CBC_Poster.pdf" target="_blank">[Poster]</a></b></center>
+<center><b><a href="/publications/Neurocinematics_CBC15_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="/CBC_Abstracts.pdf" target="_blank">-->
 
 
