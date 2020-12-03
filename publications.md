@@ -8,11 +8,12 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><img src="/publications/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
 <!--[Wordcloud of my publication titles](/publications/wordcloud_research.jpeg?raw=True)-->
 
-<p class="about-users">
-<center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong></center>
-<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--<p class="about-users">-->
 
 <center><font size=1>* Equal Contribution</font></center>
+
+<center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong></center>
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous New Classes and Models for Audio Classification</h3>
 <b>IEEE ICASSP 2021</b> <i>[Under Review]</i><br>
@@ -90,7 +91,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Analysis of Routing Protocol for Low-power & Lossy Networks in IoT Real Time Applications</h3>
 <b>ICRTCSE 2016</b> (Fourth International Conference on Recent Trends in Computer Science & Engineering), Procedia Computer Science, Elsevier<br>
 <b><u>G Gautham Krishna</u></b>, G Krishna, N Bhalaji
-<center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center><br><br>
 <!--<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">-->
 
 <center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
