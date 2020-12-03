@@ -8,7 +8,7 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><img src="/publications/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
 <!--[Wordcloud of my publication titles](/publications/wordcloud_research.jpeg?raw=True)-->
 
-<!--<p class="about-users">-->
+<p class="about-users">
 
 <center><font size=1>* Equal Contribution</font></center>
 
@@ -94,6 +94,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center><br><br>
 <!--<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">-->
 
+<p class="about-users">
 <center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Deep Bayesian Active Learning for Wearable and Mobile Health</h3>
@@ -102,7 +103,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://bayesiandeeplearning.org/" target="_blank">-->
 
-<h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
+<h3><span class="fa fa-file about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
 <b>Eastern European Machine Learning Summer School 2020</b> (EEML '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
 <center><b><a href="https://arxiv.org/pdf/1906.00108.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/ActiveHARNet" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&t" target="_blank">[Video]</a></b></center>
