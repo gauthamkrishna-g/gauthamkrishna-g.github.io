@@ -91,7 +91,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Analysis of Routing Protocol for Low-power & Lossy Networks in IoT Real Time Applications</h3>
 <b>ICRTCSE 2016</b> (Fourth International Conference on Recent Trends in Computer Science & Engineering), Procedia Computer Science, Elsevier<br>
 <b><u>G Gautham Krishna</u></b>, G Krishna, N Bhalaji
-<center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center><br><br>
+<center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">-->
 
 <p class="about-users">
