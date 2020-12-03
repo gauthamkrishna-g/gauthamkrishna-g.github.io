@@ -15,7 +15,7 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <center><font size=1>* Equal Contribution</font></center>
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous New Classes and Models for Audio Classification</h3>
-<b>IEEE ICASSP 2021</b><i> [Under Review]</i><br>
+<b>IEEE ICASSP 2021</b> <i>[Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://2021.ieeeicassp.org/" target="_blank">[Paper]</a></b></center>-->
 <!--<a href="https://aiotworkshop.github.io/" target="_blank">-->
@@ -96,7 +96,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Deep Bayesian Active Learning for Wearable and Mobile Health</h3>
-<b>NeurIPS Europe meetup on Bayesian Deep Learning</b><br>
+<b>NeurIPS Europe meetup on Bayesian Deep Learning</b> <i>[Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Abhijith Ragav, Venkatesh Umaashankar
 <center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://bayesiandeeplearning.org/" target="_blank">-->
