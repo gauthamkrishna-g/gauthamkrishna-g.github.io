@@ -9,8 +9,8 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <!--[Wordcloud of my publication titles](/publications/wordcloud_research.jpeg?raw=True)-->
 
 <p class="about-users">
-<center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
+<center><span class="fa fa-users about-icon"></span> <strong> Conferences/Journals/Workshops </strong></center>
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
 
 <center><font size=1>* Equal Contribution</font></center>
 
@@ -23,19 +23,19 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Bayesian Active Learning for Wearable Stress and Affect Detection</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
-<!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
+<center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
-<!--<center><b><a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">[Paper]</a></b></center>-->
+<center><b><a href="/publications/HeteroFDL_MLMH20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</h3>
 <b>IJCAI 2020</b> (2nd International Workshop on Deep Learning for Human Activity Recognition, DL-HAR '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
-<!--<center><b><a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">[Paper]</a></b></center>->
+<center><b><a href="/publications/HeteroFDL_DLHAR20.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="https://keyplay.github.io/ijcai2020workshop/" target="_blank">-->
 
 
@@ -62,12 +62,6 @@ Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain
 Raghavan A K, Venkatesh Umaashankar, <b><u>Gautham Krishna Gudur</u></b><br>
 <center><b><a href="https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc/paper-8.pdf" target="_blank">[Paper]</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/oneraghavan/germeval-2019" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/GermEval_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://2019.konvens.org/germeval" target="_blank">-->
-
-<h3><span class="fa fa-file about-icon"></span> &nbsp;Handling Real-time Unlabeled Data in Activity Recognition using Deep Bayesian Active Learning and Data Programming</h3>
-<b>MobiUK 2019</b> (Second UK Mobile, Wearable and Ubiquitous Systems Research Symposium), University of Oxford<br>
-<b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
-<center><b><a href="https://mobiuk.org/2019/abstract/S5-P4_Gudur_HandlingRealTimeUnlabeledData.pdf" target="_blank">[Extended Abstract]</a></b></center>
-<!--<a href="https://mobiuk.org/programme2019.html" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
 <b>ACM MobiSys 2019</b> (3rd International Workshop on Embedded and Mobile Deep Learning, EMDL '19)<br>
@@ -98,6 +92,26 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <b><u>G Gautham Krishna</u></b>, G Krishna, N Bhalaji
 <center><b><a href="/publications/ICRTCSE_2016.pdf" target="_blank">[Paper]</a></b></center>
 <!--<a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank">-->
+
+<center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
+
+<h3><span class="fa fa-file about-icon"></span> &nbsp;Deep Bayesian Active Learning for Wearable and Mobile Health</h3>
+<b>NeurIPS Europe meetup on Bayesian Deep Learning</b><br>
+<b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Abhijith Ragav, Venkatesh Umaashankar
+<center><b><a href="/publications/ALStress_MLMH20.pdf" target="_blank">[Poster]</a></b></center>
+<!--<a href="http://bayesiandeeplearning.org/" target="_blank">-->
+
+<h3><span class="fa fa-users about-icon"></span> &nbsp;ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</h3>
+<b>Eastern European Machine Learning Summer School 2020</b> (EEML '20)<br>
+<b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
+<center><b><a href="https://arxiv.org/pdf/1906.00108.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gauthamkrishna-g/ActiveHARNet" target="_blank">[Code]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&t" target="_blank">[Video]</a></b></center>
+<!--<a href="http://eeml.eu/" target="_blank">-->
+
+<h3><span class="fa fa-file about-icon"></span> &nbsp;Handling Real-time Unlabeled Data in Activity Recognition using Deep Bayesian Active Learning and Data Programming</h3>
+<b>MobiUK 2019</b> (Second UK Mobile, Wearable and Ubiquitous Systems Research Symposium), University of Oxford<br>
+<b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
+<center><b><a href="https://mobiuk.org/2019/abstract/S5-P4_Gudur_HandlingRealTimeUnlabeledData.pdf" target="_blank">[Extended Abstract]</a></b></center>
+<!--<a href="https://mobiuk.org/programme2019.html" target="_blank">-->
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Neurocinematics: The Intelligent Review System</h3>
 <b>CBC 2015</b> (3rd International Conference on Cognition, Brain and Computation), IIT Gandhinagar<br>
