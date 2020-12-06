@@ -5,8 +5,8 @@ title: Publications
 ---
 
 This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my publication titles.
-<center><img src="/publications/wordcloud_research.jpeg" alt="Wordcloud of my publication titles" width="500" height="300"></center>
-<!--[Wordcloud of my publication titles](/publications/wordcloud_research.jpeg?raw=True)-->
+<center><img src="/publications/wordcloud_research.png" alt="Wordcloud of my publication titles" width="500" height="300"></center>
+<!--[Wordcloud of my publication titles](/publications/wordcloud_research.png?raw=True)-->
 
 <p class="about-users">
 
