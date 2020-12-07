@@ -97,7 +97,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <p class="about-users">
 <center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
-<h3><span class="fa fa-file about-icon"></span> &nbsp;Deep Bayesian Active Learning for Wearable and Mobile Health</h3>
+<h3><span class="fa fa-file about-icon"></span> &nbsp;Bayesian Active Learning for Wearable and Mobile Health</h3>
 <b>NeurIPS Europe meetup on Bayesian Deep Learning</b> <i>[Under Review]</i><br>
 <b><u>Gautham Krishna Gudur</u></b>, Abhijith Ragav, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
 <center><b><a href="/publications/MobileHealth_BDL20.pdf" target="_blank">[Poster]</a></b></center>
