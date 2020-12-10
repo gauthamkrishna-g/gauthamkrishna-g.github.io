@@ -24,13 +24,13 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Bayesian Active Learning for Wearable Stress and Affect Detection</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 Abhijith Ragav*, <b><u>Gautham Krishna Gudur</u></b>*
-<center><b><a href="/publications/ALStress_MLMH_NeurIPS20.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="https://arxiv.org/pdf/2012.02702.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/ALStress_MLMH_NeurIPS20_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous Labels and Models for Mobile Activity Monitoring</h3>
 <b>NeurIPS 2020</b> (Machine Learning for Mobile Health Workshop, MLMH '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
-<center><b><a href="/publications/HeteroFDL_MLMH_NeurIPS20.pdf" target="_blank">[Paper]</a></b></center>
+<center><b><a href="https://arxiv.org/pdf/2012.02539.pdf" target="_blank">[Paper]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/publications/HeteroFDL_MLMH_NeurIPS20_Poster.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="https://sites.google.com/view/ml4mobilehealth-neurips-2020/" target="_blank">-->
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</h3>
@@ -98,7 +98,7 @@ Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moo
 <center><span class="fa fa-file about-icon"></span> <strong> Poster/Extended Abstract </strong></center>
 
 <h3><span class="fa fa-file about-icon"></span> &nbsp;Bayesian Active Learning for Wearable and Mobile Health</h3>
-<b>NeurIPS Europe meetup on Bayesian Deep Learning</b> <i>[Under Review]</i><br>
+<b>NeurIPS Europe meetup on Bayesian Deep Learning 2020</b> (BDL '20)<br>
 <b><u>Gautham Krishna Gudur</u></b>, Abhijith Ragav, Prahalathan Sundaramoorthy, Venkatesh Umaashankar
 <center><b><a href="/publications/MobileHealth_BDL20.pdf" target="_blank">[Poster]</a></b></center>
 <!--<a href="http://bayesiandeeplearning.org/" target="_blank">-->
