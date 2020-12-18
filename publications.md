@@ -17,7 +17,7 @@ This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my
 
 <h3><span class="fa fa-users about-icon"></span> &nbsp;Federated Learning with Heterogeneous New Classes and Models for Audio Classification</h3>
 <b>IEEE ICASSP 2021</b> <i>[Under Review]</i><br>
-<b><u>Gautham Krishna Gudur</u></b>, Perepu Satheesh Kumar
+<strong><u>Gautham Krishna Gudur</u></strong>, Perepu Satheesh Kumar
 <!--<center><b><a href="https://2021.ieeeicassp.org/" target="_blank">[Paper]</a></b></center>-->
 <!--<a href="https://2021.ieeeicassp.org/" target="_blank">-->
 
