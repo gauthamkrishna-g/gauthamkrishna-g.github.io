@@ -245,6 +245,14 @@
 		<b>ICLR 2021</b><br>
       <i>[Under Review at Interspeech 2021]</i>
       </p>
+
+      <div class="paper" id="dlhar20_heterofdl">
+      <a href="publications/NewClassFL_DPML_ICLR21.pdf" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('dpml21_newclassfl_abs')">abstract</a>
+
+      <p align="justify"> <i id="dpml21_newclassfl_abs">Federated learning is an effective way of extracting insights from different user devices while preserving the privacy of users. However, new classes with completely unseen data distributions can stream across any device in a federated learning setting, whose data cannot be accessed by the global server or other users. To this end, we propose a unified zero-shot framework to handle these aforementioned challenges during federated learning. We simulate two scenarios here – 1) when the new class labels are not reported by the user, the traditional FL setting is used; 2) when new class labels are reported by the user, we synthesize Anonymized Data Impressions by calculating class similarity matrices corresponding to each device’s new classes followed by unsupervised clustering to distinguish between new classes across different users. Moreover, our proposed framework can also handle statistical heterogeneities in both labels and models across the participating users. We empirically evaluate our framework on-device across different communication rounds (FL iterations) with new classes in both local and global updates, along with heterogeneous labels and models, on two widely used audio classification applications – keyword spotting and urban sound classification, and observe an average deterministic accuracy increase of ∼4.041% and ∼4.258% respectively.</i></p>
+
+      </div>
     </td>
   </tr>
 
@@ -283,10 +291,10 @@
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2012.02539" target="_blank"><img src="images/DLHAR20.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
+    <td width="33%" valign="top" align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-16-0575-8_5" target="_blank"><img src="images/DLHAR20.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
       <p>
-      <a href="https://arxiv.org/abs/2012.02539" id="DLHAR20_HETEROFDL" target="_blank">
+      <a href="https://link.springer.com/chapter/10.1007/978-981-16-0575-8_5" id="DLHAR20_HETEROFDL" target="_blank">
       <heading>Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Satheesh Kumar Perepu<br>
@@ -872,6 +880,9 @@
 </table>
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('dpml21_newclassfl_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('mlmh20_stress_abs');
