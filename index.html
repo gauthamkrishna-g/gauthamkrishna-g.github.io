@@ -135,7 +135,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
-      <li> <a href="#iclr21">Zero-shot federated learning with new classes</a> accepted at DPML and HAET workshops @ ICLR 2021.</li>
+      <li> <a href="#INTERSPEECH21">Zero-shot federated learning with new classes</a> accepted at Interspeech 2021. Abridged versions accepted at DPML and HAET workshops @ ICLR 2021, MobiUK 2021 and EEML 2021.</li>
       <li> Our project AIB (Automated Intelligent knowledge Base) won Ericsson's Top Performance Competition 2020.</li>
       <li> First time at NeurIPS (with full registration grant)!<br>
         - Two papers – <a href="#MLMH20_STRESS">Bayesian Active Learning for Wearable Stress Detection</a> and <a href="#DLHAR20_HETEROFDL">Federated Learning with Heterogeneous Labels and Models for HAR</a> accepted at ML for Mobile Health Workshop @ NeurIPS 2020.<br>
@@ -212,24 +212,23 @@
     <td width="67%" valign="top" style="padding-top:10px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <a href="publications/NewClassFL_DPML_ICLR21.pdf" id="iclr21" target="_blank">
+      <a href="publications/NewClassFL_DPML_ICLR21.pdf" id="INTERSPEECH21" target="_blank">
       <heading>Heterogeneous Zero-Shot Federated Learning with New Classes for Audio Classification</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Satheesh Kumar Perepu<br>
-		Distributed and Private Machine Learning Workshop (DPML) &<br>
-		Hardware Aware Efficient Training Workshop (HAET)<br>
+      <b>Interspeech 2021</b><br>
+		Abridged version: Distributed and Private Machine Learning (DPML) & Hardware Aware Efficient Training (HAET) workshops<br>
 		<b>ICLR 2021</b><br>
-      <i>[Under Review at Interspeech 2021]</i>
       </p>
 
-      <div class="paper" id="dlhar20_heterofdl">
+      <div class="paper" id="interspeech21_newclassfl">
       <a href="https://dp-ml.github.io/2021-workshop-ICLR/files/44.pdf" target="_blank">pdf</a> /
-      <a href="javascript:toggleblock('dpml21_newclassfl_abs')">abstract</a> /
+      <a href="javascript:toggleblock('interspeech21_newclassfl_abs')">abstract</a> /
       <a href="publications/NewClassFL_ICLR21_Poster.pdf" target="_blank">poster</a> /
       <a href="slides/DPML21_Slides.pdf" target="_blank">slides</a>
 
 
-      <p align="justify"> <i id="dpml21_newclassfl_abs">Federated learning is an effective way of extracting insights from different user devices while preserving the privacy of users. However, new classes with completely unseen data distributions can stream across any device in a federated learning setting, whose data cannot be accessed by the global server or other users. To this end, we propose a unified zero-shot framework to handle these aforementioned challenges during federated learning. We simulate two scenarios here – 1) when the new class labels are not reported by the user, the traditional FL setting is used; 2) when new class labels are reported by the user, we synthesize Anonymized Data Impressions by calculating class similarity matrices corresponding to each device’s new classes followed by unsupervised clustering to distinguish between new classes across different users. Moreover, our proposed framework can also handle statistical heterogeneities in both labels and models across the participating users. We empirically evaluate our framework on-device across different communication rounds (FL iterations) with new classes in both local and global updates, along with heterogeneous labels and models, on two widely used audio classification applications – keyword spotting and urban sound classification, and observe an average deterministic accuracy increase of ∼4.041% and ∼4.258% respectively.</i></p>
+      <p align="justify"> <i id="interspeech21_newclassfl_abs">Federated learning is an effective way of extracting insights from different user devices while preserving the privacy of users. However, new classes with completely unseen data distributions can stream across any device in a federated learning setting, whose data cannot be accessed by the global server or other users. To this end, we propose a unified zero-shot framework to handle these aforementioned challenges during federated learning. We simulate two scenarios here – 1) when the new class labels are not reported by the user, the traditional FL setting is used; 2) when new class labels are reported by the user, we synthesize Anonymized Data Impressions by calculating class similarity matrices corresponding to each device’s new classes followed by unsupervised clustering to distinguish between new classes across different users. Moreover, our proposed framework can also handle statistical heterogeneities in both labels and models across the participating users. We empirically evaluate our framework on-device across different communication rounds (FL iterations) with new classes in both local and global updates, along with heterogeneous labels and models, on two widely used audio classification applications – keyword spotting and urban sound classification, and observe an average deterministic accuracy increase of ∼4.041% and ∼4.258% respectively.</i></p>
 
       </div>
     </td>
@@ -861,7 +860,7 @@
 hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('dpml21_newclassfl_abs');
+hideblock('interspeech21_newclassfl_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('mlmh20_stress_abs');
