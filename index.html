@@ -75,15 +75,15 @@
   <p align="center">
     <!-- <font size="7">Gautham Krishna Gudur</font><br> -->
     <pageheading>Gautham Krishna Gudur</pageheading><br>
-    <b>email</b>:&nbsp <!--gauthamkrishna [dot] gudur [at] gmail [dot] com-->
-    <font id="email" style="display:inline;">
+    <b>email</b>:&nbsp gauthamkrishna [dot] gudur [at] gmail [dot] com
+    <!--<font id="email" style="display:inline;">
       <noscript><i>Please enable Javascript to view</i></noscript>
     </font>
     <script>
     emailScramble = new scrambledString(document.getElementById('email'),
         'emailScramble', 'dithgaag.kiamlrmo@auursguh.cmn', 
         [18,25,4,12,16,6,24,1,27,8,10,14,7,26,20,23,29,21,2,17,19,9,11,22,3,5,15,28,30,13]);
-    </script>
+    </script>-->
   </p>
 
   <tr>
@@ -116,12 +116,12 @@
 </p>
 -->
     </td>
-  </tr>
+  </tr>s
 </table>
 
 <p><center><a href="javascript:toggleblock('research_keywords')">Few Keywords</a> that might best describe my research interests <font size=1>(present/past, hopefully in the future!)</font>.
 <div id="research_keywords" style="display:none">
-<b>Machine (Deep, On-Device, Bayesian, Active, Federated, Continual, Meta, Graph, Reinforcement) Learning, Ubiquitous/Wearable Computing, Activity Recognition, Limited Labeled Data, Computer Vision, Audio Sensing, Mobile Health, Weak Supervision, NLP, IoT, Time-series, Anomaly Detection, Telecom, ML4D</b></center>
+<b>Machine (Deep, Bayesian, Active, Federated, Continual, Weakly Supervised, Meta) Learning, Limited Supervision/Labeled Data, Ubiquitous/Wearable Computing, Activity Recognition, Audio Sensing, Anomaly Detection, Telecom, ML4D</b></center>
 </div></p>
 
 
@@ -136,7 +136,7 @@
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
       <li> Attended the amazing <a href="https://www.eeml.eu/" target="_blank">EEML 2021</a> again! Presented my poster/video on <a href="#INTERSPEECH21">Zero-Shot FL with New Classes</a>.</li>
-      <li> <a href="#MOBIUK21">On-Device Zero-Shot FL with New Classes</a> presented at MobiUK 2021.
+      <li> Presented a talk on <a href="#MOBIUK21">On-Device Zero-Shot FL with New Classes</a> at MobiUK 2021.
       <li> <a href="#INTERSPEECH21">Zero-Shot Federated Learning with New Classes for Audio Classification</a> accepted at Interspeech 2021. Abridged versions accepted at DPML and HAET workshops @ ICLR 2021.</li><!--<a href="#MOBIUK21">MobiUK 2021</a> and EEML 2021.-->
       <li> Our project AIB (Automated Intelligent knowledge Base) won Ericsson's Top Performance Competition 2020.</li>
       <li> First time at NeurIPS (with full registration grant)!<br>
@@ -210,11 +210,11 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
   
   <tr>
-    <td width="33%" valign="top" align="center"><img src="images/INTERSPEECH21.png" alt="sym" width="65%" style="border-radius:15px;"></td>
+    <td width="33%" valign="top" align="center"><a href="https://www.isca-speech.org/archive/interspeech_2021/gudur21_interspeech.html" target="_blank"><img src="images/INTERSPEECH21.png" alt="sym" width="65%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <a href="https://arxiv.org/abs/2106.10019" id="INTERSPEECH21" target="_blank">
+      <a href="https://www.isca-speech.org/archive/interspeech_2021/gudur21_interspeech.html" id="INTERSPEECH21" target="_blank">
       <heading>Zero-Shot Federated Learning with New Classes for Audio Classification</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Satheesh Kumar Perepu<br>
@@ -224,13 +224,27 @@
       </p>
 
       <div class="paper" id="interspeech21_newclassfl">
-      <a href="https://arxiv.org/pdf/2106.10019.pdf" target="_blank">pdf</a> /
+      <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/gudur21_interspeech.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('interspeech21_newclassfl_abs')">abstract</a> /
       <a href="publications/NewClassFL_ICLR21_Poster.pdf" target="_blank">poster</a> /
       <a href="https://www.youtube.com/watch?v=U_aWp6wajzM" target="_blank">video</a> /
-      <a href="slides/DPML21_Slides.pdf" target="_blank">slides</a>
+      <a href="slides/DPML21_Slides.pdf" target="_blank">slides</a> /
+      <a shape="rect" href="javascript:togglebib('interspeech21_newclassfl')" class="togglebib">bibtex</a>
 
       <p align="justify"> <i id="interspeech21_newclassfl_abs">Federated learning is an effective way of extracting insights from different user devices while preserving the privacy of users. However, new classes with completely unseen data distributions can stream across any device in a federated learning setting, whose data cannot be accessed by the global server or other users. To this end, we propose a unified zero-shot framework to handle these aforementioned challenges during federated learning. We simulate two scenarios here – 1) when the new class labels are not reported by the user, the traditional FL setting is used; 2) when new class labels are reported by the user, we synthesize Anonymized Data Impressions by calculating class similarity matrices corresponding to each device’s new classes followed by unsupervised clustering to distinguish between new classes across different users. Moreover, our proposed framework can also handle statistical heterogeneities in both labels and models across the participating users. We empirically evaluate our framework on-device across different communication rounds (FL iterations) with new classes in both local and global updates, along with heterogeneous labels and models, on two widely used audio classification applications – keyword spotting and urban sound classification, and observe an average deterministic accuracy increase of ∼4.041% and ∼4.258% respectively.</i></p>
+
+<pre xml:space="preserve">
+@inproceedings{gudur_interspeech21,
+  author = {Gautham Krishna Gudur and 
+  Satheesh Kumar Perepu},
+  title = {Zero-Shot Federated Learning with 
+  New Classes for Audio Classification},
+  booktitle = {Proc. Interspeech 2021},
+  pages = {1579--1583},
+  year = {2021},
+  doi={10.21437/Interspeech.2021-2264}
+}
+</pre>
 
       </div>
     </td>
@@ -525,7 +539,7 @@
       </p>
 
       <div class="paper" id="emdl18">
-      <a href="publications/HARNet_EMDL_MobiSys18.pdf" target="_blank">pdf</a> /
+      <a href="https://www.sigmobile.org/mobisys/2018/workshops/deepmobile18/papers/HARNet.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('emdl18_abs')">abstract</a> /
       <a href="https://github.com/gauthamkrishna-g/HARNet" target="_blank">code</a> /
       <a href="slides/EMDL18_Slides.pdf" target="_blank">slides</a> /
@@ -686,6 +700,7 @@
 
       <div class="paper" id="mobiuk21">
       <a href="https://mobiuk.org/2021/abstract/S1-P2_Gudur_HeterogeneousZeroShotFederatedLearning.pdf" target="_blank">extended abstract</a> /
+      <a href="https://youtu.be/Nz-SDw0kfhc?t=1195" target="_blank">video</a> /
       <a href="slides/MobiUK21_Slides.pdf" target="_blank">slides</a>
 
       </div>
