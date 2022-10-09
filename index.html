@@ -89,7 +89,7 @@
   <tr>
     <td width="32%" valign="top"><img src="images/avatar-icon.png" width="100%" style="border-radius:15px">
     <p align=center>
-    <a href="Resume_Gautham.pdf" target="_blank">CV</a> /
+    <a href="CV_Gautham.pdf" target="_blank">CV</a> /
     <a href="bio.txt" target="_blank">Bio</a> /
     <a href="https://www.linkedin.com/in/gauthamkrishna-g/" target="_blank">LinkedIn</a> <br/>
     <a href="https://scholar.google.co.in/citations?user=X5ThCEAAAAAJ" target="_blank">Google Scholar</a> /
@@ -130,7 +130,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
-		<li> <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> is now under submission. Preprint coming soon!</li>
+		<li> The preprint for <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> is now out!</li>
 		<li> <a href="#IMWUT22_FL">Federated Learning for Continuous Heterogeneous Sensing</a> is now under submission.</li>
 		<li> <a href="#ICMLA22_AD">Model Selection in Unsupervised Anomaly Detection</a> accepted at IEEE ICMLA 2022 for oral presentation.</li>
       <li> Attended the amazing <a href="https://www.eeml.eu/" target="_blank">EEML 2021</a> again! Presented my poster/video on <a href="#INTERSPEECH21">Zero-Shot FL with New Classes</a>.</li>
@@ -182,9 +182,10 @@
     <td width="67%" valign="top">
       <p>
       <heading>Research Interests</heading><br>
-      Interdisciplinary with a good mix of theory/applied ML across multiple data regimes and domains.<br>
-      <p>Broadly, <b>Resource-Aware, Resource-Efficient Learning</b>,<br>
-      where <b>Resource := Data, Label, Model, Noise, Compute, Heterogeneity, etc.</b></p>
+      <!--Interdisciplinary with a good mix of theory/applied ML across multiple data regimes and domains.<br>-->
+      Broadly, <b>Resource-Efficient, Resource-Aware Learning</b>,<br>
+      where <b>Resource := Data, Label, Model, Uncertainty, Compute, Heterogeneity, etc.</b><br>
+      
       </p>
     </td>
   </tr>
@@ -217,10 +218,11 @@
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none" id="HILL22_CALIB">
       <heading>Can Calibration Improve Sample Prioritization?</heading><br>
       Tata Ganesh*, <b><u>Gautham Krishna Gudur</u></b>*, Gopinath Chennupati, Mohammad Emtiyaz Khan<br>
-      <i>Under Submission [Preprint coming soon!]</i><br>
+      <i>Under Submission</i><br>
       </p>
 
       <div class="paper" id="hill22_calib">
+      <a href="publications/Calib_HILL_NeurIPS22.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('hill22_calib_abs')">abstract</a>
 
       <p align="justify"> <i id="hill22_calib_abs">Calibration can reduce overconfident predictions of deep neural networks, but can calibration also accelerate training by selecting the right samples? In this paper, we show that it can. We study the effect of popular calibration techniques in selecting better subsets of samples during training (also called sample prioritization) and observe that calibration can improve the quality of subsets, reduce the number of examples per epoch (by at least 70%), and can thereby speed up the overall training process. We further study the effect of using calibrated pre-trained models coupled with calibration during training to guide sample prioritization, which again seems to improve the quality of samples selected.</i></p>
@@ -266,14 +268,15 @@
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none" id="ICMLA22_AD">
       <heading>Data-Efficient Automatic Model Selection in Unsupervised Anomaly Detection</heading><br>
-      <b><u>Gautham Krishna Gudur</u></b>, R Raaghul, Adithya K A, Shrihari Vasudevan<br>
+      <b><u>Gautham Krishna Gudur</u></b>, Raaghul R, Adithya K A, Shrihari Vasudevan<br>
       <b>IEEE ICMLA 2022</b> <i>[Accepted for Oral Presentation]</i><br>
       </p>
 
       <div class="paper" id="icmla22_ad">
+      <a href="publications/BayesianAD_HILL_NeurIPS22.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('icmla22_ad_abs')">abstract</a>
 
-      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the complexity of obtaining labeled data for the given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points to obtain the ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen.</i></p>
+      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the bottleneck of obtaining labeled data for a given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points to obtain ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen, with both uniform and non-uniform priors over models.</i></p>
 
       </div>
     </td>
