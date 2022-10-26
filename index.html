@@ -130,9 +130,9 @@
   <tr><td>
     <sectionheading id='research_interests'>&nbsp;&nbsp;Research Interests</sectionheading><br>
      <!--Interdisciplinary with a good mix of theory/applied ML across multiple data regimes and domains.<br>-->
-     &nbsp;&nbsp;&nbsp;I'm broadly interested in <b><i>resource-efficient deep learning</i></b>, with a particular focus in these research directions:
+     &nbsp;&nbsp;&nbsp;I'm broadly interested in <b><i>resource-efficient deep learning</i></b>, with a particular focus on these research directions:
      <ul>
-        <li> Accelerating neural network training by priortizing right samples during training with reliable (robust) mechanisms, while borrowing from techniques like active, continual, curriculum, explainable deep learning
+        <li> Accelerating neural network training by priortizing important samples with reliable (robust) mechanisms, while borrowing from paradigms like active, continual, curriculum, explainable deep learning
         <li> Learning from limited supervision, particularly under data/label scarcity and uncertainty
         <li> Federated and distributed learning with data, label and/or model heterogeneities
         <li> Ubiquitous computing and mobile/audio sensing with applications like activity recognition, mobile health, etc.
@@ -149,11 +149,11 @@
     <td width="67%" valign="top">
       <p>
       Broadly, <b>Resource-Efficient</b> and <b>Resource-Aware Learning</b>,<br>
-      where <b>Resource := Data, Label, Model, Uncertainty, Compute, Heterogeneity, etc.</b><br>
+      where <b>Resource := Data, Label, Sample, Model, Uncertainty, Compute, Heterogeneity, etc.</b><br>
       </p>
       <p><a href="javascript:toggleblock('research_keywords')">Few Keywords</a> that might best describe my research interests<font size=1><br>(present/past, hopefully in the future!)</font>.
 <div id="research_keywords" style="display:none">
-<b>Machine (Deep, Bayesian, Active, Federated, Continual, Curriculum, Explainable, Weakly-Supervised, Graph, Human-in-the-Loop) Learning, Limited Supervision, Subset/Model Selection, Ubiquitous Computing, Mobile/Audio Sensing, Activity Recognition, Anomaly Detection, Telecom</b>
+<b>Machine (Deep, Bayesian, Active, Federated, Continual, Curriculum, Out-of-Distribution, Explainable, Weakly-Supervised, Graph, Human-in-the-Loop) Learning, Limited Supervision, Subset/Model Selection, Ubiquitous Computing, Mobile/Audio Sensing, Activity Recognition, Anomaly Detection, Telecom</b>
 </div></p>
     </td>
   </tr>
@@ -287,10 +287,10 @@
       </p>
 
       <div class="paper" id="icmla22_ad">
-      <a href="publications/BayesianAD_HILL_NeurIPS22.pdf" target="_blank">pdf</a> /
+      <a href="publications/BayesianAD_ICMLA22.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('icmla22_ad_abs')">abstract</a>
 
-      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the bottleneck of obtaining labeled data for a given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points to obtain ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen, with both uniform and non-uniform priors over models.</i></p>
+      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the bottleneck of obtaining labeled data for a given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points and obtain ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen, with both uniform and non-uniform priors over models.</i></p>
 
       </div>
     </td>
