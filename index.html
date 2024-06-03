@@ -136,7 +136,7 @@
         <li> Accelerating neural network/LLM training by prioritizing important samples with reliable (robust) mechanisms, in continual (curriculum/few-shot) learning and human-in-the-loop (active learning/subset selection) settings
         <li> Learning from limited supervision, particularly under data/label scarcity, sparsity, and calibrated uncertainty
         <li> Sample-efficient federated learning under heterogeneities with new labels/models
-        <li> On-Device training and Ubiquitous Computing for mobile/audio sensing, mobile health, HAR, etc.
+        <li> Ubiquitous computing and human-centric learning for mobile/audio sensing, human activity recognition, etc.
         <!--<li> Leveraging explainable components for guided neural network training-->
       </ul>
     </td></tr>
@@ -167,6 +167,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> Our new work proposes <a href="#SVFT24">SVFT</a>, a new parameter-efficient fine-tuning (PEFT) technique with singular vectors, and is now out on arXiv.</li>
       <li> I was awarded the Graduate Ph.D. Fellowship from Cockrell School of Engineering at UT Austin!</li>
       <li> I'll be joining the <a href="https://www.utexas.edu/" target="_blank"> University of Texas at Austin </a> in August 2023 for a Ph.D. in the <a href="https://ece.utexas.edu/" target="_blank">Chandra Department of ECE</a>, primarily working at the intersection of resource-efficient and human-centric ML. Go Longhorns! <img src="images/texas_longhorns.png" alt="longhorns" width="4%"></li>
 		<li> <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> accepted at the NeurIPS 2022 Workshop on Human in the Loop Learning (HILL) and the Has It Trained Yet? (HITY) workshop.</li>
@@ -206,12 +207,21 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr>
     <td>
+    <sectionheading id="publications">&nbsp;&nbsp;&nbsp;&nbsp;Publications</sectionheading> &nbsp;&nbsp;&nbsp;[ <a href="#preprints" align="center">Preprints</a> | <a href="#conference" align="center">Conference/Journal/Workshop</a> | <a href="#poster">Poster/Extended Abstract</a> ]<br>
+    <center>* indicates equal contribution</center>
+    </td>
+  </tr>
+</table>
+
+<!--<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td>
     <sectionheading id="publications">&nbsp;&nbsp;Publications</sectionheading><br>
 &nbsp;&nbsp;&nbsp;[ <a href="#under_progress" align="center">To be Submitted/Research Under Progress</a> | <a href="#conference" align="center">Conference/Journal/Workshop</a> | <a href="#poster">Poster/Extended Abstract</a> ]<br>
     <center><font size=1>* Equal Contribution</font></center>
     </td>
   </tr>
-</table>
+</table>-->
 
 <!--
 <center>
@@ -293,6 +303,52 @@
 </table>
 -->
 
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+  <tr><td><heading id="preprints">&nbsp;&nbsp;Preprints</heading></td></tr>
+</table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+<tr>
+  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2405.19597" target="_blank"><img src="images/SVFT24.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+  <td width="67%" valign="top" style="padding-top:15px">
+    <p>
+    <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+    <a href="https://arxiv.org/abs/2405.19597" id="SVFT24" target="_blank">
+    <heading>SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</heading>
+    </a><br>
+    Vijay Lingam*, Atula Tejaswi*, Aditya Vavre*, Aneesh Shetty*, <b><u>Gautham Krishna Gudur</u></b>*, Joydeep Ghosh, Alex Dimakis, Eunsol Choi, Aleksandar Bojchevski, Sujay Sanghavi<br>
+    arXiv:2405.19597<br>
+    </p>
+
+    <div class="paper" id="svft24">
+    <a href="https://arxiv.org/pdf/2405.19597" target="_blank">pdf</a> /
+    <a href="javascript:toggleblock('svft24_abs')">abstract</a> /
+    <a href="https://github.com/VijayLingam95/SVFT/" target="_blank">code</a> /
+    <a shape="rect" href="javascript:togglebib('svft24')" class="togglebib">bibtex</a>
+
+    <p align="justify"> <i id="svft24_abs">Popular parameter-efficient fine-tuning (PEFT) methods, such as LoRA and its variants, freeze pre-trained model weights <b>W</b> and inject learnable matrices <b>∆W</b>. These <b>∆W</b> matrices are structured for efficient parameterization, often using techniques like low-rank approximations or scaling vectors. However, these methods typically show a performance gap compared to full fine-tuning. Although recent PEFT methods have narrowed this gap, they do so at the cost of additional learnable parameters. We propose SVFT, a simple approach that fundamentally differs from existing methods: the structure imposed on <b>∆W</b> depends on the specific weight matrix <b>W</b>. Specifically, SVFT updates <b>W</b> as a sparse combination of outer products of its singular vectors, training only the coefficients (scales) of these sparse combinations. This approach allows fine-grained control over expressivity through the number of coefficients. Extensive experiments on language and vision benchmarks show that SVFT recovers up to 96% of full fine-tuning performance while training only 0.006 to 0.25% of parameters, outperforming existing methods that only recover up to 85% performance using 0.03 to 0.8% of the trainable parameter budget.</i></p>
+
+<pre xml:space="preserve">
+@article{lingam_svft24,
+title={SVFT: Parameter-Efficient Fine-Tuning with
+Singular Vectors},
+author={Lingam, Vijay and Tejaswi, Atula
+and Vavre, Aditya and Shetty, Aneesh
+and Gudur, Gautham Krishna and Ghosh, Joydeep
+and Dimakis, Alex and Choi, Eunsol and
+Bojchevski, Aleksandar and Sanghavi, Sujay},
+journal={arXiv preprint arXiv:2405.19597},
+year={2024}
+}
+</pre>
+
+    </div>
+  </td>
+</tr>
+
+</table>
+
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr><td><heading id="conference">&nbsp;&nbsp;Conference/Journal/Workshop</heading></td></tr>
@@ -304,7 +360,6 @@
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2210.06592" target="_blank"><img src="images/HILL22.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <a href="https://arxiv.org/abs/2210.06592" id="HILL22_CALIB" target="_blank">
       <heading>Can Calibration Improve Sample Prioritization?</heading>
       </a><br>
@@ -339,16 +394,13 @@
     </td>
   </tr>
 
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-
   <tr>
-    <td width="33%" valign="top" align="center"><img src="images/ICMLA22.png" alt="sym" width="100%" style="border-radius:15px;"></td>
+    <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/10069418" target="_blank"><img src="images/ICMLA22.png" alt="sym" width="100%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none" id="ICMLA22_AD">
-      <heading>Data-Efficient Automatic Model Selection in Unsupervised Anomaly Detection</heading><br>
+      <a href="https://ieeexplore.ieee.org/document/10069418" id="ICMLA22_AD" target="_blank">
+      <heading>Data-Efficient Automatic Model Selection in Unsupervised Anomaly Detection</heading>
+      </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Raaghul R, Adithya K, Shrihari Vasudevan<br>
       <b>IEEE ICMLA 2022</b> <i>[Oral Presentation]</i><br>
       </p>
@@ -1092,6 +1144,9 @@ hideallbibs();
 <script xml:space="preserve" language="JavaScript">
 hideblock('hill22_calib_abs');
 </script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('svft24_abs');
+  </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('icmla22_ad_abs');
 </script>
