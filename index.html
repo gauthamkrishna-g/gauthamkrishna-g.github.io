@@ -133,19 +133,33 @@
      <!--Interdisciplinary with a good mix of theory/applied ML across multiple data regimes and domains.<br>-->
      <!--&nbsp;&nbsp;&nbsp;I'm broadly interested in the intersection of resource-efficient/human-centric learning and Generative AI, with a particular focus on:<br>-->
      <ul>
-        <li> Accelerating training and inference using data-centric approaches by prioritizing important samples, in continual (curriculum/few-shot) learning and human-in-the-loop (active learning/subset selection) settings
-        <li> Ubiquitous computing and cross-modal human-centric AI (mobile/audio sensing, activity recognition, etc.)
+        <li> Accelerating training and inference using data-centric approaches by prioritizing important samples, in continual (curriculum/few-shot) learning and data-efficient human-in-the-loop settings
+        <li> Ubiquitous computing, cross-modal learning, and on-device human-centric AI (wearable/audio sensing, human activity recognition, mobile health, etc.) with a focus on real-world deployability
         <li> Leveraging data/sample- and parameter-efficient techniques for foundation models and LLMs (Generative AI)</li>
-        <li> Federated learning under heterogeneities with new labels/models
+        <li> Federated learning under statistical heterogeneities with new labels and models
         <li> Learning from limited supervision, particularly under data/label scarcity, sparsity, and calibrated uncertainty
         <!--<li> Leveraging explainable components for guided neural network training-->
       </ul>
+      Broadly, <b>resource-efficient</b> and <b>resource-aware learning</b>,<br>
+      where <b>resource := data, sample, label, model, parameter, compute, etc.</b><br>
+
+      <p>Here are a <a href="javascript:toggleblock('research_keywords')">few keywords</a> that might best describe my research interests <font size=1>(present/past, hopefully in the future!)</font>.
+        <div id="research_keywords" style="display:none">
+          <b>
+            <ul>
+              <li>Machine (Deep, Bayesian, Active, Continual, Federated, Curriculum, Few-shot, Human-in-the-Loop) Learning</li>
+              <li>Generative AI, LLMs, Parameter-Efficient Fine-Tuning (PEFT), Foundation Models</li>
+              <li>Ubiquitous Computing (Mobile/Wearable Sensing, Human Activity Recognition, Audio/Cross-modal Sensing) and On-Device Training</li>
+              <li>Limited Supervision, Subset/Model Selection, Uncertainty-Aware Learning, Sparsity</li>
+            </ul>
+          </b>
+        </div></p>
       <!--I've published my works at conferences and workshop venues like ACM UbiComp/ISWC, NeurIPS, Interspeech, ICML, ICLR, KDD, MobiSys-->
     </td></tr>
 </table>
 
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+<!--<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr>
     <td width="33%" valign="top" align="center"><a href="publications/wordcloud_research.png" target="_blank"><img src="publications/wordcloud_research.png" alt="sym" width="100%" style="border-radius:15px;"></a><br>
       This is what <a href="http://wordle.net" target="_blank">Wordle</a> thinks of my publication titles.
@@ -162,13 +176,13 @@
               <li>Machine (Deep, Bayesian, Active, Continual, Federated, Curriculum, Few-shot, Human-in-the-Loop) Learning</li>
               <li>Generative AI, LLMs, Foundation Models</li>
               <li>Limited Supervision, Subset/Model Selection</li>
-              <li>Ubiquitous Computing (Mobile/Audio Sensing, Human Activity Recognition) and On-Device Training</li>
+              <li>Ubiquitous Computing (Mobile/Wearable Sensing, Human Activity Recognition, Audio/Cross-modal Sensing) and On-Device Training</li>
             </ul>
           </b>
         </div></p>
     </td>
   </tr>
-</table>
+</table>-->
 
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
@@ -176,12 +190,13 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> <a href="#SVFT24">SVFT</a> accepted at the WANT (<i>oral presentation</i>) and ES-FoMo workshops @ ICML 2024!</li>
       <li> New work on <a href="#SVFT24">SVFT</a>: a parameter-efficient fine-tuning (PEFT) technique with singular vectors, is now on arXiv.</li>
       <li> I was awarded the Graduate Ph.D. Fellowship from Cockrell School of Engineering at UT Austin!</li>
       <li> I'll be joining the <a href="https://www.utexas.edu/" target="_blank"> University of Texas at Austin </a> in August 2023 for a Ph.D. in the <a href="https://ece.utexas.edu/" target="_blank">Chandra Department of ECE</a>, primarily working at the intersection of resource-efficient and human-centric ML. Go Longhorns! <img src="images/texas_longhorns.png" alt="longhorns" width="4%"></li>
 		<li> <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> accepted at the NeurIPS 2022 Workshop on Human in the Loop Learning (HILL) and the Has It Trained Yet? (HITY) workshops.</li>
 		<!--<li> <a href="#IMWUT22_FL">Federated Learning for Continuous Heterogeneous Sensing</a> to be submitted soon.</li>-->
-		<li> <a href="#ICMLA22_AD">Model Selection in Unsupervised Anomaly Detection</a> accepted at IEEE ICMLA 2022 for <i>oral presentation</i>. A <a href="#patents">patent</a> was also filed on the same with automatic threshold optimization.</li>
+		<li> <a href="#ICMLA22_AD">Model Selection in Unsupervised Anomaly Detection</a> accepted at IEEE ICMLA 2022 for <i>oral presentation</i>. A <a href="#AD_Patent">patent</a> was also filed on the same with automatic threshold optimization.</li>
       <li> Attended the amazing <a href="https://www.eeml.eu/" target="_blank">EEML 2021</a> again! Also, presented my poster/video on <a href="#INTERSPEECH21">Zero-Shot FL with New Classes</a>.</li>
       <li> Presented a talk on <a href="#MOBIUK21">On-Device Zero-Shot FL with New Classes</a> at MobiUK 2021.</li>
       <li> <a href="#INTERSPEECH21">Zero-Shot Federated Learning with New Classes for Audio Classification</a> accepted at INTERSPEECH 2021. Abridged versions accepted at DPML and HAET workshops @ ICLR 2021.</li><!--<a href="#MOBIUK21">MobiUK 2021</a> and EEML 2021.-->
@@ -265,99 +280,15 @@
     </td>
   </tr>
 
-</table>
+</table>-->
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-
-  <tr>
-    <td width="33%" valign="top" align="center"></td>
-    <td width="67%" valign="top" style="padding-top:15px">
-      <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading>Federated Active Learning with Adaptive Acquisition</heading><br>
-      <i>Research Under Progress</i><br>
-      </p>
-
-      <div class="paper" id="imwut22_fl">
-      <a href="javascript:toggleblock('icmla22_ad_abs')">abstract</a>
-
-      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the complexity of obtaining labeled data for the given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points to obtain the ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen.</i></p>
-
-      </div>
-    </td>
-  </tr>
-
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
-
-  <tr>
-    <td width="33%" valign="top" align="center"></td>
-    <td width="67%" valign="top" style="padding-top:15px">
-      <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none" id="IMWUT22_FL">
-      <heading>FedNewSense: Zero-Shot Federated Learning for Continuous Heterogeneous Sensing with New Classes and Models</heading><br>
-      <i>To be Submitted</i><br>
-      </p>
-
-      <div class="paper" id="imwut22_fl">
-      <a href="javascript:toggleblock('icmla22_ad_abs')">abstract</a>
-
-      <p align="justify"> <i id="icmla22_ad_abs">Anomaly Detection is a widely used technique in machine learning that identifies context-specific outliers. Most real-world anomaly detection applications are unsupervised, owing to the complexity of obtaining labeled data for the given context. In this paper, we solve two important problems pertaining to unsupervised anomaly detection. First, we identify only the most informative subsets of data points to obtain the ground truths from the domain expert (oracle); second, we perform efficient model selection using a Bayesian Inference framework and recommend the top-k models to be fine-tuned prior to deployment. To this end, we exploit multiple existing and novel acquisition functions, and successfully demonstrate the effectiveness of the proposed framework using a weighted Ranking Score (\eta) to accurately rank the top-k models. Our empirical results show a significant reduction in data points acquired (with at least 60% reduction) while not compromising on the efficiency of the top-k models chosen.</i></p>
-
-      </div>
-    </td>
-  </tr>
-
-</table>
--->
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+<!--<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
   <tr><td><heading id="preprints">&nbsp;&nbsp;Preprints</heading></td></tr>
 </table>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
-<tr>
-  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2405.19597" target="_blank"><img src="images/SVFT24.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
-  <td width="67%" valign="top" style="padding-top:15px">
-    <p>
-    <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-    <a href="https://arxiv.org/abs/2405.19597" id="SVFT24" target="_blank">
-    <heading>SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</heading>
-    </a><br>
-    Vijay Lingam*, Atula Tejaswi*, Aditya Vavre*, Aneesh Shetty*, <b><u>Gautham Krishna Gudur</u></b>*, Joydeep Ghosh, Alex Dimakis, Eunsol Choi, Aleksandar Bojchevski, Sujay Sanghavi<br>
-    arXiv:2405.19597<br>
-    </p>
-
-    <div class="paper" id="svft24">
-    <a href="https://arxiv.org/pdf/2405.19597" target="_blank">pdf</a> /
-    <a href="javascript:toggleblock('svft24_abs')">abstract</a> /
-    <a href="https://github.com/VijayLingam95/SVFT/" target="_blank">code</a> /
-    <a href="https://x.com/atu_tej/status/1799519888588837273" target="_blank">tweet</a> /
-    <a shape="rect" href="javascript:togglebib('svft24')" class="togglebib">bibtex</a>
-
-    <p align="justify"> <i id="svft24_abs">Popular parameter-efficient fine-tuning (PEFT) methods, such as LoRA and its variants, freeze pre-trained model weights <b>W</b> and inject learnable matrices <b>∆W</b>. These <b>∆W</b> matrices are structured for efficient parameterization, often using techniques like low-rank approximations or scaling vectors. However, these methods typically show a performance gap compared to full fine-tuning. Although recent PEFT methods have narrowed this gap, they do so at the cost of additional learnable parameters. We propose SVFT, a simple approach that fundamentally differs from existing methods: the structure imposed on <b>∆W</b> depends on the specific weight matrix <b>W</b>. Specifically, SVFT updates <b>W</b> as a sparse combination of outer products of its singular vectors, training only the coefficients (scales) of these sparse combinations. This approach allows fine-grained control over expressivity through the number of coefficients. Extensive experiments on language and vision benchmarks show that SVFT recovers up to 96% of full fine-tuning performance while training only 0.006 to 0.25% of parameters, outperforming existing methods that only recover up to 85% performance using 0.03 to 0.8% of the trainable parameter budget.</i></p>
-
-<pre xml:space="preserve">
-@article{lingam_svft24,
-title={SVFT: Parameter-Efficient Fine-Tuning with
-Singular Vectors},
-author={Lingam, Vijay and Tejaswi, Atula
-and Vavre, Aditya and Shetty, Aneesh
-and Gudur, Gautham Krishna and Ghosh, Joydeep
-and Dimakis, Alex and Choi, Eunsol and
-Bojchevski, Aleksandar and Sanghavi, Sujay},
-journal={arXiv preprint arXiv:2405.19597},
-year={2024}
-}
-</pre>
-
-    </div>
-  </td>
-</tr>
-
-</table>
+</table>-->
 
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
@@ -365,6 +296,51 @@ year={2024}
 </table>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+  <tr>
+    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2405.19597" target="_blank"><img src="images/SVFT24.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <a href="https://arxiv.org/abs/2405.19597" id="SVFT24" target="_blank">
+      <heading>SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</heading>
+      </a><br>
+      Vijay Lingam*, Atula Tejaswi*, Aditya Vavre*, Aneesh Shetty*, <b><u>Gautham Krishna Gudur</u></b>*, Joydeep Ghosh, Alex Dimakis, Eunsol Choi, Aleksandar Bojchevski, Sujay Sanghavi<br>
+      Workshop on Advancing Neural Network Training (WANT): Computational Efficiency, Scalability, and Resource Optimization <i>[Oral Presentation]</i><br>
+      Workshop on Efficient Systems for Foundation Models (ES-FoMo)<br>
+      <b>ICML 2024</b>
+      </p>
+  
+      <div class="paper" id="svft24">
+      <a href="https://openreview.net/pdf?id=DOUskwCqg5" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('svft24_abs')">abstract</a> /
+      <a href="https://github.com/VijayLingam95/SVFT/" target="_blank">code</a> /
+      <a href="https://x.com/atu_tej/status/1799519888588837273" target="_blank">tweet</a> /
+      <a shape="rect" href="javascript:togglebib('svft24')" class="togglebib">bibtex</a>
+  
+      <p align="justify"> <i id="svft24_abs">Popular parameter-efficient fine-tuning (PEFT) methods, such as LoRA and its variants, freeze pre-trained model weights <b>W</b> and inject learnable matrices <b>∆W</b>. These <b>∆W</b> matrices are structured for efficient parameterization, often using techniques like low-rank approximations or scaling vectors. However, these methods typically show a performance gap compared to full fine-tuning. Although recent PEFT methods have narrowed this gap, they do so at the cost of additional learnable parameters. We propose SVFT, a simple approach that fundamentally differs from existing methods: the structure imposed on <b>∆W</b> depends on the specific weight matrix <b>W</b>. Specifically, SVFT updates <b>W</b> as a sparse combination of outer products of its singular vectors, training only the coefficients (scales) of these sparse combinations. This approach allows fine-grained control over expressivity through the number of coefficients. Extensive experiments on language and vision benchmarks show that SVFT recovers up to 96% of full fine-tuning performance while training only 0.006 to 0.25% of parameters, outperforming existing methods that only recover up to 85% performance using 0.03 to 0.8% of the trainable parameter budget.</i></p>
+  
+  <pre xml:space="preserve">
+  @inproceedings{lingam_svft24,
+  title={SVFT: Parameter-Efficient Fine-Tuning with
+  Singular Vectors},
+  author={Lingam, Vijay and Tejaswi, Atula
+  and Vavre, Aditya and Shetty, Aneesh
+  and Gudur, Gautham Krishna and Ghosh, Joydeep
+  and Dimakis, Alex and Choi, Eunsol and
+  Bojchevski, Aleksandar and Sanghavi, Sujay},
+  booktitle={2nd Workshop on Advancing Neural
+  Network Training: Computational Efficiency,
+  Scalability, and Resource Optimization
+  (WANT@ICML 2024)},
+  year={2024},
+  url={https://openreview.net/forum?id=DOUskwCqg5}
+  }
+  </pre>
+  
+      </div>
+    </td>
+  </tr>
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2210.06592" target="_blank"><img src="images/HILL22.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
@@ -520,7 +496,7 @@ year={2024}
       <heading>Resource-Constrained Federated Learning with Heterogeneous Labels and Models for Human Activity Recognition</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Satheesh Kumar Perepu<br>
-      2nd International Workshop on Deep Learning for Human Activity Recognition (DL-HAR), <b>IJCAI-PRICAI 2020</b>  <i>[Oral Presentation]</i><br>
+      2nd International Workshop on Deep Learning for Human Activity Recognition (DL-HAR), <b>IJCAI-PRICAI 2020</b><br>
       <a href="https://arxiv.org/pdf/2012.02539.pdf" target="_blank">Abridged version</a>: Machine Learning for Mobile Health Workshop,<br> <b>NeurIPS 2020</b>
       </p>
 
@@ -570,7 +546,7 @@ year={2024}
       <heading>Resource-Constrained Federated Learning with Heterogeneous Labels and Models</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Bala Shyamala Balaji, Satheesh Kumar Perepu<br>
-      3rd International Workshop on Artificial Intelligence of Things (AIoT)<br><b>ACM KDD 2020</b> <i>[Oral Presentation]</i>
+      3rd International Workshop on Artificial Intelligence of Things (AIoT)<br><b>ACM KDD 2020</b>
       </p>
 
       <div class="paper" id="aiot20_heterofdl">
@@ -604,7 +580,7 @@ year={2024}
       <heading>A Dynamically Adaptive Movie Occupancy Forecasting System with Feature Optimization</heading>
       </a><br>
       Sundararaman Venkataramani, Ateendra Ramesh, Sharan Sundar S, Aashish Kumar Jain, <b><u>Gautham Krishna Gudur</u></b>, Vineeth Vijayaraghavan<br>
-      Workshop on Learning and Mining with Industrial Data (LMID)<br><b>IEEE ICDM 2019</b> <i>[Oral Presentation]</i>
+      Workshop on Learning and Mining with Industrial Data (LMID)<br><b>IEEE ICDM 2019</b>
       </p>
 
       <div class="paper" id="icdmw19">
@@ -804,7 +780,7 @@ year={2024}
       <heading>A Generic Multi-modal Dynamic Gesture Recognition System using Machine Learning</heading>
       </a><br>
       <b><u>Gautham Krishna G</u></b>, Karthik Subramanian Nathan, Yogesh Kumar B, Ankith A Prabhu, Ajay Kannan, Vineeth Vijayaraghavan<br>
-      <b>IEEE FICC 2018</b> <i>[Oral Presentation]</i>
+      <b>IEEE FICC 2018</b>
       </p>
 
       <div class="paper" id="ficc18">
@@ -998,9 +974,9 @@ year={2024}
     <td width="67%" valign="top">
       <p>
       <ul>
-        <li> <a href="https://patents.google.com/patent/WO2022013879A1/" target="_blank">Federated Learning using Heterogeneous Labels</a></li>
-        <li> <a href="https://patents.google.com/patent/WO2022162677A1/" target="_blank">Distributed Machine Learning with New Labels using Heterogeneous Label Distribution</a></li>
-        <li> <a href="https://patents.google.com/patent/WO2023166515A1/" target="_blank">Method and Apparatus for Approach Recommendation with Threshold Optimization in Unsupervised Anomaly Detection</a></li>
+        <li> <a href="https://patents.google.com/patent/WO2022013879A1/" id="FL_Heterogeneous_Patent" target="_blank">Federated Learning using Heterogeneous Labels</a></li>
+        <li> <a href="https://patents.google.com/patent/WO2022162677A1/" id="FL_Newlabel_Patent" target="_blank">Distributed Machine Learning with New Labels using Heterogeneous Label Distribution</a></li>
+        <li> <a href="https://patents.google.com/patent/WO2023166515A1/" id="AD_Patent" target="_blank">Method and Apparatus for Approach Recommendation with Threshold Optimization in Unsupervised Anomaly Detection</a></li>
       </ul>
       </p>
     </td>
