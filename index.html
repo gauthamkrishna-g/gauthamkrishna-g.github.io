@@ -190,12 +190,13 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
-      <li> <a href="#SVFT24">SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</a> accepted at <b>NeurIPS 2024</b>! Abridged versions accepted at WANT (<i>oral presentation</i>) and ES-FoMo workshops @ ICML 2024.</li>
+      <li> <a href="#ENLSP24_NeurIPS">Dataset Distillation for Audio Classification: A Data-Efficient Alternative to Active Learning</a> accepted at the Efficient Natural Language and Speech Processing (ENLSP) workshop @ NeurIPS 2024.</li>
+      <li> <a href="#SVFT24">SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors</a> accepted at <b>NeurIPS 2024</b>! Abridged versions accepted at FITML workshop @ NeurIPS 2024, and WANT (<i>oral</i>) and ES-FoMo workshops @ ICML 2024.</li>
       <li> I was awarded the Graduate Ph.D. Fellowship from Cockrell School of Engineering at UT Austin.</li>
       <li> I'll be joining the <a href="https://www.utexas.edu/" target="_blank"> University of Texas at Austin </a> in August 2023 for a Ph.D. in the <a href="https://ece.utexas.edu/" target="_blank">Chandra Department of ECE</a>, primarily working at the intersection of resource-efficient and human-centric ML. Go Longhorns! <img src="images/texas_longhorns.png" alt="longhorns" width="4%"></li>
-		<li> <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> accepted at the NeurIPS 2022 Workshop on Human in the Loop Learning (HILL) and the Has It Trained Yet? (HITY) workshops.</li>
+		<li> <a href="#HILL22_CALIB">Can Calibration Improve Sample Prioritization?</a> accepted at the  Human in the Loop Learning (HILL) and the Has It Trained Yet? (HITY) workshops @ NeurIPS 2022.</li>
 		<!--<li> <a href="#IMWUT22_FL">Federated Learning for Continuous Heterogeneous Sensing</a> to be submitted soon.</li>-->
-		<li> <a href="#ICMLA22_AD">Model Selection in Unsupervised Anomaly Detection</a> accepted at IEEE ICMLA 2022 for <i>oral presentation</i>. A <a href="#AD_Patent">patent</a> was also filed on the same with automatic threshold optimization.</li>
+		<li> <a href="#ICMLA22_AD">Model Selection in Unsupervised Anomaly Detection</a> accepted at IEEE ICMLA 2022. A <a href="#AD_Patent">patent</a> was also filed on the same with automatic threshold optimization.</li>
       <li> Attended the amazing <a href="https://www.eeml.eu/" target="_blank">EEML 2021</a> again! Also, presented my poster/video on <a href="#INTERSPEECH21">Zero-Shot FL with New Classes</a>.</li>
       <li> Presented a talk on <a href="#MOBIUK21">On-Device Zero-Shot FL with New Classes</a> at MobiUK 2021.</li>
       <li> <a href="#INTERSPEECH21">Zero-Shot Federated Learning with New Classes for Audio Classification</a> accepted at INTERSPEECH 2021. Abridged versions accepted at DPML and HAET workshops @ ICLR 2021.</li><!--<a href="#MOBIUK21">MobiUK 2021</a> and EEML 2021.-->
@@ -297,6 +298,41 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
   <tr>
+    <td width="33%" valign="top" align="center"><img src="images/ENLSP24.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <heading>Dataset Distillation for Audio Classification: A Data-Efficient Alternative to Active Learning</heading>
+      </a><br>
+      <b><u>Gautham Krishna Gudur</u></b>, Edison Thomaz<br>
+      Efficient Natural Language and Speech Processing (ENLSP) Workshop<br>
+      <b>NeurIPS 2024</b>
+      </p>
+
+      <div class="paper" id="enlsp24_neurips">
+      <a href="javascript:toggleblock('enlsp24_neurips_abs')">abstract</a>
+
+      <p align="justify"> <i id="enlsp24_neurips_abs">Audio classification tasks like keyword spotting and acoustic event detection often require large labeled datasets, which are computationally expensive and impractical for resource-constrained devices. While active learning techniques attempt to reduce labeling efforts by selecting the most informative samples, they struggle with scalability in real-world scenarios involving thousands of audio segments. In this paper, we introduce an approach that leverages dataset distillation as an alternative strategy to active learning to address the challenge of data efficiency in real-world audio classification tasks. Our approach synthesizes compact, high-fidelity coresets that encapsulate the most critical information from the original dataset, significantly reducing the labeling requirements while offering competitive performance. Through experiments on three benchmark datasets -- Google Speech Commands, UrbanSound8K, and ESC-50, our approach achieves up to a ~3,000x reduction in data points, and requires only a negligible fraction of the original training data while matching the performance of popular active learning baselines.</i></p>
+
+<pre xml:space="preserve">
+@inproceedings{tata_hity22,
+  author = {Tata, Ganesh and Gudur, Gautham Krishna
+  and Chennupati, Gopinath and 
+  Khan, Mohammad Emtiyaz},
+  title = {Can Calibration Improve Sample 
+  Prioritization?},
+  booktitle = {Has it Trained Yet? 
+  NeurIPS 2022 Workshop},
+  year = {2022}
+}
+</pre>
+
+      </div>
+    </td>
+  </tr>
+
+
+  <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2405.19597" target="_blank"><img src="images/SVFT24.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
@@ -306,6 +342,7 @@
       </a><br>
       Vijay Lingam*, Atula Tejaswi*, Aditya Vavre*, Aneesh Shetty*, <b><u>Gautham Krishna Gudur</u></b>*, Joydeep Ghosh, Alex Dimakis, Eunsol Choi, Aleksandar Bojchevski, Sujay Sanghavi<br>
       <b>Neural Information Processing Systems (NeurIPS), 2024</b><br>
+      <a href="https://openreview.net/forum?id=DOUskwCqg5" target="_blank">Abridged version</a>:  Fine-Tuning in Modern Machine Learning: Principles and Scalability (FITML) workshop, <b>NeurIPS 2024</b><br>
       Workshop on Advancing Neural Network Training (WANT): Computational Efficiency, Scalability, and Resource Optimization <i>[Oral Presentation]</i><br>
       Workshop on Efficient Systems for Foundation Models (ES-FoMo)<br>
       <b>ICML 2024</b>
@@ -389,7 +426,7 @@
       <heading>Data-Efficient Automatic Model Selection in Unsupervised Anomaly Detection</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Raaghul R, Adithya K, Shrihari Vasudevan<br>
-      <b>IEEE ICMLA 2022</b> <i>[Oral Presentation]</i><br>
+      <b>IEEE ICMLA 2022</b><br>
       </p>
 
       <div class="paper" id="icmla22_ad">
@@ -619,7 +656,7 @@
       <heading>A Vision-based Deep On-Device Intelligent Bus Stop Recognition System</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Ateendra Ramesh, Srinivasan R<br>
-      8th International Workshop on Pervasive Urban Applications (PURBA)<br><b>ACM UbiComp 2019</b> <i>[Oral Presentation]</i>
+      8th International Workshop on Pervasive Urban Applications (PURBA)<br><b>ACM UbiComp 2019</b>
       </p>
 
       <div class="paper" id="purba19">
@@ -697,7 +734,7 @@
       <heading>ActiveHARNet: Towards On-Device Deep Bayesian Active Learning for Human Activity Recognition</heading>
       </a><br>
       <b><u>Gautham Krishna Gudur</u></b>, Prahalathan Sundaramoorthy, Venkatesh Umaashankar<br>
-      3rd International Workshop on Embedded and Mobile Deep Learning (EMDL), <b>ACM MobiSys 2019</b> <i>[Oral Presentation]</i><br>
+      3rd International Workshop on Embedded and Mobile Deep Learning (EMDL), <b>ACM MobiSys 2019</b><br>
       Also presented as a <a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&t" target="_blank">poster</a> at <b>EEML 2020</b>
       </p>
 
@@ -740,7 +777,7 @@
       <heading>HARNet: Towards On-Device Incremental Learning using Deep Ensembles on Constrained Devices</heading>
       </a><br>
       Prahalathan Sundaramoorthy, <b><u>Gautham Krishna Gudur</u></b>, Manav Rajiv Moorthy, R Nidhi Bhandari, Vineeth Vijayaraghavan<br>
-      2nd International Workshop on Embedded and Mobile Deep Learning (EMDL), <b>ACM MobiSys 2018</b> <i>[Oral Presentation]</i>
+      2nd International Workshop on Embedded and Mobile Deep Learning (EMDL), <b>ACM MobiSys 2018</b>
       </p>
 
       <div class="paper" id="emdl18">
@@ -990,10 +1027,7 @@
     <ul>
       <li> Program Committee Member/Reviewer</li>
       <ul>
-        <li> NeurIPS 2024<br>
-            - Efficient Natural Language and Speech Processing workshop (ENLSP)<br>
-            - Fine-Tuning in Modern Machine Learning: Principles and Scalability (FITML)
-        </li>
+        <li> ICASSP 2025</li>
         <li> ICML 2024 - Efficient Systems for Foundation Models Workshop (ES-FoMo)</li>
         <li> ICLR 2021 - Distributed and Private Machine Learning Workshop (DPML)</li> 
         <li> NeurIPS - Machine Learning for Health Workshop (ML4H)<br>
@@ -1124,11 +1158,14 @@
 hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
-hideblock('hill22_calib_abs');
+hideblock('enlsp24_neurips_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
-  hideblock('svft24_abs');
-  </script>
+hideblock('svft24_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('hill22_calib_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('icmla22_ad_abs');
 </script>
