@@ -301,7 +301,20 @@
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <heading>Unsupervised Latent Partitioning of Foundation Models: Towards Efficient Continual Learning with Experts for Audio Classification</heading>
       <br>
-      <b><u>Gautham Krishna Gudur</u></b>*, Mohit Malu*, Reza Rahimi Azghan, Anirudh Rayas, Pavan Turaga, Hassan Ghasemzadeh, Edison Thomaz, Giulia Pedrielli<br>
+      <b><u>Gautham Krishna Gudur</u></b>*, Mohit Malu*, Reza Rahimi Azghan, Pavan Turaga, Joydeep Ghosh, Hassan Ghasemzadeh, Edison Thomaz, Giulia Pedrielli<br>
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="33%" valign="top" align="center"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <heading>Gated Adaptation for Continual Learning in Human Activity Recognition</heading>
+      </a><br>
+      Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Mohit Malu, Edison Thomaz, Giulia Pedrielli, Pavan Turaga, Hassan Ghasemzadeh<br>
+      <i>[Submitted]</i>
       </p>
     </td>
   </tr>
@@ -323,7 +336,7 @@
         <a href="javascript:toggleblock('cladnet25_abs')">abstract</a> /
         <a shape="rect" href="javascript:togglebib('cladnet25')" class="togglebib">bibtex</a>
   
-        <p align="justify"> <i id="cladnet25_abs">The rise of deep learning has greatly advanced human behavior monitoring using wearable sensors, particularly human activity recognition (HAR). While deep models have been widely studied, most assume stationary data distributions - an assumption often violated in real-world scenarios. For example, sensor data from one subject may differ significantly from another, leading to distribution shifts. In continual learning, this shift is framed as a sequence of tasks, each corresponding to a new subject. Such settings suffer from catastrophic forgetting, where prior knowledge deteriorates as new tasks are learned. This challenge is compounded by the scarcity and inconsistency of labeled data in human studies. To address these issues, we propose CLAD-Net (Continual Learning with Attention and Distillation), a framework enabling wearable-sensor models to be updated continuously without sacrificing performance on past tasks. CLAD-Net integrates a self-supervised transformer, acting as long-term memory, with a supervised Convolutional Neural Network (CNN) trained via knowledge distillation for activity classification. The transformer captures global activity patterns through cross-attention across body-mounted sensors, learning generalizable representations without labels. Meanwhile, the CNN leverages knowledge distillation to retain prior knowledge during subject-wise fine-tuning. On PAMAP2, CLAD-Net achieves 91.36 percent final accuracy with only 8.78 percent forgetting, surpassing memory-based and regularization-based baselines such as Experience Replay and Elastic Weight Consolidation. In semi-supervised settings with only 10-20 percent labeled data, CLAD-Net still delivers strong performance, demonstrating robustness to label scarcity. Ablation studies further validate each module's contribution.<i></p>
+        <p align="justify"> <i id="cladnet25_abs">The rise of deep learning has greatly advanced human behavior monitoring using wearable sensors, particularly human activity recognition (HAR). While deep models have been widely studied, most assume stationary data distributions - an assumption often violated in real-world scenarios. For example, sensor data from one subject may differ significantly from another, leading to distribution shifts. In continual learning, this shift is framed as a sequence of tasks, each corresponding to a new subject. Such settings suffer from catastrophic forgetting, where prior knowledge deteriorates as new tasks are learned. This challenge is compounded by the scarcity and inconsistency of labeled data in human studies. To address these issues, we propose CLAD-Net (Continual Learning with Attention and Distillation), a framework enabling wearable-sensor models to be updated continuously without sacrificing performance on past tasks. CLAD-Net integrates a self-supervised transformer, acting as long-term memory, with a supervised Convolutional Neural Network (CNN) trained via knowledge distillation for activity classification. The transformer captures global activity patterns through cross-attention across body-mounted sensors, learning generalizable representations without labels. Meanwhile, the CNN leverages knowledge distillation to retain prior knowledge during subject-wise fine-tuning. On PAMAP2, CLAD-Net achieves 91.36% final accuracy with only 8.78% forgetting, surpassing memory-based and regularization-based baselines such as Experience Replay and Elastic Weight Consolidation. In semi-supervised settings with only 10-20% labeled data, CLAD-Net still delivers strong performance, demonstrating robustness to label scarcity. Ablation studies further validate each module's contribution.<i></p>
   
   <pre xml:space="preserve">
   @misc{azghan_cladnet25,
