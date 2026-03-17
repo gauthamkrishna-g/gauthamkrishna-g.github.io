@@ -307,14 +307,38 @@
   </tr>
 
   <tr>
-    <td width="33%" valign="top" align="center"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank">
       <heading>Gated Adaptation for Continual Learning in Human Activity Recognition</heading>
       </a><br>
       Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Mohit Malu, Edison Thomaz, Giulia Pedrielli, Pavan Turaga, Hassan Ghasemzadeh<br>
       </p>
+
+      <div class="paper" id="gatedcl26">
+        <a href="https://arxiv.org/pdf/2603.10046" target="_blank">pdf</a> /
+        <a href="javascript:toggleblock('gatedcl26_abs')">abstract</a> /
+        <a shape="rect" href="javascript:togglebib('gatedcl26')" class="togglebib">bibtex</a>
+  
+        <p align="justify"> <i id="gatedcl26_abs">Wearable sensors in Internet of Things (IoT) ecosystems increasingly support applications such as remote health monitoring, elderly care, and smart home automation, all of which rely on robust human activity recognition (HAR). Continual learning systems must balance plasticity (learning new tasks) with stability (retaining prior knowledge), yet AI models often exhibit catastrophic forgetting, where learning new tasks degrades performance on earlier ones. This challenge is especially acute in domain-incremental HAR, where on-device models must adapt to new subjects with distinct movement patterns while maintaining accuracy on prior subjects without transmitting sensitive data to the cloud. We propose a parameter-efficient continual learning framework based on channel-wise gated modulation of frozen pretrained representations. Our key insight is that adaptation should operate through feature selection rather than feature generation: by restricting learned transformations to diagonal scaling of existing features, we preserve the geometry of pretrained representations while enabling subject-specific modulation. We provide a theoretical analysis showing that gating implements a bounded diagonal operator that limits representational drift compared to unconstrained linear transformations. Empirically, freezing the backbone substantially reduces forgetting, and lightweight gates restore lost adaptation capacity, achieving stability and plasticity simultaneously. On PAMAP2 with 8 sequential subjects, our approach reduces forgetting from 39.7% to 16.2% and improves final accuracy from 56.7% to 77.7%, while training less than 2% of parameters. Our method matches or exceeds standard continual learning baselines without replay buffers or task-specific regularization, confirming that structured diagonal operators are effective and efficient under distribution shift.</i></p>
+    
+  <pre xml:space="preserve">
+  @article{azghan_gatedcl26,
+    title = {Gated Adaptation for Continual Learning 
+    in Human Activity Recognition},
+    author = {Azghan, Reza Rahimi and Gudur,
+    Gautham Krishna and Malu, Mohit and Thomaz, 
+    Edison and Pedrielli, Giulia and Turaga, Pavan 
+    and Ghasemzadeh, Hassan},
+    year = {2026},
+    eprint = {2603.10046},
+    archivePrefix = {arXiv}
+  }
+  </pre>
+
+      </div>
     </td>
   </tr>
 
@@ -322,7 +346,6 @@
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.23077" target="_blank"><img src="images/CLADNet25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <a href="https://arxiv.org/abs/2509.23077" id="CLADNet25" target="_blank">
       <heading>CLAD-Net: Continual Activity Recognition in Multi-Sensor Wearable Systems</heading>
       </a><br>
@@ -337,16 +360,16 @@
         <p align="justify"> <i id="cladnet25_abs">The rise of deep learning has greatly advanced human behavior monitoring using wearable sensors, particularly human activity recognition (HAR). While deep models have been widely studied, most assume stationary data distributions - an assumption often violated in real-world scenarios. For example, sensor data from one subject may differ significantly from another, leading to distribution shifts. In continual learning, this shift is framed as a sequence of tasks, each corresponding to a new subject. Such settings suffer from catastrophic forgetting, where prior knowledge deteriorates as new tasks are learned. This challenge is compounded by the scarcity and inconsistency of labeled data in human studies. To address these issues, we propose CLAD-Net (Continual Learning with Attention and Distillation), a framework enabling wearable-sensor models to be updated continuously without sacrificing performance on past tasks. CLAD-Net integrates a self-supervised transformer, acting as long-term memory, with a supervised Convolutional Neural Network (CNN) trained via knowledge distillation for activity classification. The transformer captures global activity patterns through cross-attention across body-mounted sensors, learning generalizable representations without labels. Meanwhile, the CNN leverages knowledge distillation to retain prior knowledge during subject-wise fine-tuning. On PAMAP2, CLAD-Net achieves 91.36% final accuracy with only 8.78% forgetting, surpassing memory-based and regularization-based baselines such as Experience Replay and Elastic Weight Consolidation. In semi-supervised settings with only 10-20% labeled data, CLAD-Net still delivers strong performance, demonstrating robustness to label scarcity. Ablation studies further validate each module's contribution.<i></p>
   
   <pre xml:space="preserve">
-  @misc{azghan_cladnet25,
-    title={CLAD-Net: Continual Activity Recognition 
-    in Multi-Sensor Wearable Systems},
-    author={Azghan, Reza Rahimi and Gudur, Gautham 
-    Krishna and Malu, Mohit and Thomaz, Edison and 
-    Pedrielli, Giulia and Turaga, Pavan and 
-    Ghasemzadeh, Hassan},
-    year={2025},
-    eprint={2509.23077},
-    archivePrefix={arXiv}
+  @article{azghan_cladnet25,
+    title = {CLAD-Net: Continual Activity 
+    Recognition in Multi-Sensor Wearable Systems},
+    author = {Azghan, Reza Rahimi and Gudur,
+    Gautham Krishna and Malu, Mohit and Thomaz, 
+    Edison and Pedrielli, Giulia and Turaga, Pavan 
+    and Ghasemzadeh, Hassan},
+    year = {2025},
+    eprint = {2509.23077},
+    archivePrefix = {arXiv}
   }
   </pre>
 
@@ -358,7 +381,6 @@
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.18457" target="_blank"><img src="images/GluMind25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <a href="https://arxiv.org/abs/2509.18457" id="GluMind25" target="_blank">
       <heading>GluMind: Multimodal Parallel Attention and Knowledge Retention for Robust Cross-Population Blood Glucose Forecasting</heading>
       </a><br>
@@ -373,20 +395,20 @@
         <p align="justify"> <i id="glumind25_abs">Diabetes is a chronic metabolic disorder characterized by persistently high blood glucose levels (BGLs), leading to severe complications such as cardiovascular disease, neuropathy, and retinopathy. Predicting BGLs enables patients to maintain glucose levels within a safe range and allows caregivers to take proactive measures through lifestyle modifications. Continuous Glucose Monitoring (CGM) systems provide real-time tracking, offering a valuable tool for monitoring BGLs. However, accurately forecasting BGLs remains challenging due to fluctuations due to physical activity, diet, and other factors. Recent deep learning models show promise in improving BGL prediction. Nonetheless, forecasting BGLs accurately from multimodal, irregularly sampled data over long prediction horizons remains a challenging research problem. In this paper, we propose AttenGluco, a multimodal Transformer-based framework for long-term blood glucose prediction. AttenGluco employs cross-attention to effectively integrate CGM and activity data, addressing challenges in fusing data with different sampling rates. Moreover, it employs multi-scale attention to capture long-term dependencies in temporal data, enhancing forecasting accuracy. To evaluate the performance of AttenGluco, we conduct forecasting experiments on the recently released AIREADI dataset, analyzing its predictive accuracy across different subject cohorts including healthy individuals, people with prediabetes, and those with type 2 diabetes. Furthermore, we investigate its performance improvements and forgetting behavior as new cohorts are introduced. Our evaluations show that AttenGluco improves all error metrics, such as root mean square error (RMSE), mean absolute error (MAE), and correlation, compared to the multimodal LSTM model. AttenGluco outperforms this baseline model by about 10% and 15% in terms of RMSE and MAE, respectively.This paper proposes GluMind, a transformer-based multimodal framework designed for continual and long-term blood glucose forecasting. GluMind devises two attention mechanisms, including cross-attention and multi-scale attention, which operate in parallel and deliver accurate predictive performance. Cross-attention effectively integrates blood glucose data with other physiological and behavioral signals such as activity, stress, and heart rate, addressing challenges associated with varying sampling rates and their adverse impacts on robust prediction. Moreover, the multi-scale attention mechanism captures long-range temporal dependencies. To mitigate catastrophic forgetting, GluMind incorporates a knowledge retention technique into the transformer-based forecasting model. The knowledge retention module not only enhances the model's ability to retain prior knowledge but also boosts its overall forecasting performance. We evaluate GluMind on the recently released AIREADI dataset, which contains behavioral and physiological data collected from healthy people, individuals with prediabetes, and those with type 2 diabetes. We examine the performance stability and adaptability of GluMind in learning continuously as new patient cohorts are introduced. Experimental results show that GluMind consistently outperforms other state-of-the-art forecasting models, achieving approximately 15% and 9% improvements in root mean squared error (RMSE) and mean absolute error (MAE), respectively.<i></p>
   
   <pre xml:space="preserve">
-  @misc{farahmand_glumind25,
-    title={GluMind: Multimodal Parallel Attention 
+  @article{farahmand_glumind25,
+    title = {GluMind: Multimodal Parallel Attention 
     and Knowledge Retention for Robust 
     Cross-Population Blood Glucose Forecasting}, 
-    author={Farahmand, Ebrahim and Azghan, 
+    author = {Farahmand, Ebrahim and Azghan, 
     Reza Rahimi and Chatrudi, Nooshin Taheri and 
     Ansu-Baidoo, Velarie Yaa and Kim, Eric and 
     Gudur, Gautham Krishna and Malu, Mohit and 
     Krueger, Owen and Thomaz, Edison and 
     Pedrielli, Giulia and Turaga, Pavan and 
     Ghasemzadeh, Hassan},
-    year={2025},
-    eprint={2509.18457},
-    archivePrefix={arXiv}
+    year = {2025},
+    eprint = {2509.18457},
+    archivePrefix = {arXiv}
   }
   </pre>
   
@@ -404,11 +426,10 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2502.09919" target="_blank"><img src="images/AttenGluco25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/abstract/document/11251776" target="_blank"><img src="images/AttenGluco25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <a href="https://arxiv.org/abs/2502.09919" id="AttenGluco25" target="_blank">
+      <a href="https://ieeexplore.ieee.org/abstract/document/11251776" id="AttenGluco25" target="_blank">
       <heading>AttenGluco: Multimodal Transformer-Based Blood Glucose Forecasting on AI-READI Dataset</heading>
       </a><br>
       Ebrahim Farahmand, Reza Rahimi Azghan, Nooshin Taheri Chatrudi, Eric Kim, <b><u>Gautham Krishna Gudur</u></b>, Edison Thomaz, Giulia Pedrielli, Pavan Turaga, Hassan Ghasemzadeh<br>
@@ -424,17 +445,20 @@
       <p align="justify"> <i id="attengluco25_abs">Diabetes is a chronic metabolic disorder characterized by persistently high blood glucose levels (BGLs), leading to severe complications such as cardiovascular disease, neuropathy, and retinopathy. Predicting BGLs enables patients to maintain glucose levels within a safe range and allows caregivers to take proactive measures through lifestyle modifications. Continuous Glucose Monitoring (CGM) systems provide real-time tracking, offering a valuable tool for monitoring BGLs. However, accurately forecasting BGLs remains challenging due to fluctuations due to physical activity, diet, and other factors. Recent deep learning models show promise in improving BGL prediction. Nonetheless, forecasting BGLs accurately from multimodal, irregularly sampled data over long prediction horizons remains a challenging research problem. In this paper, we propose AttenGluco, a multimodal Transformer-based framework for long-term blood glucose prediction. AttenGluco employs cross-attention to effectively integrate CGM and activity data, addressing challenges in fusing data with different sampling rates. Moreover, it employs multi-scale attention to capture long-term dependencies in temporal data, enhancing forecasting accuracy. To evaluate the performance of AttenGluco, we conduct forecasting experiments on the recently released AIREADI dataset, analyzing its predictive accuracy across different subject cohorts including healthy individuals, people with prediabetes, and those with type 2 diabetes. Furthermore, we investigate its performance improvements and forgetting behavior as new cohorts are introduced. Our evaluations show that AttenGluco improves all error metrics, such as root mean square error (RMSE), mean absolute error (MAE), and correlation, compared to the multimodal LSTM model. AttenGluco outperforms this baseline model by about 10% and 15% in terms of RMSE and MAE, respectively.</i></p>
 
 <pre xml:space="preserve">
-@article{farahmand_attengluco25,
+@inproceedings{farahmand_attengluco25,
+  title = {AttenGluco: Multimodal Transformer-Based 
+  Blood Glucose Forecasting on AI-READI Dataset}, 
   author = {Farahmand, Ebrahim and Azghan, 
   Reza Rahimi and Chatrudi, Nooshin Taheri,
   and Kim, Eric and Gudur, Gautham Krishna
   and Thomaz, Edison and Pedrielli, Giulia
   and Turaga, Pavan and Ghasemzadeh, Hassan}
-  title = {AttenGluco: Multimodal 
-  Transformer-Based Blood Glucose Forecasting
-  on AI-READI Dataset},
-  journal = {arXiv preprint arXiv:2502.09919},
-  year = {2025}
+  booktitle = {2025 47th Annual International 
+  Conference of the IEEE Engineering in Medicine 
+  and Biology Society (EMBC)},
+  pages = {1-7},
+  year = {2025},
+  organization = {IEEE}
 }
 </pre>
 
@@ -1303,6 +1327,9 @@
 </table>
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('gatedcl26_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('cladnet25_abs');
