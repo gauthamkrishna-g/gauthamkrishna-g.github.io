@@ -299,8 +299,8 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
-    <tr>
-    <td width="33%" valign="top" align="center"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+  <tr>
+    <td width="33%" valign="top" align="center"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
@@ -312,10 +312,27 @@
   </tr>
 
   <tr>
+    <td width="33%" valign="top" align="center"><img src="images/RAST26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+        <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+        <heading>RAST: Resolution-Aware Privileged Structure Transfer for Low-Resolution Audio Activity Recognition</heading>
+        <br>
+        Ji Hwan Park, <b><u>Gautham Krishna Gudur</u></b>, Yufei Shen, Dawei Liang, Edison Thomaz
+      </p>
+
+      <!-- <div class="paper" id="rast26">
+      <a href="javascript:toggleblock('rast26_abs')">abstract</a>
+
+      <p align="justify"> <i id="rast26_abs">Audio is increasingly used for human activity recognition (HAR) because it captures object interactions, environmental events, and contextual cues ineveryday environments. High-resolution (HR) audio preserves rich acoustic information and is therefore valuable for model development. However, continuous HR sensing can incur substantial energy and storage costs and may expose sensitive speech content. Low-resolution (LR) audio offers a more privacy-preserving and resource-efficient alternative for deployment, but reduced sampling rates can remove acoustic cues essential for activity recognition, leading to significant performance degradation. We formulate this training–deployment mismatch as sensor-resolution privileged learning, in which HR audio is available during training, while inference relies exclusively on LR audio. We propose RAST, a resolution-aware transfer framework that compresses HR teacher representations by preserving token-level information and neighborhood structure before performing localized HR-LR alignment. Experiments on SAMOSA and AudioIMU datasets show that RAST consistently outperforms LR-only training and direct teacher-transfer baselines, improving LR-only recognition by up to 7.8% while requiring only LR audio at inference.</i></p>
+      </div> -->
+    </td>
+  </tr>
+
+  <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank">
       <heading>Gated Adaptation for Continual Learning in Human Activity Recognition</heading>
       </a><br>
@@ -323,11 +340,11 @@
       </p>
 
       <div class="paper" id="gatedcl26">
-        <a href="https://arxiv.org/pdf/2603.10046" target="_blank">pdf</a> /
-        <a href="javascript:toggleblock('gatedcl26_abs')">abstract</a> /
-        <a shape="rect" href="javascript:togglebib('gatedcl26')" class="togglebib">bibtex</a>
+      <a href="https://arxiv.org/pdf/2603.10046" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('gatedcl26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('gatedcl26')" class="togglebib">bibtex</a>
   
-        <p align="justify"> <i id="gatedcl26_abs">Wearable sensors in Internet of Things (IoT) ecosystems increasingly support applications such as remote health monitoring, elderly care, and smart home automation, all of which rely on robust human activity recognition (HAR). Continual learning systems must balance plasticity (learning new tasks) with stability (retaining prior knowledge), yet AI models often exhibit catastrophic forgetting, where learning new tasks degrades performance on earlier ones. This challenge is especially acute in domain-incremental HAR, where on-device models must adapt to new subjects with distinct movement patterns while maintaining accuracy on prior subjects without transmitting sensitive data to the cloud. We propose a parameter-efficient continual learning framework based on channel-wise gated modulation of frozen pretrained representations. Our key insight is that adaptation should operate through feature selection rather than feature generation: by restricting learned transformations to diagonal scaling of existing features, we preserve the geometry of pretrained representations while enabling subject-specific modulation. We provide a theoretical analysis showing that gating implements a bounded diagonal operator that limits representational drift compared to unconstrained linear transformations. Empirically, freezing the backbone substantially reduces forgetting, and lightweight gates restore lost adaptation capacity, achieving stability and plasticity simultaneously. On PAMAP2 with 8 sequential subjects, our approach reduces forgetting from 39.7% to 16.2% and improves final accuracy from 56.7% to 77.7%, while training less than 2% of parameters. Our method matches or exceeds standard continual learning baselines without replay buffers or task-specific regularization, confirming that structured diagonal operators are effective and efficient under distribution shift.</i></p>
+      <p align="justify"> <i id="gatedcl26_abs">Wearable sensors in Internet of Things (IoT) ecosystems increasingly support applications such as remote health monitoring, elderly care, and smart home automation, all of which rely on robust human activity recognition (HAR). Continual learning systems must balance plasticity (learning new tasks) with stability (retaining prior knowledge), yet AI models often exhibit catastrophic forgetting, where learning new tasks degrades performance on earlier ones. This challenge is especially acute in domain-incremental HAR, where on-device models must adapt to new subjects with distinct movement patterns while maintaining accuracy on prior subjects without transmitting sensitive data to the cloud. We propose a parameter-efficient continual learning framework based on channel-wise gated modulation of frozen pretrained representations. Our key insight is that adaptation should operate through feature selection rather than feature generation: by restricting learned transformations to diagonal scaling of existing features, we preserve the geometry of pretrained representations while enabling subject-specific modulation. We provide a theoretical analysis showing that gating implements a bounded diagonal operator that limits representational drift compared to unconstrained linear transformations. Empirically, freezing the backbone substantially reduces forgetting, and lightweight gates restore lost adaptation capacity, achieving stability and plasticity simultaneously. On PAMAP2 with 8 sequential subjects, our approach reduces forgetting from 39.7% to 16.2% and improves final accuracy from 56.7% to 77.7%, while training less than 2% of parameters. Our method matches or exceeds standard continual learning baselines without replay buffers or task-specific regularization, confirming that structured diagonal operators are effective and efficient under distribution shift.</i></p>
     
 <pre xml:space="preserve">
 @article{azghan_gatedcl26,
@@ -358,11 +375,11 @@
       </p>
 
       <div class="paper" id="cladnet25">
-        <a href="https://arxiv.org/pdf/2509.23077" target="_blank">pdf</a> /
-        <a href="javascript:toggleblock('cladnet25_abs')">abstract</a> /
-        <a shape="rect" href="javascript:togglebib('cladnet25')" class="togglebib">bibtex</a>
+      <a href="https://arxiv.org/pdf/2509.23077" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('cladnet25_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('cladnet25')" class="togglebib">bibtex</a>
   
-        <p align="justify"> <i id="cladnet25_abs">The rise of deep learning has greatly advanced human behavior monitoring using wearable sensors, particularly human activity recognition (HAR). While deep models have been widely studied, most assume stationary data distributions - an assumption often violated in real-world scenarios. For example, sensor data from one subject may differ significantly from another, leading to distribution shifts. In continual learning, this shift is framed as a sequence of tasks, each corresponding to a new subject. Such settings suffer from catastrophic forgetting, where prior knowledge deteriorates as new tasks are learned. This challenge is compounded by the scarcity and inconsistency of labeled data in human studies. To address these issues, we propose CLAD-Net (Continual Learning with Attention and Distillation), a framework enabling wearable-sensor models to be updated continuously without sacrificing performance on past tasks. CLAD-Net integrates a self-supervised transformer, acting as long-term memory, with a supervised Convolutional Neural Network (CNN) trained via knowledge distillation for activity classification. The transformer captures global activity patterns through cross-attention across body-mounted sensors, learning generalizable representations without labels. Meanwhile, the CNN leverages knowledge distillation to retain prior knowledge during subject-wise fine-tuning. On PAMAP2, CLAD-Net achieves 91.36% final accuracy with only 8.78% forgetting, surpassing memory-based and regularization-based baselines such as Experience Replay and Elastic Weight Consolidation. In semi-supervised settings with only 10-20% labeled data, CLAD-Net still delivers strong performance, demonstrating robustness to label scarcity. Ablation studies further validate each module's contribution.<i></p>
+      <p align="justify"> <i id="cladnet25_abs">The rise of deep learning has greatly advanced human behavior monitoring using wearable sensors, particularly human activity recognition (HAR). While deep models have been widely studied, most assume stationary data distributions - an assumption often violated in real-world scenarios. For example, sensor data from one subject may differ significantly from another, leading to distribution shifts. In continual learning, this shift is framed as a sequence of tasks, each corresponding to a new subject. Such settings suffer from catastrophic forgetting, where prior knowledge deteriorates as new tasks are learned. This challenge is compounded by the scarcity and inconsistency of labeled data in human studies. To address these issues, we propose CLAD-Net (Continual Learning with Attention and Distillation), a framework enabling wearable-sensor models to be updated continuously without sacrificing performance on past tasks. CLAD-Net integrates a self-supervised transformer, acting as long-term memory, with a supervised Convolutional Neural Network (CNN) trained via knowledge distillation for activity classification. The transformer captures global activity patterns through cross-attention across body-mounted sensors, learning generalizable representations without labels. Meanwhile, the CNN leverages knowledge distillation to retain prior knowledge during subject-wise fine-tuning. On PAMAP2, CLAD-Net achieves 91.36% final accuracy with only 8.78% forgetting, surpassing memory-based and regularization-based baselines such as Experience Replay and Elastic Weight Consolidation. In semi-supervised settings with only 10-20% labeled data, CLAD-Net still delivers strong performance, demonstrating robustness to label scarcity. Ablation studies further validate each module's contribution.</i></p>
   
 <pre xml:space="preserve">
 @article{azghan_cladnet25,
@@ -393,11 +410,11 @@
       </p>
 
       <div class="paper" id="glumind25">
-        <a href="https://arxiv.org/pdf/2509.18457" target="_blank">pdf</a> /
-        <a href="javascript:toggleblock('glumind25_abs')">abstract</a> /
-        <a shape="rect" href="javascript:togglebib('glumind25')" class="togglebib">bibtex</a>
+      <a href="https://arxiv.org/pdf/2509.18457" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('glumind25_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('glumind25')" class="togglebib">bibtex</a>
   
-        <p align="justify"> <i id="glumind25_abs">Diabetes is a chronic metabolic disorder characterized by persistently high blood glucose levels (BGLs), leading to severe complications such as cardiovascular disease, neuropathy, and retinopathy. Predicting BGLs enables patients to maintain glucose levels within a safe range and allows caregivers to take proactive measures through lifestyle modifications. Continuous Glucose Monitoring (CGM) systems provide real-time tracking, offering a valuable tool for monitoring BGLs. However, accurately forecasting BGLs remains challenging due to fluctuations due to physical activity, diet, and other factors. Recent deep learning models show promise in improving BGL prediction. Nonetheless, forecasting BGLs accurately from multimodal, irregularly sampled data over long prediction horizons remains a challenging research problem. In this paper, we propose AttenGluco, a multimodal Transformer-based framework for long-term blood glucose prediction. AttenGluco employs cross-attention to effectively integrate CGM and activity data, addressing challenges in fusing data with different sampling rates. Moreover, it employs multi-scale attention to capture long-term dependencies in temporal data, enhancing forecasting accuracy. To evaluate the performance of AttenGluco, we conduct forecasting experiments on the recently released AIREADI dataset, analyzing its predictive accuracy across different subject cohorts including healthy individuals, people with prediabetes, and those with type 2 diabetes. Furthermore, we investigate its performance improvements and forgetting behavior as new cohorts are introduced. Our evaluations show that AttenGluco improves all error metrics, such as root mean square error (RMSE), mean absolute error (MAE), and correlation, compared to the multimodal LSTM model. AttenGluco outperforms this baseline model by about 10% and 15% in terms of RMSE and MAE, respectively.This paper proposes GluMind, a transformer-based multimodal framework designed for continual and long-term blood glucose forecasting. GluMind devises two attention mechanisms, including cross-attention and multi-scale attention, which operate in parallel and deliver accurate predictive performance. Cross-attention effectively integrates blood glucose data with other physiological and behavioral signals such as activity, stress, and heart rate, addressing challenges associated with varying sampling rates and their adverse impacts on robust prediction. Moreover, the multi-scale attention mechanism captures long-range temporal dependencies. To mitigate catastrophic forgetting, GluMind incorporates a knowledge retention technique into the transformer-based forecasting model. The knowledge retention module not only enhances the model's ability to retain prior knowledge but also boosts its overall forecasting performance. We evaluate GluMind on the recently released AIREADI dataset, which contains behavioral and physiological data collected from healthy people, individuals with prediabetes, and those with type 2 diabetes. We examine the performance stability and adaptability of GluMind in learning continuously as new patient cohorts are introduced. Experimental results show that GluMind consistently outperforms other state-of-the-art forecasting models, achieving approximately 15% and 9% improvements in root mean squared error (RMSE) and mean absolute error (MAE), respectively.<i></p>
+      <p align="justify"> <i id="glumind25_abs">Diabetes is a chronic metabolic disorder characterized by persistently high blood glucose levels (BGLs), leading to severe complications such as cardiovascular disease, neuropathy, and retinopathy. Predicting BGLs enables patients to maintain glucose levels within a safe range and allows caregivers to take proactive measures through lifestyle modifications. Continuous Glucose Monitoring (CGM) systems provide real-time tracking, offering a valuable tool for monitoring BGLs. However, accurately forecasting BGLs remains challenging due to fluctuations due to physical activity, diet, and other factors. Recent deep learning models show promise in improving BGL prediction. Nonetheless, forecasting BGLs accurately from multimodal, irregularly sampled data over long prediction horizons remains a challenging research problem. In this paper, we propose AttenGluco, a multimodal Transformer-based framework for long-term blood glucose prediction. AttenGluco employs cross-attention to effectively integrate CGM and activity data, addressing challenges in fusing data with different sampling rates. Moreover, it employs multi-scale attention to capture long-term dependencies in temporal data, enhancing forecasting accuracy. To evaluate the performance of AttenGluco, we conduct forecasting experiments on the recently released AIREADI dataset, analyzing its predictive accuracy across different subject cohorts including healthy individuals, people with prediabetes, and those with type 2 diabetes. Furthermore, we investigate its performance improvements and forgetting behavior as new cohorts are introduced. Our evaluations show that AttenGluco improves all error metrics, such as root mean square error (RMSE), mean absolute error (MAE), and correlation, compared to the multimodal LSTM model. AttenGluco outperforms this baseline model by about 10% and 15% in terms of RMSE and MAE, respectively.This paper proposes GluMind, a transformer-based multimodal framework designed for continual and long-term blood glucose forecasting. GluMind devises two attention mechanisms, including cross-attention and multi-scale attention, which operate in parallel and deliver accurate predictive performance. Cross-attention effectively integrates blood glucose data with other physiological and behavioral signals such as activity, stress, and heart rate, addressing challenges associated with varying sampling rates and their adverse impacts on robust prediction. Moreover, the multi-scale attention mechanism captures long-range temporal dependencies. To mitigate catastrophic forgetting, GluMind incorporates a knowledge retention technique into the transformer-based forecasting model. The knowledge retention module not only enhances the model's ability to retain prior knowledge but also boosts its overall forecasting performance. We evaluate GluMind on the recently released AIREADI dataset, which contains behavioral and physiological data collected from healthy people, individuals with prediabetes, and those with type 2 diabetes. We examine the performance stability and adaptability of GluMind in learning continuously as new patient cohorts are introduced. Experimental results show that GluMind consistently outperforms other state-of-the-art forecasting models, achieving approximately 15% and 9% improvements in root mean squared error (RMSE) and mean absolute error (MAE), respectively.</i></p>
   
 <pre xml:space="preserve">
 @article{farahmand_glumind25,
@@ -417,7 +434,7 @@
 }
 </pre>
   
-        </div>
+      </div>
     </td>
   </tr>
 
@@ -443,12 +460,12 @@
       <b>ICML 2026</b>
       </p>
 
-      <div class="paper" id="pcl2026">
+      <div class="paper" id="pcl26">
       <a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('pcl26_abs')">abstract</a> /
       <a href="publications/PCL_ML4Audio_ICML26_Poster.pdf" target="_blank">poster</a> /
       <a href="https://www.linkedin.com/posts/gauthamkrishna-g_pcl-partitioned-continual-learning-ugcPost-7481160868286853120-rLa3/" target="_blank">linkedin</a> /
-      <a shape="rect" href="javascript:togglebib('pcl2026')" class="togglebib">bibtex</a>
+      <a shape="rect" href="javascript:togglebib('pcl26')" class="togglebib">bibtex</a>
 
       <p align="justify"> <i id="pcl26_abs">Continual audio classification requires models to learn new sound classes over time without retraining while preserving performance on previously learned classes, balancing plasticity and stability. Existing continual learning (CL) approaches update a single shared monolithic model across tasks, limiting scalability to evolving task distributions and constraining adaptation to the input space. We propose PCL, a representation-space framework that replaces a monolithic model with multiple lightweight experts. Embeddings from pretrained audio foundation models are partitioned via unsupervised clustering, where each homogeneous latent region is assigned an expert. Experiments on ESC-50 and UrbanSound8K using CLAP, AST, and Wav2Vec2 embeddings in exemplar-free class-incremental settings show consistent improvements over monolithic baselines, including a ~17% accuracy gain and a Backward Transfer (BWT) improvement from -0.249 to -0.061 on ESC-50 with minimal overhead.</i></p>
 
@@ -893,10 +910,11 @@
   Ateendra and R, Srinivasan},
   title = {A Vision-Based Deep On-Device 
   Intelligent Bus Stop Recognition System},
-  booktitle = {Adjunct Proceedings of the 2019 ACM  
-  International Joint Conference on Pervasive and
-  Ubiquitous Computing and Proceedings of the 2019 
-  ACM International Symposium on Wearable Computers},
+  booktitle = {Adjunct Proceedings of the 2019 
+  ACM International Joint Conference on Pervasive 
+  and Ubiquitous Computing and Proceedings of the 
+  2019 ACM International Symposium on Wearable 
+  Computers},
   pages = {963--968},
   numpages = {6},
   year = {2019}
@@ -930,12 +948,12 @@
 
 <pre xml:space="preserve">
 @inproceedings{raghavan_konvens19,
-  author = {Raghavan, AK and Umaashankar, Venkatesh
-  and Gudur, Gautham Krishna},
+  author = {Raghavan, AK and Umaashankar, 
+  Venkatesh and Gudur, Gautham Krishna},
   title = {Label Frequency Transformation for 
   Multi-Label Multi-Class Text Classification},
-  booktitle = {Proceedings of the 15th Conference on 
-  Natural Language Processing (KONVENS 2019)},
+  booktitle = {Proceedings of the 15th Conference 
+  on Natural Language Processing (KONVENS 2019)},
   pages = {341--346},
   year = {2019},
 }
@@ -1128,8 +1146,9 @@
 @article{krishna_icrtcse16,
   author = {Krishna, G Gautham and Krishna, G 
   and Bhalaji, N},
-  title = {Analysis of Routing Protocol for Low-power
-  and Lossy Networks in IoT Real Time Applications},
+  title = {Analysis of Routing Protocol 
+  for Low-power and Lossy Networks in IoT 
+  Real Time Applications},
   journal = {Procedia Computer Science},
   volume = {87},
   pages = {270--274},
@@ -1378,6 +1397,9 @@
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
 </script>
+<!-- <script xml:space="preserve" language="JavaScript">
+hideblock('rast26_abs');
+</script> -->
 <script xml:space="preserve" language="JavaScript">
 hideblock('pcl26_abs');
 </script>
