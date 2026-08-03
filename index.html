@@ -194,9 +194,10 @@
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
       <li> <a href="#PCL2026">Partitioned Continual Learning (PCL)</a> accepted at the Machine Learning for Audio workshop @ ICML 2026.</li>
-      <li> Excited to be TA for <a href="https://www.ideal.ece.utexas.edu/~ghosh/teaching.html" target="_blank">ECE 381K Applied Machine Learning</a> (graduate course) in Fall 2026.</li>
       <li> Organizing the <a href="https://wellcomp2026.github.io/" target="_blank">WellComp 2026 workshop</a> at ACM UbiComp 2026. Please consider submitting your best work.</li>
+      <li> Excited to be TA for <a href="https://www.ideal.ece.utexas.edu/~ghosh/teaching.html" target="_blank">ECE 381K Applied Machine Learning</a> (graduate course) in Fall 2026.</li>
       <li> Interning at <a href="https://www.bosch.com/research/" target="_blank">Bosch Research</a>, California in Summer 2026, working on foundation models/LLMs for time-series.</li>
+      <li> <a href="GatedCL26">Gated Adaptation for Continual Learning in HAR</a> accepted at IEEE Internet of Things Journal.</li>
       <li> Excited to be TA for <a href="https://docs.google.com/document/d/1Kc0SH6tx1Q9dAXh6zvMhxysTUT3OPDqHaJYdDRW2o80/edit?usp=drive_link" target="_blank">ECE 381V Deep Learning</a> (graduate course) in Fall 2025.</li>
       <li> I joined <a href="https://www.nokia.com/bell-labs/about/locations/cambridge-uk/" target="_blank">Bell Labs, Cambridge, UK</a> as a research intern in Summer 2025 to work on AI health sensing.</li>
       <li> <a href="#AttenGluco25">AttenGluco: Multimodal Transformer-Based Blood Glucose Forecasting</a> accepted at IEEE EMBC 2025.</li>
@@ -312,6 +313,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><img src="images/RAST26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
@@ -330,40 +332,6 @@
     </td>
   </tr>
 
-  <tr>
-    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
-    <td width="67%" valign="top" style="padding-top:15px">
-      <p>
-      <a href="https://arxiv.org/abs/2603.10046" id="GatedCL26" target="_blank">
-      <heading>Gated Adaptation for Continual Learning in Human Activity Recognition</heading>
-      </a><br>
-      Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Mohit Malu, Edison Thomaz, Giulia Pedrielli, Pavan Turaga, Hassan Ghasemzadeh<br>
-      </p>
-
-      <div class="paper" id="gatedcl26">
-      <a href="https://arxiv.org/pdf/2603.10046" target="_blank">pdf</a> /
-      <a href="javascript:toggleblock('gatedcl26_abs')">abstract</a> /
-      <a shape="rect" href="javascript:togglebib('gatedcl26')" class="togglebib">bibtex</a>
-  
-      <p align="justify"> <i id="gatedcl26_abs">Wearable sensors in Internet of Things (IoT) ecosystems increasingly support applications such as remote health monitoring, elderly care, and smart home automation, all of which rely on robust human activity recognition (HAR). Continual learning systems must balance plasticity (learning new tasks) with stability (retaining prior knowledge), yet AI models often exhibit catastrophic forgetting, where learning new tasks degrades performance on earlier ones. This challenge is especially acute in domain-incremental HAR, where on-device models must adapt to new subjects with distinct movement patterns while maintaining accuracy on prior subjects without transmitting sensitive data to the cloud. We propose a parameter-efficient continual learning framework based on channel-wise gated modulation of frozen pretrained representations. Our key insight is that adaptation should operate through feature selection rather than feature generation: by restricting learned transformations to diagonal scaling of existing features, we preserve the geometry of pretrained representations while enabling subject-specific modulation. We provide a theoretical analysis showing that gating implements a bounded diagonal operator that limits representational drift compared to unconstrained linear transformations. Empirically, freezing the backbone substantially reduces forgetting, and lightweight gates restore lost adaptation capacity, achieving stability and plasticity simultaneously. On PAMAP2 with 8 sequential subjects, our approach reduces forgetting from 39.7% to 16.2% and improves final accuracy from 56.7% to 77.7%, while training less than 2% of parameters. Our method matches or exceeds standard continual learning baselines without replay buffers or task-specific regularization, confirming that structured diagonal operators are effective and efficient under distribution shift.</i></p>
-    
-<pre xml:space="preserve">
-@article{azghan_gatedcl26,
-  title = {Gated Adaptation for Continual Learning 
-  in Human Activity Recognition},
-  author = {Azghan, Reza Rahimi and Gudur,
-  Gautham Krishna and Malu, Mohit and Thomaz, 
-  Edison and Pedrielli, Giulia and Turaga, Pavan 
-  and Ghasemzadeh, Hassan},
-  year = {2026},
-  eprint = {2603.10046},
-  archivePrefix = {arXiv}
-}
-</pre>
-
-      </div>
-    </td>
-  </tr>
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.23077" target="_blank"><img src="images/CLADNet25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
@@ -399,6 +367,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.18457" target="_blank"><img src="images/GluMind25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
@@ -486,6 +455,43 @@
 }
 </pre>
   
+      </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/11627863" id="GatedCL26" target="_blank"><img src="images/Channel_wise_Gating.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+      <a href="https://ieeexplore.ieee.org/document/11627863" id="GatedCL26" target="_blank">
+      <heading>Gated Adaptation for Continual Learning in Human Activity Recognition</heading>
+      </a><br>
+      Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Mohit Malu, Edison Thomaz, Giulia Pedrielli, Pavan Turaga, Hassan Ghasemzadeh<br>
+      <b>IEEE Internet of Things Journal 2026</b>
+      </p>
+
+      <div class="paper" id="gatedcl26">
+      <a href="https://arxiv.org/pdf/2603.10046" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('gatedcl26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('gatedcl26')" class="togglebib">bibtex</a>
+  
+      <p align="justify"> <i id="gatedcl26_abs">Wearable sensors in Internet of Things (IoT) ecosystems increasingly support applications such as remote health monitoring, elderly care, and smart home automation, all of which rely on robust human activity recognition (HAR). Continual learning systems must balance plasticity (the ability to learn new tasks) with stability (the retention of previously acquired knowledge). However, AI models often exhibit catastrophic forgetting, where learning new tasks degrades performance on earlier ones. This challenge is particularly acute in domain-incremental settings such as HAR, where on-device models must adapt to new subjects with distinct movement characteristics while maintaining accuracy on previously seen subjects without transmitting sensitive data to the cloud. In this work, we propose a parameter-efficient continual learning framework based on channel-wise gated modulation applied to frozen pretrained representations. Our key insight is that adaptation should operate through feature selection rather than feature generation: by restricting learned transformations to diagonal scaling of existing features, we preserve the geometric structure of pretrained representations while enabling subject-specific modulation. We provide a theoretical analysis showing that gating implements a bounded diagonal operator that limits representational drift compared to unconstrained linear transformations. Empirically, we demonstrate that freezing the backbone substantially reduces forgetting and that lightweight gates restore the adaptation capacity lost from freezing, achieving both stability and plasticity simultaneously. On the PAMAP2 dataset with 8 sequential subjects, our approach reduces forgetting from 39.7% (trainable backbone) to 16.2% and improves final accuracy from 56.7% to 77.7%, while training less than 2% of model parameters. Our method matches or exceeds standard continual learning baselines without requiring replay buffers or task-specific regularization, confirming that structured diagonal operators provide an effective and efficient mechanism for continual learning under distribution shift.</i></p>
+    
+<pre xml:space="preserve">
+@article{azghan_gatedcl26,
+  title = {Gated Adaptation for Continual Learning 
+  in Human Activity Recognition},
+  author = {Azghan, Reza Rahimi and Gudur,
+  Gautham Krishna and Malu, Mohit and Thomaz, 
+  Edison and Pedrielli, Giulia and Turaga, Pavan 
+  and Ghasemzadeh, Hassan},
+  journal={IEEE Internet of Things Journal}, 
+  year = {2026},
+  doi={10.1109/JIOT.2026.3717877}
+}
+</pre>
+
       </div>
     </td>
   </tr>
