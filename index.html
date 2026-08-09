@@ -134,25 +134,31 @@
      <!--Interdisciplinary with a good mix of theory/applied ML across multiple data regimes and domains.<br>-->
      <!--&nbsp;&nbsp;&nbsp;I'm broadly interested in the intersection of resource-efficient/human-centered learning and Generative AI, with a particular focus on:<br>-->
      <ul>
-        <li> Multimodal and multisensory learning (text, time-series, wearable, acoustic data), health AI, modality gap and cross-modal alignment, ubiquitous computing, and human-centered AI.</li>
+        <li> Multimodal and multisensory learning (text, time-series, wearable, acoustic data) and health AI.</li>
+        <li> Continual learning, few-shot adaptation, and personalization under limited supervision.</li>
+        <li> Modality gaps, cross-modal alignment, and representation learning for multimodal foundation models.</li>
+        <li> Efficient pre-training, post-training, and inference of foundation models and large/small language models.</li>
+        <li> Data-, sample-, parameter-, and token-efficient learning, including fine-tuning, reasoning, and agentic AI.</li>
+        <li> Data-centric approaches using informative sample selection and uncertainty quantification.</li>
+      </ul>
+        <!-- <li> Multimodal and multisensory learning (text, time-series, wearable, acoustic data), health AI, modality gap and cross-modal alignment, ubiquitous computing, and human-centered AI.</li>
         <li> Personalization, adaptation, and efficient pre-training/post-training of foundation models and LLMs, including data-, sample-, parameter-, and token-efficient learning.</li>
-        <li> Data-centric approaches for efficient training and inference by prioritizing informative samples in heterogeneous continual, few-shot, and human-in-the-loop learning settings.</li>
+        <li> Data-centric approaches for efficient training and inference by prioritizing informative samples in continual, few-shot, and human-in-the-loop heterogeneous learning settings.</li>
         <li> Parameter-efficient fine-tuning (PEFT) and efficient reasoning.</li>
         <li> Uncertainty quantification and learning from limited supervision, particularly under data and label scarcity.</li>
-        <!-- <li> Federated learning under statistical heterogeneities with new labels and models -->
-        <!--<li> Leveraging explainable components for guided neural network training-->
-      </ul>
+        <li> Federated learning under statistical heterogeneities with new labels and models
+        <li> Leveraging explainable components for guided neural network training-->
       <!-- Broadly, <b>resource-efficient</b> and <b>resource-aware learning</b>,<br>
       where <b>resource := data, sample, label, model, parameter, compute, etc.</b><br> -->
 
-      <p>Here are a <a href="javascript:toggleblock('research_keywords')">few keywords</a> that might best describe my research interests.
+      <p>Here are a <a href="javascript:toggleblock('research_keywords')">few keywords</a> reflecting my past and current research.
       <!-- <font size=1>(present/past, hopefully in the future!)</font>. -->
         <div id="research_keywords" style="display:none">
           <b>
             <ul>
               <li>Machine (Continual, Active, Federated, Curriculum, Few-shot, Self-supervised, On-Device) Learning</li>
               <li>Foundation Models, LLMs, Generative AI, Parameter-Efficient Fine-Tuning (PEFT), Time Series for Health </li>
-              <li>Multimodal Sensing (inertial, acoustic, wearable, ubiquitous computing), health AI, Human Activity Recognition</li>
+              <li>Ubiquitous computing, Multimodal Sensing (inertial, acoustic, wearable), Human Activity Recognition</li>
               <li>Limited Supervision, Test-time Adaptation, Subset/Model Selection, Uncertainty-Aware Learning, Sparsity</li>
             </ul>
           </b>
@@ -193,6 +199,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> <a href="#LatentLoRA26">Latent-LoRA: Compact Latent-Space Adapters for Continual Learning</a> is now out on arXiv.</li>
       <li> <a href="#PCL2026">Partitioned Continual Learning (PCL)</a> accepted at the Machine Learning for Audio workshop @ ICML 2026.</li>
       <li> Organizing the <a href="https://wellcomp2026.github.io/" target="_blank">WellComp 2026 workshop</a> at ACM UbiComp 2026. Please consider submitting your best work.</li>
       <li> Excited to be TA for <a href="https://www.ideal.ece.utexas.edu/~ghosh/teaching.html" target="_blank">ECE 381K Applied Machine Learning</a> (graduate course) in Fall 2026.</li>
@@ -302,14 +309,38 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
   <tr>
-    <td width="33%" valign="top" align="center"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
+    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank">
       <heading>Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning</heading>
-      <br>
+      </a><br>
       Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Pavan Turaga, Giulia Pedrielli, Hassan Ghasemzadeh<br>
       </p>
+
+      <div class="paper" id="latentlora26">
+      <a href="https://arxiv.org/pdf/2607.23837" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('latentlora26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('latentlora26')" class="togglebib">bibtex</a>
+  
+      <p align="justify"> <i id="latentlora26_abs">Large language models generalize well to individual tasks but lack an inherent mechanism for learning them sequentially, leading to catastrophic forgetting. To mitigate this, LoRA-based continual learning methods allocate a separate low-rank adapter per task, yet existing approaches either require task identity at inference or sum all adapters indiscriminately, letting irrelevant branches distort the output. Recent gating-based solutions route inputs to the correct adapter but introduce trainable parameters that themselves need protection against forgetting. In this work, we observe that pooled token embeddings from a frozen LLM embedding layer already separate task distributions throughout the learning sequence. A Gaussian mixture model fitted on these embeddings, without any gradient-based training, is sufficient for task-agnostic adapter selection at test time. This eliminates the need for a learned gating module. On the adapter side, constraining each task's parameters to the principal subspace of the pretrained weights via SVD yields a compact latent-space parameterization. Within this subspace, orthogonal regularization directly controls inter-task interference. The resulting system, Latent-LoRA, is replay-free, requires no trainable routing component, and uses substantially fewer parameters per task. Experiments across five model scales and two established continual learning benchmarks show state-of-the-art performance with near-zero forgetting.</i></p>
+  
+<pre xml:space="preserve">
+@article{azghan_latentlora26,
+      title = {Latent-LoRA: Compact Latent-Space 
+      Adapters with Gradient-Free Routing for 
+      Continual Learning}, 
+      author = {Azghan, Reza Rahimi and Gudur,
+      Gautham Krishna and Pedrielli, Giulia 
+      and Turaga, Pavan and Ghasemzadeh, Hassan},
+      year = {2026},
+      eprint = {2607.23837},
+      archivePrefix = {arXiv},
+}
+</pre>
+
+      </div>
     </td>
   </tr>
 
@@ -418,7 +449,7 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" target="_blank"><img src="images/PCL26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="33%" valign="top" align="center"><a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" id="PCL2026" target="_blank"><img src="images/PCL26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
@@ -1429,6 +1460,9 @@ hideallbibs();
 <!-- <script xml:space="preserve" language="JavaScript">
 hideblock('rast26_abs');
 </script> -->
+<script xml:space="preserve" language="JavaScript">
+hideblock('latentlora26_abs');
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('pcl26_abs');
 </script>
