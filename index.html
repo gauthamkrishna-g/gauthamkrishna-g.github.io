@@ -199,6 +199,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> <a href="#RAST26">RAST: Privileged Structure Transfer for Low-Resolution Audio</a> accepted at HumanSys @ ACM MobiCom 2026.</li>
       <li> <a href="#LatentLoRA26">Latent-LoRA: Compact Latent-Space Adapters for Continual Learning</a> is now out on arXiv.</li>
       <li> <a href="#PCL2026">Partitioned Continual Learning (PCL)</a> accepted at the Machine Learning for Audio workshop @ ICML 2026.</li>
       <li> Organizing the <a href="https://wellcomp2026.github.io/" target="_blank">WellComp 2026 workshop</a> at ACM UbiComp 2026. Please consider submitting your best work.</li>
@@ -346,25 +347,6 @@
 
 
   <tr>
-    <td width="33%" valign="top" align="center"><img src="images/RAST26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
-    <td width="67%" valign="top" style="padding-top:15px">
-      <p>
-        <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-        <heading>RAST: Resolution-Aware Privileged Structure Transfer for Low-Resolution Audio Activity Recognition</heading>
-        <br>
-        Ji Hwan Park, <b><u>Gautham Krishna Gudur</u></b>, Yufei Shen, Dawei Liang, Edison Thomaz
-      </p>
-
-      <!-- <div class="paper" id="rast26">
-      <a href="javascript:toggleblock('rast26_abs')">abstract</a>
-
-      <p align="justify"> <i id="rast26_abs">Audio is increasingly used for human activity recognition (HAR) because it captures object interactions, environmental events, and contextual cues ineveryday environments. High-resolution (HR) audio preserves rich acoustic information and is therefore valuable for model development. However, continuous HR sensing can incur substantial energy and storage costs and may expose sensitive speech content. Low-resolution (LR) audio offers a more privacy-preserving and resource-efficient alternative for deployment, but reduced sampling rates can remove acoustic cues essential for activity recognition, leading to significant performance degradation. We formulate this training–deployment mismatch as sensor-resolution privileged learning, in which HR audio is available during training, while inference relies exclusively on LR audio. We propose RAST, a resolution-aware transfer framework that compresses HR teacher representations by preserving token-level information and neighborhood structure before performing localized HR-LR alignment. Experiments on SAMOSA and AudioIMU datasets show that RAST consistently outperforms LR-only training and direct teacher-transfer baselines, improving LR-only recognition by up to 7.8% while requiring only LR audio at inference.</i></p>
-      </div> -->
-    </td>
-  </tr>
-
-
-  <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.23077" target="_blank"><img src="images/CLADNet25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
@@ -447,6 +429,27 @@
 </table>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+    <tr>
+    <td width="33%" valign="top" align="center"><img src="images/RAST26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+        <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+        <heading id=RAST26>RAST: Resolution-Aware Privileged Structure Transfer for Low-Resolution Audio Activity Recognition</heading>
+        <br>
+        Ji Hwan Park, <b><u>Gautham Krishna Gudur</u></b>, Yufei Shen, Dawei Liang, Edison Thomaz<br>
+        HumanSys: Workshop on Human-Centric Sensing and Learning<br>
+        <b>ACM MobiCom 2026</b>
+      </p>
+
+      <div class="paper" id="rast26">
+      <a href="javascript:toggleblock('rast26_abs')">abstract</a>
+
+      <p align="justify"> <i id="rast26_abs">Audio is increasingly used for human activity recognition (HAR) because it captures object interactions, environmental events, and contextual cues in everyday environments. High-resolution (HR) audio preserves rich acoustic information and is therefore valuable for model development. However, continuous HR sensing can incur substantial energy and storage costs and may expose sensitive speech content. Low-resolution (LR) audio offers a more privacy-preserving and resource-efficient alternative for deployment, but reduced sampling rates can remove acoustic cues essential for activity recognition, leading to significant performance degradation. We formulate this training–deployment mismatch as sensor-resolution privileged learning, in which HR audio is available during training, while inference relies exclusively on LR audio. We propose RAST, a resolution-aware transfer framework that compresses HR teacher representations by preserving token-level information and neighborhood structure before performing localized HR-LR alignment. Experiments on SAMOSA and AudioIMU datasets show that RAST consistently outperforms LR-only training and direct teacher-transfer baselines, improving LR-only recognition by up to 7.8% while requiring only LR audio at inference.</i></p>
+
+      </div>
+    </td>
+  </tr>
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" id="PCL2026" target="_blank"><img src="images/PCL26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
@@ -1457,9 +1460,9 @@
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
 </script>
-<!-- <script xml:space="preserve" language="JavaScript">
+<script xml:space="preserve" language="JavaScript">
 hideblock('rast26_abs');
-</script> -->
+</script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('latentlora26_abs');
 </script>
