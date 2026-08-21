@@ -199,8 +199,8 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> <a href="#LatentLoRA26">Latent-LoRA: Compact Latent-Space Adapters for Continual Learning</a> accepted at EMNLP Findings 2026.</li>
       <li> <a href="#RAST26">RAST: Resolution-Aware Privileged Audio Structure Transfer</a> accepted at HumanSys @ ACM MobiCom 2026.</li>
-      <li> <a href="#LatentLoRA26">Latent-LoRA: Compact Latent-Space Adapters for Continual Learning</a> is now out on arXiv.</li>
       <li> <a href="#PCL2026">Partitioned Continual Learning (PCL)</a> accepted at the Machine Learning for Audio workshop @ ICML 2026.</li>
       <li> Organizing the <a href="https://wellcomp2026.github.io/" target="_blank">WellComp 2026 workshop</a> at ACM UbiComp 2026. Please consider submitting your best work.</li>
       <li> Excited to be TA for <a href="https://www.ideal.ece.utexas.edu/~ghosh/teaching.html" target="_blank">ECE 381K Applied Machine Learning</a> (graduate course) in Fall 2026.</li>
@@ -310,43 +310,6 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
   <tr>
-    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
-    <td width="67%" valign="top" style="padding-top:15px">
-      <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank">
-      <heading>Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning</heading>
-      </a><br>
-      Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Pavan Turaga, Giulia Pedrielli, Hassan Ghasemzadeh<br>
-      </p>
-
-      <div class="paper" id="latentlora26">
-      <a href="https://arxiv.org/pdf/2607.23837" target="_blank">pdf</a> /
-      <a href="javascript:toggleblock('latentlora26_abs')">abstract</a> /
-      <a shape="rect" href="javascript:togglebib('latentlora26')" class="togglebib">bibtex</a>
-  
-      <p align="justify"> <i id="latentlora26_abs">Large language models generalize well to individual tasks but lack an inherent mechanism for learning them sequentially, leading to catastrophic forgetting. To mitigate this, LoRA-based continual learning methods allocate a separate low-rank adapter per task, yet existing approaches either require task identity at inference or sum all adapters indiscriminately, letting irrelevant branches distort the output. Recent gating-based solutions route inputs to the correct adapter but introduce trainable parameters that themselves need protection against forgetting. In this work, we observe that pooled token embeddings from a frozen LLM embedding layer already separate task distributions throughout the learning sequence. A Gaussian mixture model fitted on these embeddings, without any gradient-based training, is sufficient for task-agnostic adapter selection at test time. This eliminates the need for a learned gating module. On the adapter side, constraining each task's parameters to the principal subspace of the pretrained weights via SVD yields a compact latent-space parameterization. Within this subspace, orthogonal regularization directly controls inter-task interference. The resulting system, Latent-LoRA, is replay-free, requires no trainable routing component, and uses substantially fewer parameters per task. Experiments across five model scales and two established continual learning benchmarks show state-of-the-art performance with near-zero forgetting.</i></p>
-  
-<pre xml:space="preserve">
-@article{azghan_latentlora26,
-      title = {Latent-LoRA: Compact Latent-Space 
-      Adapters with Gradient-Free Routing for 
-      Continual Learning}, 
-      author = {Azghan, Reza Rahimi and Gudur,
-      Gautham Krishna and Pedrielli, Giulia 
-      and Turaga, Pavan and Ghasemzadeh, Hassan},
-      year = {2026},
-      eprint = {2607.23837},
-      archivePrefix = {arXiv},
-}
-</pre>
-
-      </div>
-    </td>
-  </tr>
-
-
-  <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2509.23077" target="_blank"><img src="images/CLADNet25.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
@@ -430,7 +393,45 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
-    <tr>
+  <tr>
+    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank"><img src="images/LatentLoRA26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+    <td width="67%" valign="top" style="padding-top:15px">
+      <p>
+      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
+      <a href="https://arxiv.org/abs/2607.23837" id="LatentLoRA26" target="_blank">
+      <heading>Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning</heading>
+      </a><br>
+      Reza Rahimi Azghan, <b><u>Gautham Krishna Gudur</u></b>, Pavan Turaga, Giulia Pedrielli, Hassan Ghasemzadeh<br>
+      <b>EMNLP Findings 2026</b>
+      </p>
+
+      <div class="paper" id="latentlora26">
+      <a href="https://arxiv.org/pdf/2607.23837" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('latentlora26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('latentlora26')" class="togglebib">bibtex</a>
+  
+      <p align="justify"> <i id="latentlora26_abs">Large language models generalize well to individual tasks but lack an inherent mechanism for learning them sequentially, leading to catastrophic forgetting. To mitigate this, LoRA-based continual learning methods allocate a separate low-rank adapter per task, yet existing approaches either require task identity at inference or sum all adapters indiscriminately, letting irrelevant branches distort the output. Recent gating-based solutions route inputs to the correct adapter but introduce trainable parameters that themselves need protection against forgetting. In this work, we observe that pooled token embeddings from a frozen LLM embedding layer already separate task distributions throughout the learning sequence. A Gaussian mixture model fitted on these embeddings, without any gradient-based training, is sufficient for task-agnostic adapter selection at test time. This eliminates the need for a learned gating module. On the adapter side, constraining each task's parameters to the principal subspace of the pretrained weights via SVD yields a compact latent-space parameterization. Within this subspace, orthogonal regularization directly controls inter-task interference. The resulting system, Latent-LoRA, is replay-free, requires no trainable routing component, and uses substantially fewer parameters per task. Experiments across five model scales and two established continual learning benchmarks show state-of-the-art performance with near-zero forgetting.</i></p>
+  
+<pre xml:space="preserve">
+@article{azghan_latentlora26,
+      title = {Latent-LoRA: Compact Latent-Space 
+      Adapters with Gradient-Free Routing for 
+      Continual Learning}, 
+      author = {Azghan, Reza Rahimi and Gudur,
+      Gautham Krishna and Pedrielli, Giulia 
+      and Turaga, Pavan and Ghasemzadeh, Hassan},
+      year = {2026},
+      eprint = {2607.23837},
+      archivePrefix = {arXiv},
+}
+</pre>
+
+      </div>
+    </td>
+  </tr>
+
+
+  <tr>
     <td width="33%" valign="top" align="center"><img src="images/RAST26.png" alt="sym" width="100%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
@@ -455,7 +456,6 @@
     <td width="33%" valign="top" align="center"><a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" id="PCL2026" target="_blank"><img src="images/PCL26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
-      <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
       <a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" id="PCL2026" target="_blank">
       <heading>PCL: Partitioned Continual Learning via Unsupervised Latent Experts for Audio Classification</heading>
       </a><br>
