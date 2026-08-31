@@ -390,7 +390,7 @@
       <p align="justify"> <i id="pcl26_abs">Continual audio classification requires models to learn new sound classes over time without retraining while preserving performance on previously learned classes, balancing plasticity and stability. Existing continual learning (CL) approaches update a single shared monolithic model across tasks, limiting scalability to evolving task distributions and constraining adaptation to the input space. We propose PCL, a representation-space framework that replaces a monolithic model with multiple lightweight experts. Embeddings from pretrained audio foundation models are partitioned via unsupervised clustering, where each homogeneous latent region is assigned an expert. Experiments on ESC-50 and UrbanSound8K using CLAP, AST, and Wav2Vec2 embeddings in exemplar-free class-incremental settings show consistent improvements over monolithic baselines, including a ~17% accuracy gain and a Backward Transfer (BWT) improvement from -0.249 to -0.061 on ESC-50 with minimal overhead.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{gudur_pcl26,
+@article{gudur_pcl26,
   title = {PCL: Partitioned Continual Learning 
   via Unsupervised Latent Experts for Audio 
   Classification}, 
@@ -399,7 +399,7 @@
   Rayas, Anirudh and Turaga, Pavan and 
   Ghosh, Joydeep and Ghasemzadeh, Hassan
   and Thomaz, Edison and Pedrielli, Giulia}
-  booktitle = {ICML 2026 Workshop on 
+  journal = {ICML 2026 Workshop on 
   Learning to Listen: Machine Learning for Audio},
   year = {2026}
 }
@@ -556,13 +556,13 @@
       <p align="justify"> <i id="enlsp24_neurips_abs">Audio classification tasks like keyword spotting and acoustic event detection often require large labeled datasets, which are computationally expensive and impractical for resource-constrained devices. While active learning techniques attempt to reduce labeling efforts by selecting the most informative samples, they struggle with scalability in real-world scenarios involving thousands of audio segments. In this paper, we introduce an approach that leverages dataset distillation as an alternative strategy to active learning to address the challenge of data efficiency in real-world audio classification tasks. Our approach synthesizes compact, high-fidelity coresets that encapsulate the most critical information from the original dataset, significantly reducing the labeling requirements while offering competitive performance. Through experiments on three benchmark datasets -- Google Speech Commands, UrbanSound8K, and ESC-50, our approach achieves up to a ~3,000x reduction in data points, and requires only a negligible fraction of the original training data while matching the performance of popular active learning baselines.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{gudur_enlsp24,
+@article{gudur_enlsp24,
   author = {Gudur, Gautham Krishna and
-  and Thomaz, Edison},
+  Thomaz, Edison},
   title = {Dataset Distillation for Audio 
   Classification: A Data-Efficient 
   Alternative to Active Learning},
-  booktitle = {NeurIPS 2024 Efficient 
+  journal = {NeurIPS 2024 Efficient 
   Natural Language and Speech Processing 
   (ENLSP-IV) Workshop},
   year = {2024}
@@ -595,13 +595,13 @@
       <p align="justify"> <i id="hill22_calib_abs">Calibration can reduce overconfident predictions of deep neural networks, but can calibration also accelerate training? In this paper, we show that it can when used to prioritize some examples for performing subset selection. We study the effect of popular calibration techniques in selecting better subsets of samples during training (also called sample prioritization) and observe that calibration can improve the quality of subsets, reduce the number of examples per epoch (by at least 70%), and can thereby speed up the overall training process. We further study the effect of using calibrated pre-trained models coupled with calibration during training to guide sample prioritization, which again seems to improve the quality of samples selected.</i></p>
 
 <pre xml:space="preserve">
-@inproceedings{tata_hity22,
+@article{tata_hity22,
   author = {Tata, Ganesh and Gudur, Gautham Krishna
   and Chennupati, Gopinath and 
   Khan, Mohammad Emtiyaz},
   title = {Can Calibration Improve Sample 
   Prioritization?},
-  booktitle = {Has it Trained Yet? 
+  journal = {Has it Trained Yet? 
   NeurIPS 2022 Workshop},
   year = {2022}
 }
