@@ -361,9 +361,24 @@
 
       <div class="paper" id="rast26">
       <a href="publications/RAST_HumanSys_MobiCom26.pdf" target="_blank">pdf</a> /
-      <a href="javascript:toggleblock('rast26_abs')">abstract</a>
+      <a href="javascript:toggleblock('rast26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('rast26')" class="togglebib">bibtex</a>
 
       <p align="justify"> <i id="rast26_abs">Audio is increasingly used for human activity recognition (HAR) because it captures object interactions, environmental events, and contextual cues in everyday environments. Highresolution (HR) audio provides rich acoustic information for model development but incurs substantial energy and storage costs and may expose sensitive speech content. Lowresolution (LR) audio offers a more privacy-preserving and resource-efficient alternative for deployment, but reduced sampling rates can remove acoustic cues essential for activity recognition, leading to significant performance degradation. We formulate this training–deployment mismatch as sensor-resolution privileged learning, in which HR audio is available during training, while inference relies exclusively on LR audio. We propose RAST, a resolution-aware transfer framework that compresses HR teacher representations by preserving token-level information and neighborhood structure before performing localized HR–LR alignment. Experiments on the SAMoSA and AudioIMU datasets show that RAST consistently outperforms LR-only training and direct teacher-transfer baselines, improving LR-only recognition by up to ∼7.8% while requiring only LR audio at inference.</i></p>
+
+<pre xml:space="preserve">
+@article{park_rast26,
+  title = {RAST: Resolution-Aware Privileged 
+  Structure Transfer for Low-Resolution Audio 
+  Activity Recognition}, 
+  author = {Park, Ji Hwan, and Gudur, Gautham 
+  Krishna and Shen, Yufei and Liang, Dawei and 
+  Thomaz, Edison}
+  journal = {HumanSys: MobiCom 2026 Workshop on 
+  Human-Centric Sensing and Learning},
+  year = {2026}
+}
+</pre>
 
       </div>
     </td>
