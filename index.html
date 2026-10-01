@@ -200,6 +200,7 @@
   <tr><td>
     <sectionheading id='news'>&nbsp;&nbsp;What's New!</sectionheading>
     <ul>
+      <li> <a href="#EVOAGENT26">Counterfactual Self-Evolving Agents for Evidence-Grounded Reasoning</a> is now out on arXiv.</li>
       <li> <a href="#LatentLoRA26">Latent-LoRA: Compact Latent-Space Adapters for Continual Learning</a> accepted at EMNLP Findings 2026.</li>
       <li> <a href="#RAST26">RAST: Resolution-Aware Privileged Audio Structure Transfer</a> accepted at HumanSys @ ACM MobiCom 2026.</li>
       <li> <a href="#PCL2026">Partitioned Continual Learning (PCL)</a> accepted at the Machine Learning for Audio workshop @ ICML 2026.</li>
@@ -309,22 +310,38 @@
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
-
-    <tr>
-    <td width="33%" valign="top" align="center"><img src="images/EvoAgent26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
+  <tr>
+    <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2609.32870" id="EVOAGENT26" target="_blank"><img src="images/EvoAgent26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
       <p>
+      <a href="https://arxiv.org/abs/2609.32870" id="EVOAGENT26" target="_blank">
       <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none">
-      <heading id="EVOAGENT26">Counterfactual Self-Evolving Agents for Evidence-Grounded Reasoning</heading>
-      <br>
+      <heading>Counterfactual Self-Evolving Agents for Evidence-Grounded Reasoning</heading>
+      </a><br>
       Xing Han, Yuxin Wang, Chen Chen, Wei Dai, <b><u>Gautham Krishna Gudur</u></b>, Shijun Li, Hsing-Huan Chung, Gregory D. Hager, Joydeep Ghosh, Paul Pu Liang, Suchi Saria<br>
       </p>
 
       <div class="paper" id="evoagent26">
-      <a href="javascript:toggleblock('evoagent26_abs')">abstract</a>
-      <!-- <a shape="rect" href="javascript:togglebib('evoagent26')" class="togglebib">bibtex</a> -->
+      <a href="https://arxiv.org/pdf/2609.32870" target="_blank">pdf</a> /
+      <a href="javascript:toggleblock('evoagent26_abs')">abstract</a> /
+      <a shape="rect" href="javascript:togglebib('evoagent26')" class="togglebib">bibtex</a>
   
       <p align="justify"> <i id="evoagent26_abs">Self-play proposer-solver methods improve reasoning by generating tasks and learning from verified solutions. However, for evidence-identifiable tasks, where case-specific evidence and domain knowledge determine a checkable answer, self-play requires generating plausible cases whose answers can be independently verified. We introduce counterfactual self-evolution, which generates counterfactual context for reconsidering the original case. A trainable Proposer constructs targeted evidence edits and describes potential outcome changes with causal explanations. We handcraft an expert-verified counterfactual instruction-tuning dataset to teach the Proposer to generate high-quality counterfactuals across a broad range of action-outcome scenarios. Each counterfactual instruction-tuning example specifies an edit within a defined category and explains its hypothesized causal effect on the decision, teaching the Proposer to reason systematically about what changes and why. We instruction-tune the Proposer on these examples, then formulate a fine-tuning reward that integrates feedback from the Solver and Verifier. Across diverse counterfactual scenarios, this reward favors high-quality counterf actuals and warranted revisions, while penalizing changes that overturn correct decisions. The counterf actual context aims to correct errors and strengthen confidence in correct decisions. Accepted counterf actuals accumulate in memory that supplies in-context evidence to the frozen Solver; the Solver adapts through evolving context rather than weight updates. We apply the framework to clinical reasoning, fact verification, and business reasoning. Our evaluation tracks performance over successive rounds as counterf actual memory grows, including transfer to harder cases. Our method achieves superior results across diverse frontier models.</i></p>
+
+<pre xml:space="preserve">
+@article{han_evoagent26,
+  title = {Counterfactual Self-Evolving Agents 
+  for Evidence-Grounded Reasoning}, 
+  author = {Han, Xing and Wang, Yuxin and 
+  Chen, Chen and Dai, Wei and Gudur, Gautham 
+  Krishna and Li, Shijun and Chung, Hsing-Huan 
+  and Hager, Gregory D. and Ghosh, Joydeep and 
+  Liang, Paul Pu and Saria, Suchi},
+  year = {2026},
+  eprint = {2609.32870},
+  archivePrefix = {arXiv}
+}
+</pre>
 
       </div>
     </td>
@@ -437,15 +454,15 @@
   
 <pre xml:space="preserve">
 @article{azghan_latentlora26,
-      title = {Latent-LoRA: Compact Latent-Space 
-      Adapters with Gradient-Free Routing for 
-      Continual Learning}, 
-      author = {Azghan, Reza Rahimi and Gudur,
-      Gautham Krishna and Pedrielli, Giulia 
-      and Turaga, Pavan and Ghasemzadeh, Hassan},
-      year = {2026},
-      eprint = {2607.23837},
-      archivePrefix = {arXiv},
+  title = {Latent-LoRA: Compact Latent-Space 
+  Adapters with Gradient-Free Routing for 
+  Continual Learning}, 
+  author = {Azghan, Reza Rahimi and Gudur,
+  Gautham Krishna and Pedrielli, Giulia 
+  and Turaga, Pavan and Ghasemzadeh, Hassan},
+  year = {2026},
+  eprint = {2607.23837},
+  archivePrefix = {arXiv},
 }
 </pre>
 
@@ -469,7 +486,7 @@
       </p>
 
       <div class="paper" id="rast26">
-      <a href="publications/RAST_HumanSys_MobiCom26.pdf" target="_blank">pdf</a> /
+      <a href="https://arxiv.org/pdf/2609.38780" target="_blank">pdf</a> /
       <a href="javascript:toggleblock('rast26_abs')">abstract</a> /
       <a shape="rect" href="javascript:togglebib('rast26')" class="togglebib">bibtex</a>
 
@@ -496,6 +513,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/83/CameraReady/PCL_ML4Audio_Camera.pdf" id="PCL2026" target="_blank"><img src="images/PCL26.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
@@ -565,9 +583,12 @@
   Gautham Krishna and Malu, Mohit and Thomaz, 
   Edison and Pedrielli, Giulia and Turaga, Pavan 
   and Ghasemzadeh, Hassan},
-  journal={IEEE Internet of Things Journal}, 
+  journal={IEEE Internet of Things Journal},
+  volume = {13},
+  number = {19},
+  pages = {45304-45318},
   year = {2026},
-  doi={10.1109/JIOT.2026.3717877}
+  doi = {10.1109/JIOT.2026.3717877}
 }
 </pre>
 
@@ -702,6 +723,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2210.06592" target="_blank"><img src="images/HILL22.png" alt="sym" width="100%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
@@ -740,6 +762,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://ieeexplore.ieee.org/document/10069418" target="_blank"><img src="images/ICMLA22.png" alt="sym" width="100%" style="border-radius:15px;"></td>
     <td width="67%" valign="top" style="padding-top:15px">
@@ -773,7 +796,8 @@
       </div>
     </td>
   </tr>
-  
+
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://www.isca-speech.org/archive/interspeech_2021/gudur21_interspeech.html" target="_blank"><img src="images/INTERSPEECH21.png" alt="sym" width="65%" style="border-radius:15px;"></a></td>
     <td width="67%" valign="top" style="padding-top:15px">
@@ -814,6 +838,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2012.02702" target="_blank"><img src="images/MLMH20_Stress.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -847,6 +872,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-16-0575-8_5" target="_blank"><img src="images/DLHAR20.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
@@ -897,6 +923,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2011.03206" target="_blank"><img src="images/AIoT20.png" alt="sym" width="75%" style="border-radius:15px"></a></td>
@@ -970,6 +997,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://dl.acm.org/doi/10.1145/3341162.3349323" target="_blank"><img src="images/PURBA19.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1011,6 +1039,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://competitions.codalab.org/competitions/20139" target="_blank"><img src="images/GermEval19.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1048,6 +1077,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://dl.acm.org/doi/10.1145/3325413.3329790" target="_blank"><img src="images/EMDL19.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
@@ -1092,6 +1122,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://dl.acm.org/doi/10.1145/3212725.3212728" target="_blank"><img src="images/EMDL18.png" alt="sym" width="75%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1133,6 +1164,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://link.springer.com/chapter/10.1007/978-3-030-03405-4_42" target="_blank"><img src="images/FICC18.png" alt="sym" width="75%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1173,6 +1205,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://link.springer.com/chapter/10.1007/978-981-10-5780-9_13" target="_blank"><img src="images/ICAICR17.jpeg" alt="sym" width="50%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1209,6 +1242,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="http://www.sciencedirect.com/science/article/pii/S1877050916305002" target="_blank"><img src="images/ICRTCSE16.png" alt="sym" width="80%" style="border-radius:15px"></a></td>
@@ -1274,6 +1308,7 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="33%" valign="top" align="center"><a href="http://bayesiandeeplearning.org/" target="_blank"><img src="images/BDL20.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
     <td width="67%" valign="top">
@@ -1289,6 +1324,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><a href="https://mobiuk.org/programme2019.html" target="_blank"><img src="images/EMDL19.png" alt="sym" width="100%" style="border-radius:15px"></a></td>
@@ -1306,6 +1342,7 @@
       </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center"><img src="images/CBC15.png" alt="sym" width="60%" style="border-radius:15px"></td>
