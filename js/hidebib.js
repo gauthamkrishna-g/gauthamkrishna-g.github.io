@@ -1,42 +1,27 @@
-// from: http://www.robots.ox.ac.uk/~vedaldi/assets/hidebib.js
-function hideallbibs()
-{
-    var el = document.getElementsByTagName("div") ;
-    for (var i = 0 ; i < el.length ; ++i) {
-        if (el[i].className == "paper") {
-            var bib = el[i].getElementsByTagName("pre") ;
-            if (bib.length > 0) {
-                bib[0].style.display = 'none' ;
-            }
-        }
-    }
+// Show/hide helpers for abstracts, bibtex entries, and collapsible lists.
+// Based on http://www.robots.ox.ac.uk/~vedaldi/assets/hidebib.js
+
+function isHidden(el) {
+  return window.getComputedStyle(el).display === 'none';
 }
 
-function togglebib(paperid)
-{
-    var paper = document.getElementById(paperid) ;
-    var bib = paper.getElementsByTagName('pre') ;
-    if (bib.length > 0) {
-        if (bib[0].style.display == 'none') {
-            bib[0].style.display = 'block' ;
-        } else {
-            bib[0].style.display = 'none' ;
-        }
-    }
+function toggleblock(blockId) {
+  var el = document.getElementById(blockId);
+  if (el) el.style.display = isHidden(el) ? 'block' : 'none';
 }
 
-function toggleblock(blockId)
-{
-   var block = document.getElementById(blockId);
-   if (block.style.display == 'none') {
-    block.style.display = 'block' ;
-   } else {
-    block.style.display = 'none' ;
-   }
+function togglebib(paperId) {
+  var paper = document.getElementById(paperId);
+  var bib = paper && paper.getElementsByTagName('pre')[0];
+  if (bib) bib.style.display = isHidden(bib) ? 'block' : 'none';
 }
 
-function hideblock(blockId)
-{
-   var block = document.getElementById(blockId);
-   block.style.display = 'none' ;
+// Toggles a block and flips the link text between "show <label>" and "hide <label>".
+function togglemore(blockId, link, label) {
+  var el = document.getElementById(blockId);
+  if (!el) return false;
+  var show = isHidden(el);
+  el.style.display = show ? 'block' : 'none';
+  link.textContent = (show ? 'hide ' : 'show ') + label;
+  return false;
 }
