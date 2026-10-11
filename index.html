@@ -65,17 +65,28 @@
   [id] { scroll-margin-top: 14px; }
 
   h1, h2, h3 { margin: 0; line-height: 1.25; font-weight: 600; }
-  h1 { font-size: 38px; font-weight: 400; letter-spacing: -0.01em; text-align: center; }
+  h1 { font-size: 36px; font-weight: 400; letter-spacing: -0.01em; line-height: 1.15; }
   h2 { font-size: 22px; margin: 34px 0 10px; padding-bottom: 5px; border-bottom: 1px solid var(--rule); }
   h3 { font-size: 17px; margin: 24px 0 0; }
   h2.with-sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
   h2 .sub { margin-left: auto; font-size: 14px; font-weight: 400; }
 
-  .email { text-align: center; color: var(--muted); font-size: 15px; line-height: 1.4; margin: 2px 0 26px; }
-  .intro td.intro-photo { width: 31%; padding-right: 28px; text-align: center; }
-  .avatar { display: block; width: 100%; border-radius: 14px; }
-  .links { margin: 12px 0 0; line-height: 1.75; }
-  .intro td.intro-bio p:last-child { margin-bottom: 0; }
+  .hero {
+    display: grid; grid-template-columns: 31% 1fr; grid-template-areas: "photo head" "photo bio";
+    column-gap: 28px; align-items: start; margin-top: 6px;
+  }
+  .hero-photo { grid-area: photo; align-self: center; }
+  .hero-head { grid-area: head; }
+  .hero-bio { grid-area: bio; }
+  .tagline { margin: 4px 0 0; font-size: 16px; }
+  .email { margin: 2px 0 14px; font-size: 14px; color: var(--muted); }
+  .hero-bio p { margin: 0 0 10px; }
+  .hero-bio p:last-child { margin-bottom: 0; }
+  .avatar { display: block; width: 100%; border-radius: 10px; border: 1px solid var(--rule); }
+  .hero-links { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 5px 8px; font-size: 15px; }
+  .hero-links a { display: inline-flex; align-items: center; gap: 7px; }
+  .ic { width: 15px; height: 15px; flex: none; color: var(--muted); }
+  .hero-links a:hover .ic { color: var(--accent); }
 
   .chips { margin: -2px 0 12px; }
   .chips span {
@@ -111,9 +122,13 @@
     body { padding: 0 16px; }
     .page { padding-top: 20px; }
     h1 { font-size: 30px; }
-    .intro tr, .intro td { display: block; width: auto; }
-    .intro td.intro-photo { width: auto; padding: 0 0 18px; }
+    .hero { grid-template-columns: 1fr; grid-template-areas: "head" "photo" "bio"; }
+    .hero-head { text-align: center; }
+    .hero-photo { margin-bottom: 18px; }
     .avatar { max-width: 220px; margin: 0 auto; }
+    .hero-links { max-width: 240px; margin: 12px auto 0; }
+    .email span { display: block; }
+    .email .sep { display: none; }
     .papers tr, .papers td { display: block; width: auto; }
     .papers td.thumb { width: auto; padding: 14px 0 0; }
     .papers td.thumb .thumbimg { max-width: 260px; }
@@ -128,29 +143,29 @@
 <body>
 <div class="page">
 
-  <h1>Gautham Krishna Gudur</h1>
-  <p class="email">gauthamkrishna [at] utexas [dot] edu<br>gauthamkrishna [dot] gudur [at] gmail [dot] com</p>
-
-  <table class="intro">
-    <tr>
-      <td class="intro-photo">
-        <img src="images/avatar.jpg" alt="Gautham Krishna Gudur" class="avatar">
-        <p class="links">
-          <a href="CV_Gautham.pdf" target="_blank">CV</a> /
-          <a href="bio.txt" target="_blank">Bio</a><br>
-          <a href="https://www.linkedin.com/in/gauthamkrishna-g/" target="_blank">LinkedIn</a> /
-          <a href="https://twitter.com/gauthamkrishna_" target="_blank">Twitter</a><br>
-          <a href="https://scholar.google.com/citations?user=X5ThCEAAAAAJ" target="_blank">Google Scholar</a> /
-          <a href="https://github.com/gauthamkrishna-g" target="_blank">Github</a>
-        </p>
-      </td>
-      <td class="intro-bio">
+  <header class="hero">
+    <div class="hero-photo">
+      <img src="images/avatar.jpg" alt="Gautham Krishna Gudur" class="avatar">
+      <ul class="hero-links">
+        <li><a href="CV_Gautham.pdf" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>CV</a></li>
+        <li><a href="https://scholar.google.com/citations?user=X5ThCEAAAAAJ" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12.2V17c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.8"/><line x1="22" y1="10" x2="22" y2="16"/></svg>Scholar</a></li>
+        <li><a href="bio.txt" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Bio</a></li>
+        <li><a href="https://github.com/gauthamkrishna-g" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/gauthamkrishna-g/" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a></li>
+        <li><a href="https://twitter.com/gauthamkrishna_" target="_blank"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>Twitter</a></li>
+      </ul>
+    </div>
+    <div class="hero-head">
+      <h1>Gautham Krishna Gudur</h1>
+      <p class="tagline">Ph.D. student, Electrical and Computer Engineering, UT Austin</p>
+      <p class="email"><span>gauthamkrishna [at] utexas [dot] edu</span><span class="sep"> / </span><span>gauthamkrishna [dot] gudur [at] gmail [dot] com</span></p>
+    </div>
+    <div class="hero-bio">
         <p>I am a Ph.D. student at <a href="https://www.utexas.edu/" target="_blank">The University of Texas at Austin</a> in the <a href="https://www.ece.utexas.edu/" target="_blank">Department of ECE</a>, advised by the wonderful <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a> (previously <a href="https://users.ece.utexas.edu/~ethomaz/" target="_blank"> Prof. Edison Thomaz</a>), and affiliated with <a href="https://www.ideal.ece.utexas.edu/" target="_blank">IDEAL</a>, <a href="https://wncg.org/" target="_blank">WNCG</a>, <a href="https://www.ifml.institute/" target="_blank">IFML</a>, and <a href="https://imagine.utexas.edu/" target="_blank">iMAGiNE</a>. My research focuses on resource-efficient and data-centric machine learning, foundation models, and human-centered multimodal AI.</p>
         <p>Previously, I was a research intern at <a href="https://www.bosch.com/research/" target="_blank">Bosch Research</a> (<a href="https://www.bosch.com/research/bcai/" target="_blank">BCAI</a>) on language models for multimodal time-series data and at <a href="https://www.nokia.com/bell-labs/about/locations/cambridge-uk/" target="_blank">Nokia Bell Labs (Cambridge, UK)</a> on health foundation models. Before my Ph.D., I worked at <a href="https://www.ericsson.com/" target="_blank">Ericsson R&amp;D</a> on AI/ML for next-generation telecom systems and at <a href="https://www.smartcardia.com/" target="_blank">SmartCardia</a>, an <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> spin-off, on AI-driven wearable healthcare.</p>
         <p>I earned my Bachelor's from <a href="https://www.ssn.edu.in/" target="_blank">SSN College of Engineering</a>. Outside research, I enjoy travel, Indian classical/world music, badminton, and DotA.</p>
-      </td>
-    </tr>
-  </table>
+    </div>
+  </header>
 
   <div class="sec">
     <h2 id="research_interests">Research Interests</h2>
