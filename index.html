@@ -72,14 +72,14 @@
   h2 .sub { margin-left: auto; font-size: 14px; font-weight: 400; }
 
   .hero {
-    display: grid; grid-template-columns: 28% 1fr; grid-template-areas: "photo head" "photo bio";
-    column-gap: 28px; align-items: start; margin-top: 6px;
+    display: grid; grid-template-columns: 28% 1fr; grid-template-areas: "photo text";
+    column-gap: 28px; align-items: center; margin-top: 6px;
   }
-  .hero-photo { grid-area: photo; align-self: center; }
-  .hero-head { grid-area: head; }
-  .hero-bio { grid-area: bio; }
-  .tagline { margin: 4px 0 14px; font-size: 16px; }
-  .hero-bio p { margin: 0 0 10px; }
+  .hero-photo { grid-area: photo; }
+  .hero-text { grid-area: text; }
+  .tagline { margin: 4px 0 20px; font-size: 16px; }
+  .hero-bio { line-height: 1.6; }
+  .hero-bio p { margin: 0 0 16px; text-wrap: pretty; }
   .hero-bio p:last-child { margin-bottom: 0; }
   .avatar {
     display: block; width: 100%; border-radius: 10px; border: 1px solid var(--rule);
@@ -90,11 +90,11 @@
     .avatar { transition: none; }
     .avatar:hover { transform: none; }
   }
-  .hero-links { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: auto auto; justify-content: space-between; gap: 6px 8px; font-size: 15px; }
+  .hero-links { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: auto auto; justify-content: space-between; gap: 4px 8px; font-size: 15px; }
   .hero-links a { display: inline-flex; align-items: center; gap: 7px; }
   .ic { width: 15px; height: 15px; flex: none; color: var(--muted); }
   .hero-links a:hover .ic { color: var(--accent); }
-  .hero-mail { display: flex; align-items: flex-start; gap: 7px; margin: 10px 0 0; font-size: 13px; line-height: 1.5; }
+  .hero-mail { display: flex; align-items: flex-start; gap: 7px; margin: 8px 0 0; font-size: 13px; line-height: 1.5; }
   .hero-mail .ic { margin-top: 3px; }
   .hero-mail .addr { display: block; color: #4b5563; white-space: nowrap; }
 
@@ -133,7 +133,9 @@
     .page { padding-top: 20px; }
     h1 { font-size: 30px; }
     .hero { grid-template-columns: 1fr; grid-template-areas: "head" "photo" "bio"; }
-    .hero-head { text-align: center; }
+    .hero-text { display: contents; }
+    .hero-head { grid-area: head; text-align: center; }
+    .hero-bio { grid-area: bio; }
     .hero-photo { margin-bottom: 18px; }
     .avatar { max-width: 220px; margin: 0 auto; }
     .hero-links { max-width: 240px; margin: 12px auto 0; }
@@ -171,14 +173,16 @@
         </span>
       </p>
     </div>
+    <div class="hero-text">
     <div class="hero-head">
       <h1>Gautham Krishna Gudur</h1>
       <p class="tagline">Machine Learning Ph.D. student, UT Austin</p>
     </div>
     <div class="hero-bio">
-        <p>I am a Ph.D. student at <a href="https://www.utexas.edu/" target="_blank">The University of Texas at Austin</a> in the <a href="https://www.ece.utexas.edu/" target="_blank">Department of ECE</a>, advised by the wonderful <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a> (previously <a href="https://users.ece.utexas.edu/~ethomaz/" target="_blank"> Prof. Edison Thomaz</a>), and affiliated with <a href="https://www.ideal.ece.utexas.edu/" target="_blank">IDEAL</a>, <a href="https://wncg.org/" target="_blank">WNCG</a>, <a href="https://www.ifml.institute/" target="_blank">IFML</a>, and <a href="https://imagine.utexas.edu/" target="_blank">iMAGiNE</a>. My research focuses on resource-efficient and data-centric machine learning, foundation models, and human-centered multimodal AI.</p>
-        <p>Previously, I was a research intern at <a href="https://www.bosch.com/research/" target="_blank">Bosch Research</a> (<a href="https://www.bosch.com/research/bcai/" target="_blank">BCAI</a>) on language models for multimodal time-series data and at <a href="https://www.nokia.com/bell-labs/about/locations/cambridge-uk/" target="_blank">Nokia Bell Labs (Cambridge, UK)</a> on health foundation models. Before my Ph.D., I worked at <a href="https://www.ericsson.com/" target="_blank">Ericsson R&amp;D</a> on AI/ML for next-generation telecom systems and at <a href="https://www.smartcardia.com/" target="_blank">SmartCardia</a>, an <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> spin-off, on AI-driven wearable healthcare.</p>
+        <p>I am a Ph.D. student at <a href="https://www.utexas.edu/" target="_blank">The University of Texas at Austin</a> in the <a href="https://www.ece.utexas.edu/" target="_blank">Department of ECE</a>, advised by the wonderful <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a> (previously <a href="https://users.ece.utexas.edu/~ethomaz/" target="_blank"> Prof. Edison Thomaz</a>), and affiliated with <a href="https://www.ideal.ece.utexas.edu/" target="_blank">IDEAL</a>, <a href="https://wncg.org/" target="_blank">WNCG</a>, <a href="https://www.ifml.institute/" target="_blank">IFML</a>, and <a href="https://imagine.utexas.edu/" target="_blank">iMAGiNE</a>. My research focuses on multimodal and multisensory AI and efficient, data-centric learning for time-series and health.</p>
+        <p>Previously, I interned at <a href="https://www.bosch.com/research/" target="_blank">Bosch Research</a> (<a href="https://www.bosch.com/research/bcai/" target="_blank">BCAI</a>) on LLMs for multimodal time-series data and at <a href="https://www.nokia.com/bell-labs/about/locations/cambridge-uk/" target="_blank">Nokia Bell Labs (Cambridge, UK)</a> on adapting health foundation models. Before my Ph.D., I worked at <a href="https://www.ericsson.com/" target="_blank">Ericsson R&amp;D</a> on AI/ML for next-generation telecom systems and at <a href="https://www.smartcardia.com/" target="_blank">SmartCardia</a>, an <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> spin-off, on AI-driven wearable healthcare.</p>
         <p>I earned my Bachelor's from <a href="https://www.ssn.edu.in/" target="_blank">SSN College of Engineering</a>. Outside research, I enjoy travel, Indian classical/world music, badminton, and DotA.</p>
+    </div>
     </div>
   </header>
 
