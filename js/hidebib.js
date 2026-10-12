@@ -25,13 +25,3 @@ function togglemore(blockId, link, label) {
   link.textContent = (show ? 'hide ' : 'show ') + label;
   return false;
 }
-
-// Assemble email addresses at runtime so the page source never contains them verbatim.
-document.addEventListener('DOMContentLoaded', function () {
-  var links = document.querySelectorAll('a.mail[data-u][data-d]');
-  for (var i = 0; i < links.length; i++) {
-    var addr = links[i].getAttribute('data-u') + '@' + links[i].getAttribute('data-d');
-    links[i].textContent = addr;
-    links[i].href = 'mailto:' + addr;
-  }
-});
