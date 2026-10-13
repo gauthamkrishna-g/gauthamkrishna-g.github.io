@@ -25,3 +25,31 @@ function togglemore(blockId, link, label) {
   link.textContent = (show ? 'hide ' : 'show ') + label;
   return false;
 }
+
+// Section nav: pin it on wide screens once scrolled past, and highlight the section in view.
+document.addEventListener('DOMContentLoaded', function () {
+  var nav = document.querySelector('.toc');
+  if (!nav) return;
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]')).filter(function (a) {
+    return a.getAttribute('href').length > 1;
+  });
+  var targets = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var stuck = window.innerWidth >= 960 && nav.getBoundingClientRect().top <= 0;
+    nav.classList.toggle('stuck', stuck);
+    var line = nav.getBoundingClientRect().bottom + 8, current = -1;
+    if (stuck) {
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i] && targets[i].getBoundingClientRect().top <= line) current = i;
+      }
+    }
+    links.forEach(function (a, i) { a.classList.toggle('active', i === current); });
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+});
