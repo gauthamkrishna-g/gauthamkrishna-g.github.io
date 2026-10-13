@@ -25,12 +25,49 @@
     gtag('config', 'UA-110623657-1');
   </script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet">
-
   <style>
   /* Design credits: Jon Barron, Deepak Pathak, Aditya Kusupati and Jeff Donahue */
+  /* Titillium Web (SIL OFL 1.1, see fonts/OFL.txt), self-hosted so layout does not depend on a third-party request */
+  @font-face {
+    font-family: 'Titillium Web'; font-style: italic; font-weight: 400; font-display: swap;
+    src: url(fonts/titillium-web-400-italic-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: italic; font-weight: 400; font-display: swap;
+    src: url(fonts/titillium-web-400-italic-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: italic; font-weight: 600; font-display: swap;
+    src: url(fonts/titillium-web-600-italic-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: italic; font-weight: 600; font-display: swap;
+    src: url(fonts/titillium-web-600-italic-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: normal; font-weight: 400; font-display: swap;
+    src: url(fonts/titillium-web-400-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: normal; font-weight: 400; font-display: swap;
+    src: url(fonts/titillium-web-400-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: normal; font-weight: 600; font-display: swap;
+    src: url(fonts/titillium-web-600-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Titillium Web'; font-style: normal; font-weight: 600; font-display: swap;
+    src: url(fonts/titillium-web-600-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
   :root {
     --ink: #1f2328;
     --muted: #6b7280;
@@ -46,7 +83,7 @@
     padding: 0 20px;
     background: #fff;
     color: var(--ink);
-    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
@@ -99,6 +136,7 @@
   .hero-mail .ic { margin-top: 3px; }
   .hero-mail .addr { display: block; color: #4b5563; white-space: nowrap; }
 
+  @media (min-width: 960px) { .ri-list li { white-space: nowrap; } }
   .chips { margin: 4px 0 10px; }
   .chips span {
     display: inline-block; font-size: 11.5px; line-height: 1.35; padding: 2px 7px; margin: 0 3px 3px 0;
@@ -188,7 +226,7 @@
 
   <div class="sec">
     <h2 id="research_interests" class="with-sub">Research Interests <span class="sub"><a href="#" onclick="return togglemore('research_keywords', this, 'keywords')">show keywords</a></span></h2>
-    <ul>
+    <ul class="ri-list">
      <li> <b>Multimodal and multisensory AI</b>: learning from human signals (temporal, physiological, wearable, acoustic) for health.</li>
      <li> <b>Cross-modal representation learning</b>: modality gaps and alignment across time-series signals, language, and vision.</li>
      <li> <b>Adaptive and agentic AI</b>: continual learning, personalization, and few-shot adaptation; self-evolving agents.</li>
