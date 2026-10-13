@@ -150,12 +150,14 @@
   }
   .toc a:hover, .toc a:focus-visible { background: #e4edfa; color: var(--link); }
   .toc a.active, .toc a.active:hover { background: var(--link); color: #fff; }
-  .toc .home { display: none; margin-right: auto; padding: 3px 0; background: none; font-size: 14px; font-weight: 600; color: var(--ink); }
+  .toc .home { display: none; align-items: center; gap: 8px; margin-right: auto; padding: 0; background: none; font-size: 14px; font-weight: 600; color: var(--ink); }
   .toc .home:hover, .toc .home:focus-visible { background: none; color: var(--accent); }
+  .home-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
   @media (min-width: 960px) {
     .toc { position: sticky; top: 0; z-index: 5; margin-top: 20px; padding: 8px 0; background: rgba(255, 255, 255, .96); backdrop-filter: blur(4px); }
-    .toc.stuck { border-bottom: 1px solid var(--rule); justify-content: flex-end; }
-    .toc.stuck .home { display: inline-block; }
+    .toc.stuck { border-bottom: 1px solid var(--rule); justify-content: flex-end; gap: 5px; }
+    .toc.stuck a:not(.home) { font-size: 13px; padding: 3px 9px; }
+    .toc.stuck .home { display: inline-flex; }
     [id] { scroll-margin-top: 60px; }
   }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
@@ -258,7 +260,7 @@
   </div>
 
   <nav class="toc">
-    <a href="#" class="home">Gautham Krishna Gudur</a>
+    <a href="#" class="home"><img src="images/avatar.jpg" alt="" class="home-avatar">Gautham Krishna Gudur</a>
     <a href="#news">News</a>
     <a href="#publications">Publications</a>
     <a href="#patents">Patents</a>
