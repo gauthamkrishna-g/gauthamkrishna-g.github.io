@@ -197,6 +197,13 @@
   .services .svtags { display: block; margin-top: 4px; }
   .services .svtags + .svtags { margin-top: 0; }
   .services .svtags .tag { font-size: 12.5px; padding: 0 7px; }
+  .talks a, .talks .tsub a {
+    color: inherit; text-decoration: underline; text-decoration-color: #cfd5dd;
+    text-decoration-thickness: 1px; text-underline-offset: 3px;
+  }
+  .talks a:hover, .talks a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
+  .talks .tlinks a { text-decoration: none; color: var(--link); }
+  .more-inline { font-size: 14px; margin: 2px 0 0 22px; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -1492,26 +1499,23 @@
 
   <div class="sec">
     <h2 id="teaching">Teaching</h2>
-    <ul>
-      <li> Graduate Teaching Assistant, UT Austin</li>
-      <ul>
-        <li> <a href="https://docs.google.com/document/d/100bp0xyFALKMKLGjZJywAA7a2pVZqKlrCjOBBW64sBU/edit?tab=t.0" target="_blank">ECE 381K Applied Machine Learning</a> taught by <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a> (Fall 2026)</li>
-        <li> <a href="https://docs.google.com/document/d/1caOz01O0cP92dSk1vKx28LL9jtMJPLz1hNPrJWIcP2g/edit?tab=t.0" target="_blank">ECE 381V Deep Learning</a> taught by <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a> (Fall 2025)</li>
-        <li> <a href="https://users.ece.utexas.edu/~ethomaz/courses/hs/sp2025.html" target="_blank">ECE 382V Human Signals: Sensing and Analytics</a> taught by <a href="https://users.ece.utexas.edu/~ethomaz/" target="_blank">Prof. Edison Thomaz</a> (Spring 2025)</li>
-      </ul>
-      <li> Teaching Assistant, Solarillion Foundation (Feb 2017 - May 2018)</li>
+    <ul class="talks">
+      <li><span class="trow"><b><a href="https://docs.google.com/document/d/100bp0xyFALKMKLGjZJywAA7a2pVZqKlrCjOBBW64sBU/edit?tab=t.0" target="_blank">ECE 381K Applied Machine Learning</a></b><span class="tdate">Fall 2026</span></span><span class="tsub">Graduate Teaching Assistant, UT Austin, with <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a></span></li>
+      <li><span class="trow"><b><a href="https://docs.google.com/document/d/1caOz01O0cP92dSk1vKx28LL9jtMJPLz1hNPrJWIcP2g/edit?tab=t.0" target="_blank">ECE 381V Deep Learning</a></b><span class="tdate">Fall 2025</span></span><span class="tsub">Graduate Teaching Assistant, UT Austin, with <a href="https://www.ideal.ece.utexas.edu/~ghosh/" target="_blank">Prof. Joydeep Ghosh</a></span></li>
+      <li><span class="trow"><b><a href="https://users.ece.utexas.edu/~ethomaz/courses/hs/sp2025.html" target="_blank">ECE 382V Human Signals: Sensing and Analytics</a></b><span class="tdate">Spring 2025</span></span><span class="tsub">Graduate Teaching Assistant, UT Austin, with <a href="https://users.ece.utexas.edu/~ethomaz/" target="_blank">Prof. Edison Thomaz</a></span></li>
+      <li><span class="trow"><b>Teaching Assistant, Solarillion Foundation</b><span class="tdate">Feb 2017 – May 2018</span></span><span class="tsub"></span></li>
     </ul>
   </div>
 
 
   <div class="sec">
     <h2 id="mentoring">Mentoring</h2>
-    <ul>
-      <li> <a href="https://aadharshaadhithya.github.io/" target="_blank">Aadharsh Aadithya</a>, UT Austin – Discrete diffusion models for time-series data (2026 – Ongoing)</li>
-      <li> <a href="https://scholar.google.com/citations?hl=en&amp;user=bL6evxgAAAAJ" target="_blank">Ji Hwan Park</a>, UT Austin – Audio sensing and multimodal alignment (2025 – 2026)</li>
-      <li> <a href="https://www.linkedin.com/in/abhijithragav" target="_blank">Abhijith Ragav</a>, GaTech → Amazon – Bayesian active learning for wearable stress/affect detection (2020)</li>
-      <li> <a href="https://scholar.google.com/citations?user=PqKWqZkAAAAJ&amp;hl=en" target="_blank">Prahalathan Sundaramoorthy</a>, USC → HP Labs – Bayesian active learning for activity recognition (2018)</li>
-      <li> <a href="https://www.linkedin.com/in/manav-rajiv-moorthy" target="_blank">Manav Rajiv Moorthy</a>, UWash → Amazon – Deep learning and human activity recognition (2017 – 2018)</li>
+    <ul class="talks">
+      <li><span class="trow"><b><a href="https://aadharshaadhithya.github.io/" target="_blank">Aadharsh Aadithya</a></b><span class="tdate">2026 – present</span></span><span class="tsub">UT Austin. Discrete diffusion models for time-series data</span></li>
+      <li><span class="trow"><b><a href="https://scholar.google.com/citations?hl=en&amp;user=bL6evxgAAAAJ" target="_blank">Ji Hwan Park</a></b><span class="tdate">2025 – 2026</span></span><span class="tsub">UT Austin. Audio sensing and multimodal alignment</span></li>
+      <li><span class="trow"><b><a href="https://www.linkedin.com/in/abhijithragav" target="_blank">Abhijith Ragav</a></b><span class="tdate">2020</span></span><span class="tsub">Georgia Tech, now at Amazon. Bayesian active learning for wearable stress and affect detection</span></li>
+      <li><span class="trow"><b><a href="https://scholar.google.com/citations?user=PqKWqZkAAAAJ&amp;hl=en" target="_blank">Prahalathan Sundaramoorthy</a></b><span class="tdate">2018</span></span><span class="tsub">USC, now at HP Labs. Bayesian active learning for activity recognition</span></li>
+      <li><span class="trow"><b><a href="https://www.linkedin.com/in/manav-rajiv-moorthy" target="_blank">Manav Rajiv Moorthy</a></b><span class="tdate">2017 – 2018</span></span><span class="tsub">University of Washington, now at Amazon. Deep learning and human activity recognition</span></li>
     </ul>
   </div>
 
@@ -1520,20 +1524,11 @@
     <h2 id="summer_schools">Summer Schools</h2>
     <p>EEML 2020, OxML 2020, EEML 2021, and the IIIT-H Summer School on AI 2022, with poster presentations at both EEML editions. <a href="#" onclick="return togglemore('summer_details', this, 'details')">show details</a></p>
     <div id="summer_details" style="display:none">
-    <ul>
-      <li> <b><a href="summer_schools/SSAI2021_Certificate.pdf" target="_blank">5th Summer School on Artificial Intelligence</a></b> (Aug 2022)<br>
-      Organizers – International Institute of Information Technology - Hyderabad (Remote – CVIT, IIIT-H)<br>
-      Focus Areas – Computer Vision and Machine Learning</li>
-      <li> <b><a href="summer_schools/EEML2021_Certificate.pdf" target="_blank">Eastern European Machine Learning Summer School (EEML 2021)</a></b> (July 2021)<br>
-      Organizers – DeepMind and others (Virtual – Budapest, Hungary)<br>
-      Presented my work on <a href="https://www.youtube.com/watch?v=U_aWp6wajzM" target="_blank">Zero-shot Federated Learning with New Classes</a> as a poster.<br> Presented our idea on task-independent continual learning at the unconference sessions.</li>
-      <li> <b><a href="summer_schools/OxML2020_Certificate.pdf" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b> (Aug 2020)<br>
-      Organizers – University of Oxford, AI for Global Goals, CIFAR, Saïd Business School, Deep Medicine<br>
-      Attended with <b>full-fee waiver</b>.<br>
-      Focus Areas – Deep Learning and Healthcare</li>
-      <li> <b><a href="summer_schools/EEML2020_Certificate.pdf" target="_blank">Eastern European Machine Learning Summer School (EEML 2020)</a></b> (July 2020)<br>
-      Organizers – DeepMind and others (Virtual – Krakow, Poland)<br>
-      Presented my work on <a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&amp;t" target="_blank">ActiveHARNet</a> as a poster.</li>
+    <ul class="talks">
+      <li><span class="trow"><b><a href="summer_schools/SSAI2021_Certificate.pdf" target="_blank">5th Summer School on Artificial Intelligence</a></b><span class="tdate">Aug 2022</span></span><span class="tsub">IIIT Hyderabad (CVIT), remote. Computer vision and machine learning</span></li>
+      <li><span class="trow"><b><a href="summer_schools/EEML2021_Certificate.pdf" target="_blank">Eastern European Machine Learning Summer School (EEML 2021)</a></b><span class="tdate">July 2021</span></span><span class="tsub">DeepMind and others, virtual (Budapest). Poster on zero-shot federated learning with new classes; unconference talk on task-independent continual learning<span class="tlinks"><a href="https://www.youtube.com/watch?v=U_aWp6wajzM" target="_blank">video</a></span></span></li>
+      <li><span class="trow"><b><a href="summer_schools/OxML2020_Certificate.pdf" target="_blank">Oxford Machine Learning Summer School (OxML 2020)</a></b><span class="tdate">Aug 2020</span></span><span class="tsub">University of Oxford, AI for Global Goals, CIFAR, Saïd Business School, Deep Medicine. Deep learning and healthcare, attended with a full-fee waiver</span></li>
+      <li><span class="trow"><b><a href="summer_schools/EEML2020_Certificate.pdf" target="_blank">Eastern European Machine Learning Summer School (EEML 2020)</a></b><span class="tdate">July 2020</span></span><span class="tsub">DeepMind and others, virtual (Krakow). Poster on ActiveHARNet<span class="tlinks"><a href="https://www.youtube.com/watch?v=Kfy0URcPxyE&amp;t" target="_blank">video</a></span></span></li>
     </ul>
     </div>
   </div>
@@ -1541,34 +1536,17 @@
     
   <div class="sec">
     <h2 id="certifications">Technical Coursework, MOOCs, and Certifications</h2>
-    <p><b>Coursework:</b> Generative Models in Machine Learning, Advanced Computer Vision, Statistical Methods I &amp; II, Ethics of AI, Applied Machine Learning, Fine-Tuning LLMs, AI in Health, Spoken Language Technologies, Human Signals</p>
-    <p><a href="#" onclick="return togglemore('cert_details', this, 'certificates')">show certificates</a></p>
+    <ul class="honors">
+      <li><b>Coursework</b><span class="hdet">Generative Models in Machine Learning, Advanced Computer Vision, Statistical Methods I &amp; II, Ethics of AI, Applied Machine Learning, Fine-Tuning LLMs, AI in Health, Spoken Language Technologies, Human Signals</span></li>
+    </ul>
+    <p class="more-inline"><a href="#" onclick="return togglemore('cert_details', this, 'certificates')">show certificates</a></p>
     <div id="cert_details" style="display:none">
-      <ul>
-      <li> <a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a></li>
-      <ul>
-        <li> Problem Solving – <a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank">Advanced</a>, <a href="https://www.hackerrank.com/certificates/f99df227514e" target="_blank">Intermediate</a>, <a href="https://www.hackerrank.com/certificates/911b79a57138" target="_blank">Basic</a></li>
-      </ul>
-      <li> University of Washington, Coursera – <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6" target="_blank">Machine Learning Specialization (4 courses)</a></li>
-      <ul>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2" target="_blank">Machine Learning Foundations: A Case Study Approach</a></li>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/6MD63T837DRW" target="_blank">Machine Learning: Regression</a></li>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/6WG9X8M3XDCD" target="_blank">Machine Learning: Classification</a></li>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/MM93FX3USFY3" target="_blank">Machine Learning: Clustering &amp; Retrieval</a></li>
-      </ul>
-      <li> Stanford University, Coursera</li>
-      <ul>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/JCU22MWZSVHS" target="_blank">Machine Learning</a></li>
-      </ul>
-      <li> University of California San Diego, Coursera</li>
-      <ul>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/DEUBHDVKGD3A" target="_blank">Algorithmic Toolbox</a></li>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/NULMGEKZ5CSY" target="_blank">Data Structures</a></li>
-      </ul>
-      <li> John Hopkins University, Coursera</li>
-      <ul>
-        <li> <a href="https://www.coursera.org/account/accomplishments/certificate/Y69XRGC2M35V" target="_blank">R Programming</a></li>
-      </ul>
+      <ul class="honors">
+      <li><b><a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a></b><span class="hdet">Problem Solving: <a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank">Advanced</a>, <a href="https://www.hackerrank.com/certificates/f99df227514e" target="_blank">Intermediate</a>, <a href="https://www.hackerrank.com/certificates/911b79a57138" target="_blank">Basic</a></span></li>
+      <li><b>University of Washington, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6" target="_blank">Machine Learning Specialization</a>: <a href="https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2" target="_blank">Foundations</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/6MD63T837DRW" target="_blank">Regression</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/6WG9X8M3XDCD" target="_blank">Classification</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/MM93FX3USFY3" target="_blank">Clustering &amp; Retrieval</a></span></li>
+      <li><b>Stanford University, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/JCU22MWZSVHS" target="_blank">Machine Learning</a></span></li>
+      <li><b>UC San Diego, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/DEUBHDVKGD3A" target="_blank">Algorithmic Toolbox</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/NULMGEKZ5CSY" target="_blank">Data Structures</a></span></li>
+      <li><b>Johns Hopkins University, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/Y69XRGC2M35V" target="_blank">R Programming</a></span></li>
       </ul>
     </div>
   </div>
