@@ -176,6 +176,9 @@
   .patlist .venue { margin-top: 3px; }
   .patlist .tag { font-size: 12.5px; padding: 0 7px; }
   .papers td.thumb-mid { vertical-align: middle; }
+  .honors li { margin: 4px 0; }
+  .honors .hdet { color: #4b5563; }
+  .honors .hdet::before { content: "\2014"; margin: 0 7px; color: #b5bac1; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -1430,16 +1433,16 @@
 
   <div class="sec">
     <h2 id="honorsandawards">Honors, Awards, and Fellowships</h2>
-    <ul>
-      <li> <a href="#SVFT24">SVFT</a> was selected for an oral presentation at the WANT workshop at ICML 2024</li>
-      <li><b>Graduate Ph.D. Fellowship</b> from Cockrell School of Engineering at UT Austin</li>
-      <li> <a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank"><b>Top 1 percentile</b></a> in <a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a> – Algorithms Domain – Problem Solving (Advanced)</li>
-      <li> Full financial registration grant to attend ICLR 2021, NeurIPS 2020 and OxML 2020</li>
-      <li> Our project AIB (Automated Intelligent knowledge Base) won <b>Ericsson's Top Performance Competition 2020</b> in the Operational Excellence category</li>
-      <li> Undergraduate financial research grant of <b>INR 25,000</b> from SSN College of Engineering</li>
-      <li> <b>Winner</b> of GermEval Shared Task 1 Challenge - Subtask (a) @ KONVENS 2019 in post-evaluation phase</li>
-      <li> Top 10 percentile in 42nd National Mathematics Talent Competitions, India</li>
-      <li> Certification of Merit for Grade A1 in all subjects in AISSE (CBSE 10th boards)</li>
+    <ul class="honors">
+      <li><b>Oral presentation</b><span class="hdet"><a href="#SVFT24">SVFT</a> at the WANT Workshop @ ICML 2024</span></li>
+      <li><b>Graduate Ph.D. Fellowship</b><span class="hdet">Cockrell School of Engineering, UT Austin</span></li>
+      <li><b>Winner, GermEval Shared Task 1 (Subtask a)</b><span class="hdet">KONVENS 2019, post-evaluation phase</span></li>
+      <li><b>Ericsson Top Performance Competition 2020</b><span class="hdet">Operational Excellence category, for the AIB (Automated Intelligent knowledge Base) project</span></li>
+      <li><b>Full registration grants</b><span class="hdet">ICLR 2021, NeurIPS 2020, and OxML 2020</span></li>
+      <li><b><a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank">Top 1 percentile</a></b><span class="hdet"><a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a> Problem Solving (Advanced), Algorithms domain</span></li>
+      <li><b>Undergraduate research grant</b><span class="hdet">INR 25,000 from SSN College of Engineering</span></li>
+      <li><b>Top 10 percentile</b><span class="hdet">42nd National Mathematics Talent Competitions, India</span></li>
+      <li><b>Certificate of Merit</b><span class="hdet">Grade A1 in all subjects, AISSE (CBSE Class 10)</span></li>
     </ul>
   </div>
 
