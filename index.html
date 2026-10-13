@@ -172,14 +172,16 @@
   .more { font-size: 14px; margin: 0 0 0 22px; }
   .inline-icon { height: 1.1em; width: auto; vertical-align: -3px; }
 
-  .papers td { padding: 13px 0; }
+  .papers td { padding: 15px 0; }
+  .papers tr + tr td { border-top: 1px solid var(--rule); }
   .papers td.thumb { width: 27%; padding-right: 24px; text-align: center; }
   .thumbimg { display: inline-block; width: 100%; margin-top: 4px; border-radius: 8px; border: 1px solid var(--rule); }
   .thumb .thumbimg { transition: transform .25s ease, box-shadow .25s ease; }
   .thumb .thumbimg:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(31, 35, 40, .35); }
   .pub p { margin: 0 0 6px; font-size: 15px; line-height: 1.5; color: #4b5563; }
   .pub p b { color: var(--ink); }
-  .ptitle { font-size: 16.5px; font-weight: 600; line-height: 1.35; }
+  .ptitle { font-size: 16.5px; font-weight: 600; line-height: 1.35; color: var(--ink); transition: color .15s ease; }
+  .pub a:hover .ptitle, .pub a:focus-visible .ptitle { color: var(--accent); }
   .paper { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 5px; font-size: 15px; }
   .paper > a {
     display: inline-block; padding: 2px 11px; border-radius: 999px; background: var(--panel); font-size: 13.5px;
