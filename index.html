@@ -184,6 +184,16 @@
     text-decoration-thickness: 1px; text-underline-offset: 3px;
   }
   .honors a:hover, .honors a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
+  .talks li { margin: 6px 0; }
+  .talks .trow { display: flex; align-items: baseline; gap: 12px; }
+  .talks .trow b { flex: 1; }
+  .talks .tdate { flex: none; font-size: 14px; color: var(--muted); white-space: nowrap; }
+  .talks .tsub { display: block; font-size: 14.5px; color: var(--muted); }
+  .tlinks a {
+    display: inline-block; padding: 0 8px; margin-left: 4px; border-radius: 999px; background: var(--panel);
+    font-size: 12.5px; line-height: 1.6; transition: background .15s ease, color .15s ease;
+  }
+  .tlinks a:hover, .tlinks a:focus-visible { background: #e4edfa; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -1455,16 +1465,11 @@
 
   <div class="sec">
     <h2 id="talks">Talks</h2>
-    <ul>
-      <li> Machine Learning and Ubiquitous Computing (June 2022)<br>
-      <span class="muted">SSN College of Engineering</span></li>
-      <li> Heterogeneous Zero-Shot Federated Learning with New Classes for On-Device Audio Classification (July 2021)<br>
-      <span class="muted">MobiUK 2021</span></li>
-      <li> Telecom-Specific Language Translation using GCP (May 2021)<br>
-      <span class="muted">Ericsson/Google Cloud Day</span></li>
-      <li> Resource-Constrained Machine Learning for Ubiquitous Computing Applications (Sept 2020)<br>
-      <a href="images/flippedgaius20.jpeg" target="_blank">Flipped by GAIUS</a> /
-      <a href="slides/FlippedGauis20_Slides.pdf" target="_blank">slides</a></li>      
+    <ul class="talks">
+      <li><span class="trow"><b>Machine Learning and Ubiquitous Computing</b><span class="tdate">June 2022</span></span><span class="tsub">SSN College of Engineering</span></li>
+      <li><span class="trow"><b>Heterogeneous Zero-Shot Federated Learning with New Classes for On-Device Audio Classification</b><span class="tdate">July 2021</span></span><span class="tsub">MobiUK 2021 <span class="tlinks"><a href="https://youtu.be/Nz-SDw0kfhc?t=1195" target="_blank">video</a></span></span></li>
+      <li><span class="trow"><b>Telecom-Specific Language Translation using GCP</b><span class="tdate">May 2021</span></span><span class="tsub">Ericsson/Google Cloud Day</span></li>
+      <li><span class="trow"><b>Resource-Constrained Machine Learning for Ubiquitous Computing Applications</b><span class="tdate">Sept 2020</span></span><span class="tsub">Flipped by GAIUS <span class="tlinks"><a href="images/flippedgaius20.jpeg" target="_blank">photo</a> <a href="slides/FlippedGauis20_Slides.pdf" target="_blank">slides</a></span></span></li>
     </ul>
   </div>
 
