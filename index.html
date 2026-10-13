@@ -168,6 +168,12 @@
   }
   .pubnav a:hover, .pubnav a:focus-visible { background: #e4edfa; }
   .pubnav a b { font-size: 13px; font-weight: 600; color: var(--muted); }
+  .patlist .pat { padding: 9px 0; }
+  .patlist .pat + .pat { border-top: 1px solid var(--rule); }
+  .patlist .pat:first-child { padding-top: 0; }
+  .patlist .pat:last-child { padding-bottom: 0; }
+  .patlist .ptitle { display: block; font-size: 16px; }
+  .patlist .venue { margin-top: 3px; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -1398,15 +1404,23 @@
   <table class="papers">
   <tr>
     <td class="thumb"><img src="images/patents.jpeg" alt="" class="thumbimg"></td>
-    <td class="pub">
-      <p>
-      <ul>
-        <li> Efficient Backpropagation Free Test-Time Adaptation on Foundation Models for PPG</li>
-        <li> <a href="https://patents.google.com/patent/WO2022013879A1/" id="FL_Heterogeneous_Patent" target="_blank">Federated Learning using Heterogeneous Labels</a></li>
-        <li> <a href="https://patents.google.com/patent/WO2022162677A1/" id="FL_Newlabel_Patent" target="_blank">Distributed Machine Learning with New Labels using Heterogeneous Label Distribution</a></li>
-        <li> <a href="https://patents.google.com/patent/WO2023166515A1/" id="AD_Patent" target="_blank">Method and Apparatus for Approach Recommendation with Threshold Optimization in Unsupervised Anomaly Detection</a></li>
-      </ul>
-      </p>
+    <td class="pub patlist">
+      <div class="pat">
+        <span class="ptitle">Efficient Backpropagation Free Test-Time Adaptation on Foundation Models for PPG</span>
+        <span class="venue"><span class="tags"><span class="tag">Patent application<em>Filed</em></span></span></span>
+      </div>
+      <div class="pat">
+        <a href="https://patents.google.com/patent/WO2022013879A1/" id="FL_Heterogeneous_Patent" target="_blank"><span class="ptitle">Federated Learning using Heterogeneous Labels</span></a>
+        <span class="venue"><span class="tags"><span class="tag">WO2022013879A1</span></span></span>
+      </div>
+      <div class="pat">
+        <a href="https://patents.google.com/patent/WO2022162677A1/" id="FL_Newlabel_Patent" target="_blank"><span class="ptitle">Distributed Machine Learning with New Labels using Heterogeneous Label Distribution</span></a>
+        <span class="venue"><span class="tags"><span class="tag">WO2022162677A1</span></span></span>
+      </div>
+      <div class="pat">
+        <a href="https://patents.google.com/patent/WO2023166515A1/" id="AD_Patent" target="_blank"><span class="ptitle">Method and Apparatus for Approach Recommendation with Threshold Optimization in Unsupervised Anomaly Detection</span></a>
+        <span class="venue"><span class="tags"><span class="tag">WO2023166515A1</span></span></span>
+      </div>
     </td>
   </tr>
   </table>
