@@ -208,8 +208,9 @@
   }
   .tag em { font-style: normal; margin-left: 8px; padding-left: 8px; border-left: 1px solid #cfd5dd; color: #b4540a; }
   .pub p b { color: var(--ink); }
-  .ptitle { font-size: 17px; font-weight: 600; line-height: 1.35; color: #1a3a6b; transition: color .15s ease; }
-  .pub a:hover .ptitle, .pub a:focus-visible .ptitle { color: var(--accent); }
+  .ptitle { font-size: 17px; font-weight: 600; line-height: 1.35; color: var(--ink); transition: color .15s ease; }
+  a .ptitle { color: #1a3a6b; }
+  a:hover .ptitle, a:focus-visible .ptitle { color: var(--accent); }
   .paper { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 5px; font-size: 15px; }
   .paper > a {
     display: inline-block; padding: 2px 11px; border-radius: 999px; background: var(--panel); font-size: 13.5px;
