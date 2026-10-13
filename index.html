@@ -206,6 +206,10 @@
   .talks a:hover, .talks a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
   .talks .tlinks a { text-decoration: none; color: var(--link); }
   .more-inline { font-size: 14px; margin: 2px 0 0 22px; }
+  .cw-label { margin: 6px 0 4px; font-size: 14.5px; color: var(--muted); }
+  .cwtags .tag { font-size: 13px; padding: 0 8px; }
+  .certs .tlinks a { margin-left: 4px; color: var(--link); text-decoration: none; }
+  .certs .tlinks a:hover { color: var(--link); }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -1535,20 +1539,17 @@
 
     
   <div class="sec">
-    <h2 id="certifications">Technical Coursework, MOOCs, and Certifications</h2>
-    <ul class="honors">
-      <li><b>Coursework</b><span class="hdet">Generative Models in Machine Learning, Advanced Computer Vision, Statistical Methods I &amp; II, Ethics of AI, Applied Machine Learning, Fine-Tuning LLMs, AI in Health, Spoken Language Technologies, Human Signals</span></li>
+    <h2 id="certifications">Coursework and Certifications</h2>
+    <p class="cw-label">Coursework</p>
+    <div class="cwtags"><span class="tag">Generative Models in Machine Learning</span><span class="tag">Advanced Computer Vision</span><span class="tag">Statistical Methods I &amp; II</span><span class="tag">Ethics of AI</span><span class="tag">Applied Machine Learning</span><span class="tag">Fine-Tuning LLMs</span><span class="tag">AI in Health</span><span class="tag">Spoken Language Technologies</span><span class="tag">Human Signals</span></div>
+    <p class="cw-label">Online certificates</p>
+    <ul class="honors certs">
+      <li><b><a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a></b><span class="hdet">Problem Solving</span><span class="tlinks"><a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank">Advanced</a><a href="https://www.hackerrank.com/certificates/f99df227514e" target="_blank">Intermediate</a><a href="https://www.hackerrank.com/certificates/911b79a57138" target="_blank">Basic</a></span></li>
+      <li><b>University of Washington, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6" target="_blank">ML Specialization</a></span><span class="tlinks"><a href="https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2" target="_blank">Foundations</a><a href="https://www.coursera.org/account/accomplishments/certificate/6MD63T837DRW" target="_blank">Regression</a><a href="https://www.coursera.org/account/accomplishments/certificate/6WG9X8M3XDCD" target="_blank">Classification</a><a href="https://www.coursera.org/account/accomplishments/certificate/MM93FX3USFY3" target="_blank">Clustering &amp; Retrieval</a></span></li>
+      <li><b>Stanford University, Coursera</b><span class="hdet">Machine Learning</span><span class="tlinks"><a href="https://www.coursera.org/account/accomplishments/certificate/JCU22MWZSVHS" target="_blank">certificate</a></span></li>
+      <li><b>UC San Diego, Coursera</b><span class="hdet">Algorithms and data structures</span><span class="tlinks"><a href="https://www.coursera.org/account/accomplishments/certificate/DEUBHDVKGD3A" target="_blank">Algorithmic Toolbox</a><a href="https://www.coursera.org/account/accomplishments/certificate/NULMGEKZ5CSY" target="_blank">Data Structures</a></span></li>
+      <li><b>Johns Hopkins University, Coursera</b><span class="hdet">R Programming</span><span class="tlinks"><a href="https://www.coursera.org/account/accomplishments/certificate/Y69XRGC2M35V" target="_blank">certificate</a></span></li>
     </ul>
-    <p class="more-inline"><a href="#" onclick="return togglemore('cert_details', this, 'certificates')">show certificates</a></p>
-    <div id="cert_details" style="display:none">
-      <ul class="honors">
-      <li><b><a href="https://www.hackerrank.com/gauthamkrishna_g" target="_blank">HackerRank</a></b><span class="hdet">Problem Solving: <a href="https://www.hackerrank.com/certificates/014169e8e7b2" target="_blank">Advanced</a>, <a href="https://www.hackerrank.com/certificates/f99df227514e" target="_blank">Intermediate</a>, <a href="https://www.hackerrank.com/certificates/911b79a57138" target="_blank">Basic</a></span></li>
-      <li><b>University of Washington, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DSAS23JZKGG6" target="_blank">Machine Learning Specialization</a>: <a href="https://www.coursera.org/account/accomplishments/certificate/KBN26TGYRFS2" target="_blank">Foundations</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/6MD63T837DRW" target="_blank">Regression</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/6WG9X8M3XDCD" target="_blank">Classification</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/MM93FX3USFY3" target="_blank">Clustering &amp; Retrieval</a></span></li>
-      <li><b>Stanford University, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/JCU22MWZSVHS" target="_blank">Machine Learning</a></span></li>
-      <li><b>UC San Diego, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/DEUBHDVKGD3A" target="_blank">Algorithmic Toolbox</a>, <a href="https://www.coursera.org/account/accomplishments/certificate/NULMGEKZ5CSY" target="_blank">Data Structures</a></span></li>
-      <li><b>Johns Hopkins University, Coursera</b><span class="hdet"><a href="https://www.coursera.org/account/accomplishments/certificate/Y69XRGC2M35V" target="_blank">R&nbsp;Programming</a></span></li>
-      </ul>
-    </div>
   </div>
 
 <!--Countries visited so far: India, UK, South Korea, Germany, Switzerland, France, Italy, Vatican, Luxembourg, Singapore, Malaysia, Thailand, SriLanka.-->
