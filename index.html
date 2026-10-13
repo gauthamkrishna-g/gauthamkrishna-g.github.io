@@ -99,9 +99,9 @@
   .hero-mail .ic { margin-top: 3px; }
   .hero-mail .addr { display: block; color: #4b5563; white-space: nowrap; }
 
-  .chips { margin: -2px 0 12px; }
+  .chips { margin: 4px 0 10px; }
   .chips span {
-    display: inline-block; font-size: 13px; line-height: 1.4; padding: 3px 10px; margin: 0 5px 6px 0;
+    display: inline-block; font-size: 11.5px; line-height: 1.35; padding: 2px 7px; margin: 0 3px 3px 0;
     border-radius: 999px; background: var(--panel); color: #374151;
   }
   .toc { text-align: center; margin: 30px 0 0; font-size: 15px; }
@@ -187,18 +187,17 @@
   </header>
 
   <div class="sec">
-    <h2 id="research_interests">Research Interests</h2>
+    <h2 id="research_interests" class="with-sub">Research Interests <span class="sub"><a href="#" onclick="return togglemore('research_keywords', this, 'keywords')">show keywords</a></span></h2>
     <ul>
-     <li> Multimodal/multisensory learning from human signals (temporal, physiological, wearable, acoustic) and health AI.</li>
-     <li> Modality gaps, cross-modal alignment, and representation learning across time-series signals, language, and vision.</li>
-     <li> Continual learning, personalization, and few-shot adaptation under limited supervision; self-evolving agentic AI.</li>
-     <li> Efficient pre-training, post-training, and inference of foundation models and large/small language models.</li>
-     <li> Data-, sample-, parameter-, and token-efficient learning, including fine-tuning (PEFT) and reasoning.</li>
-     <li> Data-centric learning via informative sample selection, active learning, and uncertainty quantification.</li>
+     <li> <b>Multimodal/multisensory learning</b> from human signals (temporal, physiological, wearable, acoustic) and health AI.</li>
+     <li> <b>Cross-modal alignment</b>, modality gaps, and representation learning across time-series signals, language, and vision.</li>
+     <li> <b>Continual learning</b>, personalization, and few-shot adaptation under limited supervision; self-evolving agentic AI.</li>
+     <li> <b>Efficient foundation models</b>: pre-training, post-training, and inference of large/small language models.</li>
+     <li> <b>Data-, sample-, parameter-, and token-efficient learning</b>, including fine-tuning (PEFT) and reasoning.</li>
+     <li> <b>Data-centric learning</b> via informative sample selection, active learning, and uncertainty quantification.</li>
      </ul>
-    <p>Here are a <a href="#" onclick="toggleblock('research_keywords');return false">few keywords</a> reflecting my past and current research.</p>
     <div id="research_keywords" class="chips" style="display:none">
-      <span>Continual Learning</span><span>Active Learning</span><span>Federated Learning</span><span>Curriculum Learning</span><span>Few-shot Learning</span><span>Self-supervised Learning</span><span>On-Device Learning</span><span>Foundation Models</span><span>LLMs</span><span>Generative AI</span><span>Parameter-Efficient Fine-Tuning (PEFT)</span><span>Time Series for Health</span><span>Ubiquitous Computing</span><span>Multimodal Sensing (inertial, acoustic, wearable)</span><span>Human Activity Recognition</span><span>Limited Supervision</span><span>Test-time Adaptation</span><span>Subset/Model Selection</span><span>Uncertainty-Aware Learning</span><span>Sparsity</span>
+      <span>continual learning</span><span>active learning</span><span>federated learning</span><span>curriculum learning</span><span>few-shot learning</span><span>self-supervised learning</span><span>on-device learning</span><span>foundation models</span><span>LLMs</span><span>Generative AI</span><span>parameter-efficient fine-tuning (PEFT)</span><span>test-time adaptation</span><span>limited supervision</span><span>subset selection</span><span>uncertainty-aware learning</span><span>multimodal sensing (inertial, acoustic, wearable)</span><span>human activity recognition</span><span>time series for health</span><span>ubiquitous computing</span>
     </div>
   </div>
 
