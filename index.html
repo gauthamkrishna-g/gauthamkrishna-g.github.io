@@ -102,7 +102,7 @@
   [id] { scroll-margin-top: 14px; }
 
   h1, h2, h3 { margin: 0; line-height: 1.25; font-weight: 600; }
-  h1 { font-size: 36px; font-weight: 400; letter-spacing: -0.01em; line-height: 1.15; }
+  h1 { font-size: 34px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.15; color: #1a3a6b; }
   h2 { font-size: 22px; margin: 34px 0 10px; padding-bottom: 5px; border-bottom: 1px solid var(--rule); }
   h3 { font-size: 17px; margin: 24px 0 0; }
   h2.with-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
@@ -114,8 +114,13 @@
   }
   .hero-photo { grid-area: photo; }
   .hero-text { grid-area: text; }
-  .tagline { margin: 4px 0 24px; font-size: 16px; }
+  .tagline { margin: 6px 0 22px; font-size: 16.5px; color: var(--muted); }
   .hero-bio { line-height: 1.6; }
+  .hero-bio a {
+    color: inherit; text-decoration: underline; text-decoration-color: #cfd5dd;
+    text-decoration-thickness: 1px; text-underline-offset: 3px;
+  }
+  .hero-bio a:hover, .hero-bio a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
   .hero-bio p { margin: 0 0 18px; text-wrap: pretty; }
   .hero-bio p:last-child { margin-bottom: 0; }
   .avatar {
