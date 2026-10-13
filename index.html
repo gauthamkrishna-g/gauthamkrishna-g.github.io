@@ -176,9 +176,12 @@
   .papers td { padding: 15px 0; }
   .papers tr + tr td { border-top: 1px solid var(--rule); }
   .papers td.thumb { width: 27%; padding-right: 24px; text-align: center; }
-  .thumbimg { display: inline-block; width: 100%; margin-top: 4px; border-radius: 8px; border: 1px solid var(--rule); }
+  .thumbimg {
+    display: inline-block; width: 100%; margin-top: 4px; border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(31, 35, 40, .10), 0 10px 22px -12px rgba(31, 35, 40, .28);
+  }
   .thumb .thumbimg { transition: transform .25s ease, box-shadow .25s ease; }
-  .thumb .thumbimg:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(31, 35, 40, .35); }
+  .thumb .thumbimg:hover { transform: translateY(-3px); box-shadow: 0 3px 8px rgba(31, 35, 40, .12), 0 18px 30px -14px rgba(31, 35, 40, .38); }
   .pub p { margin: 0 0 6px; font-size: 15px; line-height: 1.5; color: #4b5563; }
   .venue { display: flex; align-items: flex-start; margin-top: 4px; }
   .vdetail { display: flex; align-items: flex-start; font-size: 14.5px; color: var(--muted); }
