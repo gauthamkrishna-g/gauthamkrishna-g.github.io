@@ -151,11 +151,11 @@
   }
   .toc { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 28px 0 0; }
   .toc a {
-    display: inline-block; padding: 4px 13px; border-radius: 999px; background: var(--panel); font-size: 15px;
+    display: inline-block; padding: 4px 13px; border-radius: 999px; background: #eef2f8; color: #1a3a6b; font-size: 15px;
     transition: background .15s ease, color .15s ease;
   }
-  .toc a:hover, .toc a:focus-visible { background: #e4edfa; color: var(--link); }
-  .toc a.active, .toc a.active:hover { background: var(--link); color: #fff; }
+  .toc a:hover, .toc a:focus-visible { background: #1a3a6b; color: #fff; }
+  .toc a.active, .toc a.active:hover { background: #1a3a6b; color: #fff; }
   .toc .home { display: none; align-items: center; gap: 8px; margin-right: auto; padding: 0; background: none; font-size: 14px; font-weight: 600; color: var(--ink); }
   .toc .home:hover, .toc .home:focus-visible { background: none; color: var(--accent); }
   .home-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
@@ -169,9 +169,9 @@
   h2 .sub.pubnav { display: flex; flex-wrap: wrap; gap: 5px; }
   .pubnav a {
     display: inline-flex; align-items: center; gap: 5px; padding: 3px 11px; border-radius: 999px;
-    background: var(--panel); font-size: 14px; transition: background .15s ease, color .15s ease;
+    background: #eef2f8; color: #1a3a6b; font-size: 14px; transition: background .15s ease, color .15s ease;
   }
-  .pubnav a:hover, .pubnav a:focus-visible { background: #e4edfa; }
+  .pubnav a:hover, .pubnav a:focus-visible { background: #1a3a6b; color: #fff; }
   .patlist .pat { padding: 7px 0; }
   .patlist .pat + .pat { border-top: 1px solid var(--rule); }
   .patlist .pat:first-child { padding-top: 0; }
@@ -196,10 +196,10 @@
   .talks .tdate { flex: none; font-size: 14px; color: var(--muted); white-space: nowrap; }
   .talks .tsub { display: block; font-size: 14.5px; color: var(--muted); }
   .tlinks a {
-    display: inline-block; padding: 0 8px; margin-left: 4px; border-radius: 999px; background: var(--panel);
+    display: inline-block; padding: 0 8px; margin-left: 4px; border-radius: 999px; background: #eef2f8; color: #1a3a6b;
     font-size: 12.5px; line-height: 1.6; transition: background .15s ease, color .15s ease;
   }
-  .tlinks a:hover, .tlinks a:focus-visible { background: #e4edfa; }
+  .tlinks a:hover, .tlinks a:focus-visible { background: #1a3a6b; color: #fff; }
   .services .svtags { display: block; margin-top: 4px; }
   .services .svtags + .svtags { margin-top: 0; }
   .services .svtags .tag { font-size: 12.5px; padding: 0 7px; }
@@ -208,12 +208,13 @@
     text-decoration-thickness: 1px; text-underline-offset: 3px;
   }
   .talks a:hover, .talks a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
-  .talks .tlinks a { text-decoration: none; color: var(--link); }
+  .talks .tlinks a { text-decoration: none; color: #1a3a6b; }
+  .talks .tlinks a:hover, .talks .tlinks a:focus-visible { color: #fff; }
   .more-inline { font-size: 14px; margin: 2px 0 0 22px; }
   .cw-label { margin: 6px 0 4px; font-size: 14.5px; color: var(--muted); }
   .cwtags .tag { font-size: 13px; padding: 0 8px; }
-  .certs .tlinks a { margin-left: 4px; color: var(--link); text-decoration: none; }
-  .certs .tlinks a:hover { color: var(--link); }
+  .certs .tlinks a { margin-left: 4px; color: #1a3a6b; text-decoration: none; }
+  .certs .tlinks a:hover, .certs .tlinks a:focus-visible { color: #fff; }
   .news a {
     color: inherit; text-decoration: underline; text-decoration-color: #cfd5dd;
     text-decoration-thickness: 1px; text-underline-offset: 3px;
@@ -257,10 +258,10 @@
   a:hover .ptitle, a:focus-visible .ptitle { color: var(--accent); }
   .paper { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 5px; font-size: 15px; }
   .paper > a {
-    display: inline-block; padding: 2px 11px; border-radius: 999px; background: var(--panel); font-size: 13.5px;
+    display: inline-block; padding: 2px 11px; border-radius: 999px; background: #eef2f8; color: #1a3a6b; font-size: 13.5px;
     transition: background .15s ease, color .15s ease;
   }
-  .paper > a:hover, .paper > a:focus-visible { background: #e4edfa; }
+  .paper > a:hover, .paper > a:focus-visible { background: #1a3a6b; color: #fff; }
   .paper > .abstract, .paper > .bib { flex: 0 0 100%; }
   .abstract { display: none; margin: 8px 0 0; font-size: 14.5px; line-height: 1.5; color: #4b5563; }
   .bib {
