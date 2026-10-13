@@ -124,8 +124,8 @@
   }
   .avatar:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -10px rgba(31, 35, 40, .35); }
   @media (prefers-reduced-motion: reduce) {
-    a, .avatar, .thumb a .thumbimg { transition: none; }
-    .avatar:hover, .thumb a:hover .thumbimg { transform: none; }
+    a, .avatar, .thumb .thumbimg { transition: none; }
+    .avatar:hover, .thumb .thumbimg:hover { transform: none; }
   }
   .hero-links { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: auto auto; justify-content: space-between; gap: 6px 8px; font-size: 15px; }
   .hero-links li { margin: 0; }
@@ -175,8 +175,8 @@
   .papers td { padding: 13px 0; }
   .papers td.thumb { width: 27%; padding-right: 24px; text-align: center; }
   .thumbimg { display: inline-block; width: 100%; margin-top: 4px; border-radius: 8px; border: 1px solid var(--rule); }
-  .thumb a .thumbimg { transition: transform .25s ease, box-shadow .25s ease; }
-  .thumb a:hover .thumbimg { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(31, 35, 40, .35); }
+  .thumb .thumbimg { transition: transform .25s ease, box-shadow .25s ease; }
+  .thumb .thumbimg:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(31, 35, 40, .35); }
   .pub p { margin: 0 0 6px; color: #4b5563; }
   .pub p b { color: var(--ink); }
   .ptitle { font-size: 17px; font-weight: 600; line-height: 1.35; }
@@ -534,7 +534,7 @@
 
 
   <tr>
-    <td class="thumb"><img src="images/WellComp26.jpg" alt="" class="thumbimg"></td>
+    <td class="thumb"><a href="https://wellcomp2026.github.io/" target="_blank"><img src="images/WellComp26.jpg" alt="" class="thumbimg"></a></td>
     <td class="pub">
       <p>
         <span class="new">NEW</span>
@@ -1363,7 +1363,7 @@
 
 
   <tr>
-    <td class="thumb"><img src="images/CBC15.png" alt="" class="thumbimg" style="width:60%"></td>
+    <td class="thumb"><a href="publications/Neurocinematics_CBC15_Poster.pdf" target="_blank"><img src="images/CBC15.png" alt="" class="thumbimg" style="width:60%"></a></td>
     <td class="pub">
       <p><a href="publications/Neurocinematics_CBC15_Poster.pdf" id="NEUROCINEMATICS_CBC15" target="_blank">
       <span class="ptitle">Neurocinematics: The Intelligent Review System</span></a><br>
