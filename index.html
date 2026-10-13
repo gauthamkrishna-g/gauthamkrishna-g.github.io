@@ -138,7 +138,8 @@
 
   @media (min-width: 960px) { .ri-list li { white-space: nowrap; } }
   .chips { margin: 4px 0 10px; }
-  .chips span {
+  .chips .chip-row { display: block; }
+  .chips span:not(.chip-row) {
     display: inline-block; font-size: 12px; line-height: 1.35; padding: 2px 6px; margin: 0 3px 3px 0;
     border-radius: 999px; background: var(--panel); color: #374151;
   }
@@ -235,7 +236,10 @@
      <li> <b>Data-centric learning</b>: data curation, informative sample selection, and uncertainty quantification on heterogeneous data.</li>
      </ul>
     <div id="research_keywords" class="chips" style="display:none">
-      <span>foundation models</span><span>LLMs</span><span>multimodal LLMs</span><span>PEFT</span><span>reasoning</span><span>test-time adaptation</span><span>agentic AI</span><span>continual learning</span><span>personalization</span><span>few-shot learning</span><span>federated learning</span><span>data-centric AI</span><span>active learning</span><span>uncertainty quantification</span><span>cross-modal alignment</span><span>multimodal sensing</span><span>wearable sensing</span><span>human activity recognition</span><span>health foundation models</span><span>time series for health</span><span>personal health</span><span>digital health</span><span>ubiquitous computing</span>
+      <span class="chip-row"><span>foundation models</span><span>LLMs</span><span>multimodal LLMs</span><span>PEFT</span><span>reasoning</span><span>test-time adaptation</span></span>
+      <span class="chip-row"><span>agentic AI</span><span>continual learning</span><span>personalization</span><span>few-shot learning</span><span>data-centric AI</span><span>active learning</span><span>uncertainty quantification</span></span>
+      <span class="chip-row"><span>human-centered AI</span><span>multimodal sensing</span><span>cross-modal alignment</span><span>wearable sensing</span><span>audio</span><span>time-series</span></span>
+      <span class="chip-row"><span>health foundation models</span><span>time series for health</span><span>personal health</span><span>digital health</span><span>federated learning</span><span>ubiquitous computing</span></span>
     </div>
   </div>
 
