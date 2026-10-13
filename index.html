@@ -150,11 +150,12 @@
   }
   .toc a:hover, .toc a:focus-visible { background: #e4edfa; color: var(--link); }
   .toc a.active, .toc a.active:hover { background: var(--link); color: #fff; }
-  .toc .top { display: none; }
-  .toc.stuck .top { display: inline-block; }
+  .toc .home { display: none; margin-right: auto; padding: 3px 0; background: none; font-size: 14px; font-weight: 600; color: var(--ink); }
+  .toc .home:hover, .toc .home:focus-visible { background: none; color: var(--accent); }
   @media (min-width: 960px) {
     .toc { position: sticky; top: 0; z-index: 5; margin-top: 20px; padding: 8px 0; background: rgba(255, 255, 255, .96); backdrop-filter: blur(4px); }
-    .toc.stuck { border-bottom: 1px solid var(--rule); }
+    .toc.stuck { border-bottom: 1px solid var(--rule); justify-content: flex-end; }
+    .toc.stuck .home { display: inline-block; }
     [id] { scroll-margin-top: 60px; }
   }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
@@ -257,6 +258,7 @@
   </div>
 
   <nav class="toc">
+    <a href="#" class="home">Gautham Krishna Gudur</a>
     <a href="#news">News</a>
     <a href="#publications">Publications</a>
     <a href="#patents">Patents</a>
@@ -265,7 +267,6 @@
     <a href="#services">Services</a>
     <a href="#teaching">Teaching</a>
     <a href="#mentoring">Mentoring</a>
-    <a href="#" class="top">Top</a>
   </nav>
 
   <div class="sec">
