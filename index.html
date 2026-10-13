@@ -160,6 +160,13 @@
     .toc.stuck .home { display: inline-flex; }
     [id] { scroll-margin-top: 60px; }
   }
+  h2 .sub.pubnav { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pubnav a {
+    display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px; border-radius: 999px;
+    background: var(--panel); font-size: 13px; transition: background .15s ease, color .15s ease;
+  }
+  .pubnav a:hover, .pubnav a:focus-visible { background: #e4edfa; }
+  .pubnav a b { font-size: 12px; font-weight: 600; color: var(--muted); }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
@@ -323,7 +330,7 @@
   </div>
 
   <h2 id="publications" class="with-sub">Publications
-    <span class="sub"><a href="#preprints">Preprints</a> / <a href="#conference">Conference/Journal/Workshop</a> / <a href="#poster">Poster/Extended Abstract</a></span>
+    <span class="sub pubnav"><a href="#preprints">Preprints</a><a href="#conference">Conference / Journal / Workshop</a><a href="#poster">Poster / Extended Abstract</a></span>
   </h2>
   <p class="note">* denotes equal contribution and joint lead authorship</p>
 

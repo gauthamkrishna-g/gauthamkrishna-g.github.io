@@ -66,3 +66,19 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', update);
   update();
 });
+
+// Publication sub-nav: show how many entries each category holds.
+document.addEventListener('DOMContentLoaded', function () {
+  var links = document.querySelectorAll('.pubnav a[href^="#"]');
+  for (var i = 0; i < links.length; i++) {
+    var heading = document.getElementById(links[i].getAttribute('href').slice(1));
+    var table = heading && heading.nextElementSibling;
+    while (table && !(table.tagName === 'TABLE' && table.classList.contains('papers'))) table = table.nextElementSibling;
+    if (!table) continue;
+    var count = table.querySelectorAll('tr').length;
+    if (!count) continue;
+    var b = document.createElement('b');
+    b.textContent = count;
+    links[i].appendChild(b);
+  }
+});
