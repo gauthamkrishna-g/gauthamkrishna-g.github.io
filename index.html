@@ -165,7 +165,7 @@
   .toc .home:hover, .toc .home:focus-visible { background: none; color: var(--accent); }
   .home-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
   @media (min-width: 960px) {
-    .toc { position: sticky; top: 0; z-index: 5; margin-top: 20px; padding: 8px 0; background: rgba(255, 255, 255, .96); backdrop-filter: blur(4px); }
+    .toc { position: sticky; top: 0; z-index: 5; margin-top: 20px; padding: 8px 0; background: rgba(255, 255, 255, .96); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
     .toc.stuck { border-bottom: 1px solid var(--rule); justify-content: flex-end; gap: 4px; }
     .toc.stuck a:not(.home) { font-size: 14px; padding: 3px 9px; }
     .toc.stuck .home { display: inline-flex; }
@@ -270,7 +270,7 @@
   .paper > .abstract, .paper > .bib { flex: 0 0 100%; }
   .abstract { display: none; margin: 8px 0 0; font-size: 14.5px; line-height: 1.5; color: var(--text-2); }
   .bib {
-    display: none; margin: 8px 0 0; padding: 10px 12px;
+    display: none; box-sizing: border-box; max-width: 100%; margin: 8px 0 0; padding: 10px 12px;
     font: 12.5px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--text-2);
     background: var(--panel); border-radius: 8px; white-space: pre-wrap; word-break: break-word;
   }
@@ -355,7 +355,7 @@
     <div id="research_keywords" class="chips" style="display:none">
       <span class="chip-row"><span>foundation models</span><span>LLMs</span><span>data-centric AI</span><span>pre-training</span><span>post-training</span><span>self-supervised learning</span><span>PEFT</span><span>reasoning</span><span>agentic AI</span></span>
       <span class="chip-row"><span>continual learning</span><span>test-time adaptation</span><span>personalization</span><span>few-shot learning</span><span>active learning</span><span>federated learning</span><span>uncertainty quantification</span></span>
-      <span class="chip-row"><span>human-centered AI</span><span>multimodal LLMs</span><span>modality gap</span><span>cross-modal alignment</span><span>multimodal sensing</span><span>time-series</span><span>language</span><span>audio</span></span></span>
+      <span class="chip-row"><span>human-centered AI</span><span>multimodal LLMs</span><span>modality gap</span><span>cross-modal alignment</span><span>multimodal sensing</span><span>time-series</span><span>language</span><span>audio</span></span>
       <span class="chip-row"><span>ubiquitous computing</span><span>wearable sensing</span><span>health foundation models</span><span>physiological signals</span><span>time series for health</span><span>personal health</span></span>
     </div>
   </div>
