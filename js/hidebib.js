@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     ticking = false;
     var stuck = window.innerWidth >= 960 && nav.getBoundingClientRect().top <= 0;
     nav.classList.toggle('stuck', stuck);
-    var line = nav.getBoundingClientRect().bottom + 8, current = -1;
+    // Headings jump to 60px under the bar (scroll-margin-top), so look a little past that.
+    var line = nav.getBoundingClientRect().bottom + 24, current = -1;
     if (stuck) {
       for (var i = 0; i < targets.length; i++) {
         if (targets[i] && targets[i].getBoundingClientRect().top <= line) current = i;
