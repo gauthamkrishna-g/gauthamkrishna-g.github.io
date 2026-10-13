@@ -34,20 +34,32 @@ document.addEventListener('DOMContentLoaded', function () {
     return a.getAttribute('href').length > 1;
   });
   var targets = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
-  var ticking = false;
+  var ticking = false, holdUntil = 0;
+  function setActive(idx) {
+    links.forEach(function (a, i) { a.classList.toggle('active', i === idx); });
+  }
   function update() {
     ticking = false;
     var stuck = window.innerWidth >= 960 && nav.getBoundingClientRect().top <= 0;
     nav.classList.toggle('stuck', stuck);
+    if (!stuck) { setActive(-1); return; }
+    if (Date.now() < holdUntil) return; // a clicked pill keeps its highlight while the page scrolls to it
     // Headings jump to 60px under the bar (scroll-margin-top), so look a little past that.
     var line = nav.getBoundingClientRect().bottom + 24, current = -1;
-    if (stuck) {
-      for (var i = 0; i < targets.length; i++) {
-        if (targets[i] && targets[i].getBoundingClientRect().top <= line) current = i;
+    for (var i = 0; i < targets.length; i++) {
+      if (targets[i] && targets[i].getBoundingClientRect().top <= line) current = i;
+    }
+    // At the very bottom the last headings can never reach the bar, so take the last one on screen.
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+      for (var k = 0; k < targets.length; k++) {
+        if (targets[k] && targets[k].getBoundingClientRect().top < window.innerHeight) current = k;
       }
     }
-    links.forEach(function (a, i) { a.classList.toggle('active', i === current); });
+    setActive(current);
   }
+  links.forEach(function (a, i) {
+    a.addEventListener('click', function () { holdUntil = Date.now() + 1000; setActive(i); });
+  });
   window.addEventListener('scroll', function () {
     if (!ticking) { ticking = true; requestAnimationFrame(update); }
   }, { passive: true });
