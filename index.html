@@ -119,10 +119,11 @@
   .hero-bio p { margin: 0 0 18px; text-wrap: pretty; }
   .hero-bio p:last-child { margin-bottom: 0; }
   .avatar {
-    display: block; width: 100%; border-radius: 10px; border: 1px solid var(--rule);
+    display: block; width: 100%; border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(31, 35, 40, .10), 0 14px 28px -14px rgba(31, 35, 40, .30);
     transition: transform .25s ease, box-shadow .25s ease;
   }
-  .avatar:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -10px rgba(31, 35, 40, .35); }
+  .avatar:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(31, 35, 40, .12), 0 22px 36px -16px rgba(31, 35, 40, .40); }
   @media (prefers-reduced-motion: reduce) {
     a, .avatar, .thumb .thumbimg { transition: none; }
     .avatar:hover, .thumb .thumbimg:hover { transform: none; }
