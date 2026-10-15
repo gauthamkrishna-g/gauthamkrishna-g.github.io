@@ -250,7 +250,8 @@
   .news li.ny:first-child { margin-top: 4px; }
   #oldnews .news { margin-top: 0; }
   #news ~ .more, .sec .more { margin-left: 62px; }
-  .note { font-size: 13px; color: var(--muted); margin: 0; }
+  .note { font-size: 13px; color: var(--muted); margin: 2px 0 0; }
+  .note .ast { color: var(--accent); font-weight: 700; margin-right: 2px; }
   .muted { color: var(--muted); }
   .more { font-size: 14px; margin: 0 0 0 22px; }
   .inline-icon { height: 1.1em; width: auto; vertical-align: -3px; }
@@ -297,8 +298,12 @@
     display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .06em; line-height: 1.4;
     color: #fff; background: var(--accent); border-radius: 4px; padding: 1px 6px; margin-right: 6px; vertical-align: 3px;
   }
-  .footer { margin: 40px 0 0; text-align: right; font-size: 12px; color: var(--faint); }
-  .footer a { color: var(--muted); }
+  .footer {
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; margin: 48px 0 0; padding-top: 14px;
+    border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--muted);
+  }
+  .footer a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+  .footer a:hover, .footer a:focus-visible { color: var(--accent); text-decoration-color: var(--accent); }
 
   @media (min-width: 641px) and (max-width: 900px) {
     .hero-mail .addr { white-space: normal; }
@@ -490,7 +495,7 @@
   <h2 id="publications" class="with-sub">Publications
     <span class="sub pubnav"><a href="#preprints">Preprints</a><a href="#conference">Conference / Journal / Workshop</a><a href="#poster">Poster / Extended Abstract</a></span>
   </h2>
-  <p class="note">* denotes equal contribution and joint lead authorship</p>
+  <p class="note"><span class="ast">*</span> Equal contribution and joint lead authorship</p>
 
   <h3 id="preprints">Preprints</h3>
 
@@ -1360,7 +1365,10 @@
 <!--Countries visited so far: India, UK, South Korea, Germany, Switzerland, France, Italy, Vatican, Luxembourg, Singapore, Malaysia, Thailand, SriLanka.-->
 
 
-  <p class="footer">Template modified from <a href="https://jonbarron.info/" target="_blank">this</a>, <a href="https://www.cs.cmu.edu/~dpathak/" target="_blank">this</a> and <a href="https://adityakusupati.com/" target="_blank">this</a>.</p>
+  <footer class="footer">
+    <span>© 2026 Gautham Krishna Gudur</span>
+    <span>Design adapted from <a href="https://jonbarron.info/" target="_blank">Jon Barron</a>, <a href="https://www.cs.cmu.edu/~dpathak/" target="_blank">Deepak Pathak</a>, and <a href="https://adityakusupati.com/" target="_blank">Aditya Kusupati</a></span>
+  </footer>
 </div>
 </body>
 </html>
