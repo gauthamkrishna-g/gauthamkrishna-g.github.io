@@ -26,6 +26,58 @@ function togglemore(blockId, link, label) {
   return false;
 }
 
+// Gliding highlight for a pill row: a navy copy of the row sits on top, clipped to one pill.
+// Moving the clip (a CSS transition on clip-path) slides the highlight between pills, and the
+// labels it passes turn white exactly where it covers them.
+function makeGlide(bar, skip) {
+  var layer = document.createElement('span');
+  layer.className = 'glide';
+  layer.setAttribute('aria-hidden', 'true');
+  var pills = Array.prototype.slice.call(bar.children);
+  pills.forEach(function (c) {
+    var k = c.cloneNode(true);
+    k.removeAttribute('href');
+    layer.appendChild(k);
+  });
+  bar.appendChild(layer);
+  bar.classList.add('has-glide');
+  pills = pills.filter(function (c) { return !(skip && c.matches(skip)); });
+  var target = null, resting = null, hovering = false;
+  function place(el, instant) {
+    target = el;
+    if (!el) { layer.classList.remove('on'); return; }
+    var b = layer.getBoundingClientRect(), r = el.getBoundingClientRect();
+    var clip = 'inset(' + (r.top - b.top) + 'px ' + (b.right - r.right) + 'px ' +
+               (b.bottom - r.bottom) + 'px ' + (r.left - b.left) + 'px round 999px)';
+    if (instant || !layer.classList.contains('on')) {
+      layer.style.transition = 'none'; // appear in place rather than sliding in from the last spot
+      layer.style.clipPath = clip;
+      void layer.offsetWidth;
+      layer.style.transition = '';
+    } else {
+      layer.style.clipPath = clip;
+    }
+    layer.classList.add('on');
+  }
+  if (window.matchMedia('(hover: hover)').matches) {
+    pills.forEach(function (p) {
+      p.addEventListener('mouseenter', function () { hovering = true; place(p); });
+    });
+    bar.addEventListener('mouseleave', function () { hovering = false; place(resting); });
+  }
+  pills.forEach(function (p) {
+    p.addEventListener('focus', function () { place(p); });
+    p.addEventListener('blur', function () { if (!hovering) place(resting); });
+  });
+  var g = {
+    rest: function (el) { resting = el; if (!hovering) place(el); },
+    refresh: function () { if (target) place(target, true); }
+  };
+  window.addEventListener('resize', g.refresh);
+  if (document.fonts) document.fonts.ready.then(g.refresh);
+  return g;
+}
+
 // Section nav: pin it on wide screens once scrolled past, and highlight the section in view.
 document.addEventListener('DOMContentLoaded', function () {
   var nav = document.querySelector('.toc');
@@ -34,14 +86,19 @@ document.addEventListener('DOMContentLoaded', function () {
     return a.getAttribute('href').length > 1;
   });
   var targets = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
-  var ticking = false, holdUntil = 0;
+  var glide = makeGlide(nav, '.home');
+  var sub = document.querySelector('.pubnav');
+  if (sub) makeGlide(sub);
+  var ticking = false, holdUntil = 0, wasStuck = false;
   function setActive(idx) {
     links.forEach(function (a, i) { a.classList.toggle('active', i === idx); });
+    glide.rest(idx >= 0 ? links[idx] : null);
   }
   function update() {
     ticking = false;
     var stuck = window.innerWidth >= 960 && nav.getBoundingClientRect().top <= 0;
     nav.classList.toggle('stuck', stuck);
+    if (stuck !== wasStuck) { wasStuck = stuck; glide.refresh(); } // pills change size when the bar pins
     if (!stuck) { setActive(-1); return; }
     if (Date.now() < holdUntil) return; // a clicked pill keeps its highlight while the page scrolls to it
     // Headings jump to 60px under the bar (scroll-margin-top), so look a little past that.
