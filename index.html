@@ -155,13 +155,13 @@
     display: inline-block; font-size: 12px; line-height: 1.35; padding: 2px 6px; margin: 0 3px 3px 0;
     border-radius: 999px; background: #fff; box-shadow: inset 0 0 0 1px var(--line); color: var(--text-2);
   }
-  .toc { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 28px 0 0; }
+  .toc { position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 28px 0 0; }
   .toc a {
     display: inline-block; padding: 4px 13px; border-radius: 999px; background: var(--navy-tint); color: var(--navy); font-size: 15px;
     transition: background .15s ease, color .15s ease;
   }
-  .toc a:hover, .toc a:focus-visible { background: var(--navy); color: #fff; }
-  .toc a.active, .toc a.active:hover { background: var(--navy); color: #fff; }
+  .toc:not(.has-glide) a:not(.home):hover, .toc:not(.has-glide) a:not(.home):focus-visible,
+  .toc:not(.has-glide) a.active { background: var(--navy); color: #fff; }
   .toc .home { display: none; align-items: center; gap: 8px; margin-right: auto; padding: 0; background: none; font-size: 14px; font-weight: 600; color: var(--ink); }
   .toc .home:hover, .toc .home:focus-visible { background: none; color: var(--accent); }
   .home-avatar { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
@@ -172,12 +172,22 @@
     .toc.stuck .home { display: inline-flex; }
     [id] { scroll-margin-top: 60px; }
   }
-  h2 .sub.pubnav { display: flex; flex-wrap: wrap; gap: 5px; }
+  h2 .sub.pubnav { position: relative; display: flex; flex-wrap: wrap; gap: 5px; }
   .pubnav a {
     display: inline-flex; align-items: center; gap: 5px; padding: 3px 11px; border-radius: 999px;
     background: var(--navy-tint); color: var(--navy); font-size: 14px; transition: background .15s ease, color .15s ease;
   }
-  .pubnav a:hover, .pubnav a:focus-visible { background: var(--navy); color: #fff; }
+  .pubnav:not(.has-glide) a:hover, .pubnav:not(.has-glide) a:focus-visible { background: var(--navy); color: #fff; }
+  /* Gliding highlight (js/hidebib.js): a navy copy of the pill row, clipped to one pill; moving the clip slides it. */
+  .glide {
+    position: absolute; inset: 0; display: flex; flex-wrap: inherit; align-items: inherit; align-content: inherit;
+    justify-content: inherit; gap: inherit; padding: inherit; background: var(--navy); pointer-events: none;
+    opacity: 0; transition: clip-path .34s cubic-bezier(.3, .7, .2, 1), opacity .2s ease;
+  }
+  .glide.on { opacity: 1; }
+  .toc .glide > a, .pubnav .glide > a { background: var(--navy); color: #fff; transition: none; }
+  .toc .glide > .home { visibility: hidden; }
+  @media (prefers-reduced-motion: reduce) { .glide { transition: none; } }
   .patlist .pat { padding: 7px 0; }
   .patlist .pat + .pat { border-top: 1px solid var(--rule); }
   .patlist .pat:first-child { padding-top: 0; }
