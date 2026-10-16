@@ -178,15 +178,14 @@
     background: var(--navy-tint); color: var(--navy); font-size: 14px; transition: background .15s ease, color .15s ease;
   }
   .pubnav:not(.has-glide) a:hover, .pubnav:not(.has-glide) a:focus-visible { background: var(--navy); color: #fff; }
-  /* Gliding highlight (js/hidebib.js): a navy copy of the pill row, clipped to one pill; moving the clip slides it. */
+  /* Gliding highlight on pill rows (js/hidebib.js): navy layer with white labels, clipped to one pill. */
+  .paper, .tlinks { position: relative; }
   .glide {
-    position: absolute; inset: 0; display: flex; flex-wrap: inherit; align-items: inherit; align-content: inherit;
-    justify-content: inherit; gap: inherit; padding: inherit; background: var(--navy); pointer-events: none;
+    position: absolute; background: var(--navy); pointer-events: none;
     opacity: 0; transition: clip-path .34s cubic-bezier(.3, .7, .2, 1), opacity .2s ease;
   }
   .glide.on { opacity: 1; }
-  .toc .glide > a, .pubnav .glide > a { background: var(--navy); color: #fff; transition: none; }
-  .toc .glide > .home { visibility: hidden; }
+  .glide > span { position: absolute; box-sizing: border-box; white-space: nowrap; color: #fff; }
   @media (prefers-reduced-motion: reduce) { .glide { transition: none; } }
   .patlist .pat { padding: 7px 0; }
   .patlist .pat + .pat { border-top: 1px solid var(--rule); }
@@ -215,7 +214,7 @@
     display: inline-block; padding: 0 8px; margin-left: 4px; border-radius: 999px; background: var(--navy-tint); color: var(--navy);
     font-size: 12.5px; line-height: 1.6; transition: background .15s ease, color .15s ease;
   }
-  .tlinks a:hover, .tlinks a:focus-visible { background: var(--navy); color: #fff; }
+  .tlinks:not(.has-glide) a:hover, .tlinks:not(.has-glide) a:focus-visible { background: var(--navy); color: #fff; }
   .services .svtags { display: block; margin-top: 4px; }
   .services .svtags + .svtags { margin-top: 0; }
   .services .svtags .tag { font-size: 13px; padding: 0 7px; }
@@ -296,7 +295,7 @@
     display: inline-block; padding: 2px 11px; border-radius: 999px; background: var(--navy-tint); color: var(--navy); font-size: 13.5px;
     transition: background .15s ease, color .15s ease;
   }
-  .paper > a:hover, .paper > a:focus-visible { background: var(--navy); color: #fff; }
+  .paper:not(.has-glide) > a:hover, .paper:not(.has-glide) > a:focus-visible { background: var(--navy); color: #fff; }
   .paper > .abstract, .paper > .bib { flex: 0 0 100%; }
   .abstract { display: none; margin: 8px 0 0; font-size: 14.5px; line-height: 1.5; color: var(--text-2); }
   .bib {
