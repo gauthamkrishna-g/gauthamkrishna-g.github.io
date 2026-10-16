@@ -26,29 +26,51 @@ function togglemore(blockId, link, label) {
   return false;
 }
 
-// Gliding highlight for a pill row: a navy copy of the row sits on top, clipped to one pill.
-// Moving the clip (a CSS transition on clip-path) slides the highlight between pills, and the
-// labels it passes turn white exactly where it covers them.
+// Gliding highlight for a row of pill links: a navy layer holding white copies of the labels sits
+// over the row, clipped to one pill. Moving the clip (a CSS transition on clip-path) slides the
+// highlight between pills, and labels turn white exactly where it covers them. The layer is built
+// the first time the row is hovered, focused, or (for the section nav) given a current section.
 function makeGlide(bar, skip) {
-  var layer = document.createElement('span');
-  layer.className = 'glide';
-  layer.setAttribute('aria-hidden', 'true');
-  var pills = Array.prototype.slice.call(bar.children);
-  pills.forEach(function (c) {
-    var k = c.cloneNode(true);
-    k.removeAttribute('href');
-    layer.appendChild(k);
-  });
-  bar.appendChild(layer);
-  bar.classList.add('has-glide');
-  pills = pills.filter(function (c) { return !(skip && c.matches(skip)); });
-  var target = null, resting = null, hovering = false;
+  var layer = null, copies = [], target = null, resting = null, hovering = false;
+  function pills() {
+    return Array.prototype.filter.call(bar.children, function (c) {
+      return c.tagName === 'A' && !(skip && c.matches(skip));
+    });
+  }
+  // Lay the copies exactly over their pills (pills move when the bar pins or the window resizes).
+  function sync() {
+    var ps = pills();
+    while (copies.length < ps.length) copies.push(layer.appendChild(document.createElement('span')));
+    layer.style.left = layer.style.top = '0px';
+    var o = layer.getBoundingClientRect(), rs = ps.map(function (p) { return p.getBoundingClientRect(); });
+    var u = { l: Infinity, t: Infinity, r: -Infinity, b: -Infinity };
+    rs.forEach(function (r) {
+      u.l = Math.min(u.l, r.left); u.t = Math.min(u.t, r.top); u.r = Math.max(u.r, r.right); u.b = Math.max(u.b, r.bottom);
+    });
+    layer.style.left = (u.l - o.left) + 'px'; layer.style.top = (u.t - o.top) + 'px';
+    layer.style.width = (u.r - u.l) + 'px'; layer.style.height = (u.b - u.t) + 'px';
+    ps.forEach(function (p, i) {
+      var c = copies[i].style, cs = getComputedStyle(p), r = rs[i];
+      copies[i].textContent = p.textContent;
+      c.left = (r.left - u.l) + 'px'; c.top = (r.top - u.t) + 'px'; c.width = r.width + 'px'; c.height = r.height + 'px';
+      c.fontFamily = cs.fontFamily; c.fontSize = cs.fontSize; c.fontWeight = cs.fontWeight;
+      c.lineHeight = cs.lineHeight; c.letterSpacing = cs.letterSpacing;
+      c.paddingTop = cs.paddingTop; c.paddingRight = cs.paddingRight; c.paddingBottom = cs.paddingBottom; c.paddingLeft = cs.paddingLeft;
+    });
+    return u;
+  }
   function place(el, instant) {
     target = el;
-    if (!el) { layer.classList.remove('on'); return; }
-    var b = layer.getBoundingClientRect(), r = el.getBoundingClientRect();
-    var clip = 'inset(' + (r.top - b.top) + 'px ' + (b.right - r.right) + 'px ' +
-               (b.bottom - r.bottom) + 'px ' + (r.left - b.left) + 'px round 999px)';
+    if (!el) { if (layer) layer.classList.remove('on'); return; }
+    if (!layer) {
+      layer = bar.appendChild(document.createElement('span'));
+      layer.className = 'glide';
+      layer.setAttribute('aria-hidden', 'true');
+      bar.classList.add('has-glide');
+    }
+    var u = sync(), r = el.getBoundingClientRect();
+    var clip = 'inset(' + (r.top - u.t) + 'px ' + (u.r - r.right) + 'px ' +
+               (u.b - r.bottom) + 'px ' + (r.left - u.l) + 'px round 999px)';
     if (instant || !layer.classList.contains('on')) {
       layer.style.transition = 'none'; // appear in place rather than sliding in from the last spot
       layer.style.clipPath = clip;
@@ -59,16 +81,24 @@ function makeGlide(bar, skip) {
     }
     layer.classList.add('on');
   }
+  // The pill under a node; null for other content in the bar (an open abstract, the home link);
+  // undefined for the bar itself, i.e. a gap between pills, where the highlight stays put.
+  function pillOf(node) {
+    for (; node && node !== bar; node = node.parentNode) {
+      if (node.parentNode === bar) return node.tagName === 'A' && !(skip && node.matches(skip)) ? node : null;
+    }
+  }
   if (window.matchMedia('(hover: hover)').matches) {
-    pills.forEach(function (p) {
-      p.addEventListener('mouseenter', function () { hovering = true; place(p); });
+    bar.addEventListener('mouseover', function (e) {
+      var p = pillOf(e.target);
+      if (p === undefined) return;
+      hovering = !!p;
+      if (p ? p !== target : target !== resting) place(p || resting);
     });
     bar.addEventListener('mouseleave', function () { hovering = false; place(resting); });
   }
-  pills.forEach(function (p) {
-    p.addEventListener('focus', function () { place(p); });
-    p.addEventListener('blur', function () { if (!hovering) place(resting); });
-  });
+  bar.addEventListener('focusin', function (e) { var p = pillOf(e.target); if (p) place(p); });
+  bar.addEventListener('focusout', function () { if (!hovering) place(resting); });
   var g = {
     rest: function (el) { resting = el; if (!hovering) place(el); },
     refresh: function () { if (target) place(target, true); }
@@ -87,8 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   var targets = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); });
   var glide = makeGlide(nav, '.home');
-  var sub = document.querySelector('.pubnav');
-  if (sub) makeGlide(sub);
+  Array.prototype.forEach.call(document.querySelectorAll('.pubnav, .paper, .tlinks'), function (bar) { makeGlide(bar); });
   var ticking = false, holdUntil = 0, wasStuck = false;
   function setActive(idx) {
     links.forEach(function (a, i) { a.classList.toggle('active', i === idx); });
